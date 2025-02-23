@@ -1,0 +1,1782 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "225c7f47-d9f8-4209-bd2c-a30e23f631b8")
+	(paper "A4")
+	(lib_symbols
+		(symbol "hb_symbol_lib:pressure_transducer"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "PT"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "pressure_transducer_0_1"
+				(rectangle
+					(start -6.35 5.08)
+					(end 6.35 -5.08)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "pressure_transducer_1_1"
+				(pin input line
+					(at -8.89 2.54 0)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -8.89 -2.54 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 8.89 2.54 180)
+					(length 2.54)
+					(name "DATA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 8.89 -2.54 180)
+					(length 2.54)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(bus_alias "PT"
+		(members "PT1_O" "PT1_N" "PT2_N" "PT1_P" "PT1_T" "PT1_I" "PT2_I" "PT3_I"
+			"PT4_I" "PT5_I"
+		)
+	)
+	(no_connect
+		(at 64.77 54.61)
+		(uuid "1ef86a4b-7746-4000-be8f-e6009140a218")
+	)
+	(no_connect
+		(at 64.77 189.23)
+		(uuid "38300f5d-e6a1-42ff-8c96-bccea1323ec0")
+	)
+	(no_connect
+		(at 64.77 107.95)
+		(uuid "9e4c38f1-750b-45e2-996f-e64b2e7c77ba")
+	)
+	(no_connect
+		(at 64.77 157.48)
+		(uuid "aa598002-8026-4436-a4c9-1dfe3219f43a")
+	)
+	(no_connect
+		(at 64.77 73.66)
+		(uuid "b08ce86b-f5da-4f13-8999-ffb18f7a44e9")
+	)
+	(no_connect
+		(at 64.77 36.83)
+		(uuid "c1472624-555c-4ec0-bfce-d2b292545243")
+	)
+	(no_connect
+		(at 64.77 172.72)
+		(uuid "da641344-d61b-44fb-92f1-aac2f3b9bdc5")
+	)
+	(no_connect
+		(at 64.77 124.46)
+		(uuid "dae4ec5e-abcc-430b-ab84-8468c4edbca0")
+	)
+	(no_connect
+		(at 64.77 139.7)
+		(uuid "ee2c01fc-123c-459c-9043-eb5a7963c30e")
+	)
+	(no_connect
+		(at 64.77 91.44)
+		(uuid "f2bb2787-bf84-4e3c-b537-c35e7b63a873")
+	)
+	(bus_entry
+		(at 80.01 184.15)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0362a8c9-beed-44c7-91d9-7751b2ae1bd4")
+	)
+	(bus_entry
+		(at 80.01 102.87)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0fd33164-edb4-4807-a0de-2abdfcdf9cd7")
+	)
+	(bus_entry
+		(at 80.01 167.64)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "305340f2-b49d-442a-9a69-f5632564a53e")
+	)
+	(bus_entry
+		(at 80.01 86.36)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4634daaf-fc53-45b7-ac60-a7bab91d9ea4")
+	)
+	(bus_entry
+		(at 80.01 134.62)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "631b3757-9d7e-49c1-8fff-c638f287d4f9")
+	)
+	(bus_entry
+		(at 80.01 49.53)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ea0e0aa-71e0-44a6-94b8-ccc2e8b3fa3c")
+	)
+	(bus_entry
+		(at 80.01 152.4)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "935328a2-fc61-4654-9801-6ee3ef7f2fc0")
+	)
+	(bus_entry
+		(at 80.01 68.58)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab80c780-dd43-47c7-8e13-b1ab8cbb3526")
+	)
+	(bus_entry
+		(at 80.01 119.38)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b272e16d-d633-463a-9bd7-f131ae050e68")
+	)
+	(bus_entry
+		(at 80.01 31.75)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3d9d2ee-530c-4662-95a2-72ba6c8addc4")
+	)
+	(wire
+		(pts
+			(xy 64.77 31.75) (xy 80.01 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0024e019-a4f2-4157-9cb6-226cdf580b5a")
+	)
+	(wire
+		(pts
+			(xy 40.64 139.7) (xy 46.99 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a0e8b18-061d-4400-8205-4c87d0493137")
+	)
+	(bus
+		(pts
+			(xy 82.55 26.67) (xy 97.79 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ae09c2a-a199-426d-a7c9-6f8ef1c10175")
+	)
+	(wire
+		(pts
+			(xy 64.77 152.4) (xy 80.01 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c451ad7-0f5f-465b-84ca-cea2bfe26a61")
+	)
+	(wire
+		(pts
+			(xy 40.64 124.46) (xy 46.99 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41fa9ff7-b2ed-450a-b6e8-46aa750decdb")
+	)
+	(wire
+		(pts
+			(xy 40.64 157.48) (xy 46.99 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42636dec-1964-4f52-abd8-420d5294f6a8")
+	)
+	(bus
+		(pts
+			(xy 82.55 132.08) (xy 82.55 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44877f16-f7e0-4b10-9fe2-b3c0b5f5b1e8")
+	)
+	(wire
+		(pts
+			(xy 40.64 54.61) (xy 46.99 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "473807e4-04a6-42ff-a87b-53ae310228cd")
+	)
+	(bus
+		(pts
+			(xy 82.55 100.33) (xy 82.55 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49c921b2-af50-46a8-87b6-2236816ffe8b")
+	)
+	(wire
+		(pts
+			(xy 64.77 68.58) (xy 80.01 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58888993-0489-48de-8a5b-78a5e765e239")
+	)
+	(bus
+		(pts
+			(xy 82.55 29.21) (xy 82.55 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59297cc7-6ff6-4024-aec0-285758725ff7")
+	)
+	(wire
+		(pts
+			(xy 40.64 68.58) (xy 46.99 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f6565f7-e24b-488f-bd20-9a53bcfb5f6c")
+	)
+	(wire
+		(pts
+			(xy 40.64 31.75) (xy 46.99 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "621f411c-9420-4603-b75e-0ffe728e601f")
+	)
+	(bus
+		(pts
+			(xy 82.55 46.99) (xy 82.55 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68be0672-0894-493b-8419-6194dba969b1")
+	)
+	(bus
+		(pts
+			(xy 82.55 116.84) (xy 82.55 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e6f1508-d0e5-43f0-9aab-9b11cf86443b")
+	)
+	(bus
+		(pts
+			(xy 82.55 165.1) (xy 82.55 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74c7e00c-8a95-47af-82c8-318005456705")
+	)
+	(wire
+		(pts
+			(xy 64.77 184.15) (xy 80.01 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7583bac5-0b6a-4b25-b18d-76f8fdbb2706")
+	)
+	(wire
+		(pts
+			(xy 40.64 107.95) (xy 46.99 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a5b183e-41ff-4197-a64e-799efd3dcd22")
+	)
+	(wire
+		(pts
+			(xy 40.64 184.15) (xy 46.99 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7cc112e2-2daf-4cb9-8cf0-6a712e725ec7")
+	)
+	(wire
+		(pts
+			(xy 40.64 119.38) (xy 46.99 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81e56896-a859-423f-88ee-28649febe9b1")
+	)
+	(bus
+		(pts
+			(xy 82.55 83.82) (xy 82.55 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9dfbeb1e-d9b7-4e4c-bfbd-0650dd98e40d")
+	)
+	(bus
+		(pts
+			(xy 82.55 149.86) (xy 82.55 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a664ded5-486e-4123-851f-54162754bde6")
+	)
+	(wire
+		(pts
+			(xy 64.77 86.36) (xy 80.01 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8bed556-20c3-4f15-a383-d19c1976c6c4")
+	)
+	(bus
+		(pts
+			(xy 82.55 66.04) (xy 82.55 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a98a9b38-f592-41ea-a425-321b1d3c1ab0")
+	)
+	(wire
+		(pts
+			(xy 40.64 86.36) (xy 46.99 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "abdd477f-ab87-4961-a944-078d7c23464e")
+	)
+	(wire
+		(pts
+			(xy 40.64 152.4) (xy 46.99 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac60ac20-2edc-4439-9c0a-5b4fd4534853")
+	)
+	(wire
+		(pts
+			(xy 40.64 49.53) (xy 46.99 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2eeab99-d2f4-4040-a884-53d8463b725f")
+	)
+	(wire
+		(pts
+			(xy 64.77 134.62) (xy 80.01 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbb1608b-8d40-4f34-97de-7713aae54fbf")
+	)
+	(wire
+		(pts
+			(xy 40.64 36.83) (xy 46.99 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bdd1e83b-5ad7-4139-bc7d-9aa6b07cad1c")
+	)
+	(wire
+		(pts
+			(xy 64.77 102.87) (xy 80.01 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bec0b881-b9a7-41b2-8303-d0c30cd43da2")
+	)
+	(wire
+		(pts
+			(xy 40.64 73.66) (xy 46.99 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c465e4d1-7ea9-4457-9e07-442a4d52693f")
+	)
+	(wire
+		(pts
+			(xy 40.64 134.62) (xy 46.99 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb658039-75c1-4b30-8b44-304f71eced92")
+	)
+	(wire
+		(pts
+			(xy 40.64 91.44) (xy 46.99 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cbff107c-3af9-4353-b645-6d63ce8ed58f")
+	)
+	(wire
+		(pts
+			(xy 64.77 167.64) (xy 80.01 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd59d11d-ff47-49f8-81f0-39b718a480e1")
+	)
+	(wire
+		(pts
+			(xy 64.77 119.38) (xy 80.01 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1ebebbf-4357-4807-b6f5-cd720554b26e")
+	)
+	(wire
+		(pts
+			(xy 40.64 172.72) (xy 46.99 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6585490-9044-403f-a8ce-3402a21f282b")
+	)
+	(wire
+		(pts
+			(xy 40.64 167.64) (xy 46.99 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2d9e505-041b-4f9f-9baf-1ef295d28f8f")
+	)
+	(wire
+		(pts
+			(xy 40.64 102.87) (xy 46.99 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e939ce2c-5aeb-4bd0-b99f-e0c098cc73a0")
+	)
+	(bus
+		(pts
+			(xy 82.55 46.99) (xy 82.55 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ecb6388d-c748-414f-bb60-a0e159653625")
+	)
+	(wire
+		(pts
+			(xy 64.77 49.53) (xy 80.01 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efe051c0-ba18-4649-a697-0541b3f0fd13")
+	)
+	(wire
+		(pts
+			(xy 40.64 189.23) (xy 46.99 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff8ad9e6-8436-4f3c-b139-74ae67d3d455")
+	)
+	(label "PT1_I"
+		(at 69.85 119.38 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "04a96373-746f-49f2-8e75-6d7a448e2e7c")
+	)
+	(label "5V"
+		(at 40.64 49.53 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0f098d9f-2772-4584-bad3-29a61ade0f55")
+	)
+	(label "{PT}"
+		(at 87.63 26.67 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "16c28bec-20ce-49f4-87dc-f71699db9890")
+	)
+	(label "GND"
+		(at 40.64 139.7 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2f38df0f-502e-494e-b845-8158621e9e47")
+	)
+	(label "PT1_P"
+		(at 69.85 86.36 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3ebd19a1-8aac-4054-a711-1130a9936036")
+	)
+	(label "GND"
+		(at 40.64 73.66 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "42f85cb5-dd33-4ecb-827f-d3302937701b")
+	)
+	(label "GND"
+		(at 40.64 107.95 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "58f3dd96-98f7-45d4-b046-56fe6921f9ba")
+	)
+	(label "GND"
+		(at 40.64 54.61 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5a40bbbe-75a2-4eb8-a201-bb9ee1da60de")
+	)
+	(label "5V"
+		(at 40.64 102.87 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6cd3ccc0-94be-4c9d-bc3d-85bb6885598f")
+	)
+	(label "GND"
+		(at 40.64 124.46 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6f2ff399-01a6-4b2e-ba29-c20ebcf34ee3")
+	)
+	(label "GND"
+		(at 40.64 189.23 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "74fe6387-d348-472b-8e34-c72f6f2ba43e")
+	)
+	(label "5V"
+		(at 40.64 152.4 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7614783e-6846-4016-8735-68b1bf07ce40")
+	)
+	(label "GND"
+		(at 40.64 36.83 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "77e00128-6cb1-4901-957d-776af85e9a2f")
+	)
+	(label "5V"
+		(at 40.64 119.38 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "880c4b2e-68a7-4dd2-b145-c81546709b15")
+	)
+	(label "5V"
+		(at 40.64 31.75 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8b2def09-f743-4fb6-a036-c3bdb80301b3")
+	)
+	(label "PT2_I"
+		(at 69.85 134.62 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8fb481c5-3d59-4ec5-9969-36b3a23967bf")
+	)
+	(label "PT1_T"
+		(at 69.85 102.87 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a05619cc-25f5-44b2-9e2e-d54a1343ca1b")
+	)
+	(label "5V"
+		(at 40.64 68.58 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a65e5772-2e84-49d1-81a2-a031dd9a42bf")
+	)
+	(label "PT4_I"
+		(at 69.85 167.64 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a6623910-380c-48f9-ad3b-b000810877e5")
+	)
+	(label "5V"
+		(at 40.64 167.64 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "aeda83c7-42f3-46e3-b540-0e47d6376739")
+	)
+	(label "PT1_O"
+		(at 69.85 31.75 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c3ad09d5-0c0e-4798-911d-510f57bf3847")
+	)
+	(label "5V"
+		(at 40.64 86.36 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c3d85d74-00c4-4d80-9af7-96d81ba50621")
+	)
+	(label "GND"
+		(at 40.64 157.48 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c55c1247-042b-4902-8ac2-cbc243ed26e5")
+	)
+	(label "5V"
+		(at 40.64 184.15 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c9fe1456-95f8-4c8e-8e9c-01d8844ed10b")
+	)
+	(label "PT5_I"
+		(at 69.85 184.15 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "de90be0c-5e0a-4dac-8763-27b480768f7d")
+	)
+	(label "GND"
+		(at 40.64 91.44 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e3f721f4-54fb-4596-95e5-676e395bee77")
+	)
+	(label "PT1_N"
+		(at 69.85 49.53 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e6497df4-086d-4818-9f0b-33229196663e")
+	)
+	(label "GND"
+		(at 40.64 172.72 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f3d29166-c538-4dc8-998d-b5e26598857d")
+	)
+	(label "5V"
+		(at 40.64 134.62 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f70e5722-b361-463a-9745-c360496fcd33")
+	)
+	(label "PT3_I"
+		(at 69.85 152.4 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fdf7c53c-0d0e-4408-ad92-63422db7f411")
+	)
+	(label "PT2_N"
+		(at 69.85 68.58 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fe29baf4-1f38-467f-9769-effccfb170fa")
+	)
+	(hierarchical_label "{PT}"
+		(shape output)
+		(at 97.79 26.67 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "950c421e-5ec0-48bc-a1b6-5a0422fbb563")
+	)
+	(symbol
+		(lib_id "hb_symbol_lib:pressure_transducer")
+		(at 55.88 34.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0c3a398e-a3e3-4536-8b47-83f6f7df07d0")
+		(property "Reference" "PT1"
+			(at 55.88 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 55.88 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "hb_footprint_lib:Pressure Transducer (Low)"
+			(at 55.88 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.88 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 55.88 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "d264cea0-7225-4f07-9a2e-367b501ad7a3")
+		)
+		(pin "1"
+			(uuid "d64bdb60-8e4f-403e-a345-b0d4bb4dc459")
+		)
+		(pin "3"
+			(uuid "5a4a2b40-ae60-455f-97e2-10ac7d167600")
+		)
+		(pin "2"
+			(uuid "cda3a7d6-1c10-4cb7-9465-6e0a5f171df2")
+		)
+		(instances
+			(project "master_schematic"
+				(path "/c4f7e98c-e88d-49cc-9841-b70710a90a72/666fb9f9-c631-4136-ad00-30a1b375897d"
+					(reference "PT1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "hb_symbol_lib:pressure_transducer")
+		(at 55.88 121.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "45cd0b8a-0aa5-451a-b2ee-6c46dd66b2e5")
+		(property "Reference" "PT6"
+			(at 55.88 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 55.88 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "hb_footprint_lib:Pressure Transducer (Low)"
+			(at 55.88 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.88 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 55.88 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "5cc43b1e-8458-4b0a-8fea-c2be7763cb1b")
+		)
+		(pin "1"
+			(uuid "456ff08b-b6a5-41ca-a52d-f756486d118e")
+		)
+		(pin "3"
+			(uuid "894cc77a-1e47-46da-bd1f-fdcfab4703a5")
+		)
+		(pin "2"
+			(uuid "da1eef51-5c5e-4f11-8bb3-a9189e3d1ecc")
+		)
+		(instances
+			(project "master_schematic"
+				(path "/c4f7e98c-e88d-49cc-9841-b70710a90a72/666fb9f9-c631-4136-ad00-30a1b375897d"
+					(reference "PT6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "hb_symbol_lib:pressure_transducer")
+		(at 55.88 186.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "46afdcb4-cf0c-4525-822a-bce27f701d3a")
+		(property "Reference" "PT10"
+			(at 55.88 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 55.88 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "hb_footprint_lib:Pressure Transducer (Low)"
+			(at 55.88 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.88 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 55.88 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "e8ccec01-7f64-4da0-8f5b-a06bb5c5118b")
+		)
+		(pin "1"
+			(uuid "bc459fc6-acb7-4e2a-a0c5-8decaf20ea37")
+		)
+		(pin "3"
+			(uuid "d534cf26-7629-4218-882e-a54cc5985ff4")
+		)
+		(pin "2"
+			(uuid "795a2b98-f81e-4bcf-b2b0-d7ba34910785")
+		)
+		(instances
+			(project "master_schematic"
+				(path "/c4f7e98c-e88d-49cc-9841-b70710a90a72/666fb9f9-c631-4136-ad00-30a1b375897d"
+					(reference "PT10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "hb_symbol_lib:pressure_transducer")
+		(at 55.88 170.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "47cff18f-cc39-4d4b-bb44-15b9cb3810c5")
+		(property "Reference" "PT9"
+			(at 55.88 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 55.88 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "hb_footprint_lib:Pressure Transducer (Low)"
+			(at 55.88 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.88 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 55.88 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "babfbfc6-7045-4859-9ea9-de0802a1c186")
+		)
+		(pin "1"
+			(uuid "cc8a70a0-6b61-46af-98e6-463c8914bb10")
+		)
+		(pin "3"
+			(uuid "130c5bde-ac86-4077-a62e-0de27f178821")
+		)
+		(pin "2"
+			(uuid "8a657114-20b4-4a10-a5ae-eb662dba6d7e")
+		)
+		(instances
+			(project "master_schematic"
+				(path "/c4f7e98c-e88d-49cc-9841-b70710a90a72/666fb9f9-c631-4136-ad00-30a1b375897d"
+					(reference "PT9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "hb_symbol_lib:pressure_transducer")
+		(at 55.88 137.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "47e6a6ce-cd45-42b7-a16f-6a5cb1c7594f")
+		(property "Reference" "PT7"
+			(at 55.88 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 55.88 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "hb_footprint_lib:Pressure Transducer (Low)"
+			(at 55.88 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.88 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 55.88 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "8ce5cf52-d756-4864-8110-613de8930ad8")
+		)
+		(pin "1"
+			(uuid "dc688291-968b-492a-afdd-0530056ec9ef")
+		)
+		(pin "3"
+			(uuid "25c73bf7-c12c-4a2c-8043-f2dcd8ed90cf")
+		)
+		(pin "2"
+			(uuid "350a5fbd-e0a0-4a5b-b8c5-ba37810c0c2d")
+		)
+		(instances
+			(project "master_schematic"
+				(path "/c4f7e98c-e88d-49cc-9841-b70710a90a72/666fb9f9-c631-4136-ad00-30a1b375897d"
+					(reference "PT7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "hb_symbol_lib:pressure_transducer")
+		(at 55.88 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6ad58144-86d6-49a8-8fb1-81338a1d1c05")
+		(property "Reference" "PT3"
+			(at 55.88 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 55.88 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "hb_footprint_lib:Pressure Transducer (Low)"
+			(at 55.88 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.88 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 55.88 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "15e2381e-fffe-48ed-8850-dfd032c112e1")
+		)
+		(pin "1"
+			(uuid "4dfbe8ca-81f0-4ada-8d90-d8938a57b60d")
+		)
+		(pin "3"
+			(uuid "e61c5fb2-e288-4d85-ab71-349dbf271518")
+		)
+		(pin "2"
+			(uuid "02568b54-6437-421c-8e09-a3449d0df5dd")
+		)
+		(instances
+			(project "master_schematic"
+				(path "/c4f7e98c-e88d-49cc-9841-b70710a90a72/666fb9f9-c631-4136-ad00-30a1b375897d"
+					(reference "PT3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "hb_symbol_lib:pressure_transducer")
+		(at 55.88 154.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "78282da9-44eb-49be-bd52-be5eabc3231b")
+		(property "Reference" "PT8"
+			(at 55.88 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 55.88 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "hb_footprint_lib:Pressure Transducer (Low)"
+			(at 55.88 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.88 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 55.88 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "54fe49da-01a9-468b-a164-1c1831253e9c")
+		)
+		(pin "1"
+			(uuid "5e8743f8-d8f9-4ce8-a99c-4d47d890bbb8")
+		)
+		(pin "3"
+			(uuid "787a015c-0f91-4f92-a25f-dce91e89879b")
+		)
+		(pin "2"
+			(uuid "5c1a6901-77af-4ba0-8bce-eabaa735cd81")
+		)
+		(instances
+			(project "master_schematic"
+				(path "/c4f7e98c-e88d-49cc-9841-b70710a90a72/666fb9f9-c631-4136-ad00-30a1b375897d"
+					(reference "PT8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "hb_symbol_lib:pressure_transducer")
+		(at 55.88 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8599b490-a272-455a-a70a-61a2287c3f62")
+		(property "Reference" "PT4"
+			(at 55.88 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 55.88 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "hb_footprint_lib:Pressure Transducer (Low)"
+			(at 55.88 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.88 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 55.88 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "6715a14d-247c-425b-a90a-57665aa15e86")
+		)
+		(pin "1"
+			(uuid "0b3e380b-c18d-4ebe-8c2a-6ae9ee364705")
+		)
+		(pin "3"
+			(uuid "ab51aea5-dbbc-4fcb-97d1-f7e6be6636e8")
+		)
+		(pin "2"
+			(uuid "0bf79749-f434-407c-80ce-5af144bd4bec")
+		)
+		(instances
+			(project "master_schematic"
+				(path "/c4f7e98c-e88d-49cc-9841-b70710a90a72/666fb9f9-c631-4136-ad00-30a1b375897d"
+					(reference "PT4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "hb_symbol_lib:pressure_transducer")
+		(at 55.88 52.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b0f9c428-7dcf-48ef-8c44-b8e386e7b3ef")
+		(property "Reference" "PT2"
+			(at 55.88 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 55.88 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "hb_footprint_lib:Pressure Transducer (Low)"
+			(at 55.88 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.88 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 55.88 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "5862d9db-2c35-43c3-ba49-ee9cf81cf87a")
+		)
+		(pin "1"
+			(uuid "60dbf691-ef34-4dd5-baaf-29582990a434")
+		)
+		(pin "3"
+			(uuid "aceefd68-0f7a-4fa8-b345-5023d88ad02e")
+		)
+		(pin "2"
+			(uuid "aa8b99f6-ef7f-4447-b0f4-a108988e967c")
+		)
+		(instances
+			(project "master_schematic"
+				(path "/c4f7e98c-e88d-49cc-9841-b70710a90a72/666fb9f9-c631-4136-ad00-30a1b375897d"
+					(reference "PT2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "hb_symbol_lib:pressure_transducer")
+		(at 55.88 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c2fbdac8-30d1-411d-a1b7-cfcb6a1c4cd0")
+		(property "Reference" "PT5"
+			(at 55.88 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 55.88 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "hb_footprint_lib:Pressure Transducer (Low)"
+			(at 55.88 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.88 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 55.88 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "fae8e427-5b33-4538-8263-1cb7a99e0763")
+		)
+		(pin "1"
+			(uuid "c91f9619-5d77-4038-a77d-173a08d66bbe")
+		)
+		(pin "3"
+			(uuid "c6ec518e-1f79-4cd9-8181-e9d8b5cb7bdd")
+		)
+		(pin "2"
+			(uuid "908477c9-876c-459a-bfa5-aef09ed2ada5")
+		)
+		(instances
+			(project "master_schematic"
+				(path "/c4f7e98c-e88d-49cc-9841-b70710a90a72/666fb9f9-c631-4136-ad00-30a1b375897d"
+					(reference "PT5")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
