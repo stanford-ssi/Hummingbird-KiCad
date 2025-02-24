@@ -1238,16 +1238,6 @@
 		)
 		(uuid "b997e484-31ba-40bf-80b5-594b399a8e2f")
 	)
-	(bus
-		(pts
-			(xy 67.31 129.54) (xy 67.31 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bde7566c-2118-439f-a7ad-4a54f185086a")
-	)
 	(wire
 		(pts
 			(xy 153.67 93.98) (xy 158.75 93.98)
