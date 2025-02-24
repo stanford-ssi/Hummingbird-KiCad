@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "hb_symbol_lib")(type "KiCad")(uri "/Users/shuanlinchen/Documents/GitHub/SSI/hummingbird_kicad/hb_symbol_lib.kicad_sym")(options "")(descr ""))
+)

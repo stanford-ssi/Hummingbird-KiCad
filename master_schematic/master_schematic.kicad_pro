@@ -596,6 +596,18 @@
     [
       "666fb9f9-c631-4136-ad00-30a1b375897d",
       "pressure_transducers"
+    ],
+    [
+      "80ba4cbf-b15c-4feb-9ba0-eb5398786ffa",
+      "power_valves"
+    ],
+    [
+      "ac0b5093-6e20-433c-b604-e10ee3af976c",
+      "thermocouples"
+    ],
+    [
+      "0c2b79c8-c5dd-4fa2-8a84-72fd6742794a",
+      "load_cells"
     ]
   ],
   "text_variables": {}
