@@ -542,15 +542,15 @@
 		(uuid "1ef86a4b-7746-4000-be8f-e6009140a218")
 	)
 	(no_connect
-		(at 64.77 170.18)
+		(at 64.77 179.07)
 		(uuid "38300f5d-e6a1-42ff-8c96-bccea1323ec0")
 	)
 	(no_connect
-		(at 64.77 88.9)
+		(at 64.77 90.17)
 		(uuid "9e4c38f1-750b-45e2-996f-e64b2e7c77ba")
 	)
 	(no_connect
-		(at 64.77 139.7)
+		(at 64.77 143.51)
 		(uuid "aa598002-8026-4436-a4c9-1dfe3219f43a")
 	)
 	(no_connect
@@ -558,15 +558,15 @@
 		(uuid "c1472624-555c-4ec0-bfce-d2b292545243")
 	)
 	(no_connect
-		(at 64.77 154.94)
+		(at 64.77 161.29)
 		(uuid "da641344-d61b-44fb-92f1-aac2f3b9bdc5")
 	)
 	(no_connect
-		(at 64.77 106.68)
+		(at 64.77 107.95)
 		(uuid "dae4ec5e-abcc-430b-ab84-8468c4edbca0")
 	)
 	(no_connect
-		(at 64.77 121.92)
+		(at 64.77 125.73)
 		(uuid "ee2c01fc-123c-459c-9043-eb5a7963c30e")
 	)
 	(no_connect
@@ -706,7 +706,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 121.92) (xy 46.99 121.92)
+			(xy 40.64 125.73) (xy 46.99 125.73)
 		)
 		(stroke
 			(width 0)
@@ -736,7 +736,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 149.86) (xy 80.01 149.86)
+			(xy 64.77 156.21) (xy 80.01 156.21)
 		)
 		(stroke
 			(width 0)
@@ -786,7 +786,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 165.1) (xy 80.01 165.1)
+			(xy 64.77 173.99) (xy 80.01 173.99)
 		)
 		(stroke
 			(width 0)
@@ -806,7 +806,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 106.68) (xy 46.99 106.68)
+			(xy 40.64 107.95) (xy 46.99 107.95)
 		)
 		(stroke
 			(width 0)
@@ -816,7 +816,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 139.7) (xy 46.99 139.7)
+			(xy 40.64 143.51) (xy 46.99 143.51)
 		)
 		(stroke
 			(width 0)
@@ -896,7 +896,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 134.62) (xy 80.01 134.62)
+			(xy 64.77 138.43) (xy 80.01 138.43)
 		)
 		(stroke
 			(width 0)
@@ -996,7 +996,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 88.9) (xy 46.99 88.9)
+			(xy 40.64 90.17) (xy 46.99 90.17)
 		)
 		(stroke
 			(width 0)
@@ -1006,7 +1006,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 165.1) (xy 46.99 165.1)
+			(xy 40.64 173.99) (xy 46.99 173.99)
 		)
 		(stroke
 			(width 0)
@@ -1036,7 +1036,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 101.6) (xy 46.99 101.6)
+			(xy 40.64 102.87) (xy 46.99 102.87)
 		)
 		(stroke
 			(width 0)
@@ -1086,7 +1086,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 101.6) (xy 80.01 101.6)
+			(xy 64.77 102.87) (xy 80.01 102.87)
 		)
 		(stroke
 			(width 0)
@@ -1156,7 +1156,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 83.82) (xy 80.01 83.82)
+			(xy 64.77 85.09) (xy 80.01 85.09)
 		)
 		(stroke
 			(width 0)
@@ -1206,7 +1206,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 134.62) (xy 46.99 134.62)
+			(xy 40.64 138.43) (xy 46.99 138.43)
 		)
 		(stroke
 			(width 0)
@@ -1326,7 +1326,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 116.84) (xy 80.01 116.84)
+			(xy 64.77 120.65) (xy 80.01 120.65)
 		)
 		(stroke
 			(width 0)
@@ -1356,7 +1356,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 116.84) (xy 46.99 116.84)
+			(xy 40.64 120.65) (xy 46.99 120.65)
 		)
 		(stroke
 			(width 0)
@@ -1416,7 +1416,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 154.94) (xy 46.99 154.94)
+			(xy 40.64 161.29) (xy 46.99 161.29)
 		)
 		(stroke
 			(width 0)
@@ -1476,7 +1476,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 149.86) (xy 46.99 149.86)
+			(xy 40.64 156.21) (xy 46.99 156.21)
 		)
 		(stroke
 			(width 0)
@@ -1496,7 +1496,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 83.82) (xy 46.99 83.82)
+			(xy 40.64 85.09) (xy 46.99 85.09)
 		)
 		(stroke
 			(width 0)
@@ -1576,7 +1576,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 170.18) (xy 46.99 170.18)
+			(xy 40.64 179.07) (xy 46.99 179.07)
 		)
 		(stroke
 			(width 0)
@@ -1651,7 +1651,7 @@
 		(uuid "1c60cc81-86fb-4e5f-a7e7-e0ae7a03e299")
 	)
 	(label "GND"
-		(at 40.64 121.92 180)
+		(at 40.64 125.73 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1695,7 +1695,7 @@
 		(uuid "3ebd19a1-8aac-4054-a711-1130a9936036")
 	)
 	(label "PT2_I_RAW"
-		(at 69.85 116.84 0)
+		(at 69.85 120.65 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1717,7 +1717,7 @@
 		(uuid "4d79513b-5f52-43dd-bbf0-25ff40abf08b")
 	)
 	(label "PT4_I_RAW"
-		(at 69.85 149.86 0)
+		(at 69.85 156.21 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1728,7 +1728,7 @@
 		(uuid "52ab9825-7f1a-40fe-84d3-53a33af75cf4")
 	)
 	(label "GND"
-		(at 40.64 88.9 180)
+		(at 40.64 90.17 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1783,7 +1783,7 @@
 		(uuid "6c7e9402-ea08-464a-b796-81899b825b33")
 	)
 	(label "+5V"
-		(at 40.64 83.82 180)
+		(at 40.64 85.09 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1794,7 +1794,7 @@
 		(uuid "6cd3ccc0-94be-4c9d-bc3d-85bb6885598f")
 	)
 	(label "GND"
-		(at 40.64 106.68 180)
+		(at 40.64 107.95 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1805,7 +1805,7 @@
 		(uuid "6f2ff399-01a6-4b2e-ba29-c20ebcf34ee3")
 	)
 	(label "GND"
-		(at 40.64 170.18 180)
+		(at 40.64 179.07 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1816,7 +1816,7 @@
 		(uuid "74fe6387-d348-472b-8e34-c72f6f2ba43e")
 	)
 	(label "+5V"
-		(at 40.64 134.62 180)
+		(at 40.64 138.43 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1860,7 +1860,7 @@
 		(uuid "7f0feb25-4706-4b33-8325-465174e644ef")
 	)
 	(label "PT1_T_RAW"
-		(at 69.85 83.82 0)
+		(at 69.85 85.09 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1893,7 +1893,7 @@
 		(uuid "870cf663-493c-49e4-bdb6-ed5b92fb39b3")
 	)
 	(label "+5V"
-		(at 40.64 101.6 180)
+		(at 40.64 102.87 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1981,7 +1981,7 @@
 		(uuid "a6623910-380c-48f9-ad3b-b000810877e5")
 	)
 	(label "+5V"
-		(at 40.64 149.86 180)
+		(at 40.64 156.21 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1992,7 +1992,7 @@
 		(uuid "aeda83c7-42f3-46e3-b540-0e47d6376739")
 	)
 	(label "PT5_I_RAW"
-		(at 69.85 165.1 0)
+		(at 69.85 173.99 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2058,7 +2058,7 @@
 		(uuid "c3d85d74-00c4-4d80-9af7-96d81ba50621")
 	)
 	(label "GND"
-		(at 40.64 139.7 180)
+		(at 40.64 143.51 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2069,7 +2069,7 @@
 		(uuid "c55c1247-042b-4902-8ac2-cbc243ed26e5")
 	)
 	(label "+5V"
-		(at 40.64 165.1 180)
+		(at 40.64 173.99 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2091,7 +2091,7 @@
 		(uuid "cabe89a6-5ffd-4e58-9e4a-505c71b25916")
 	)
 	(label "PT3_I_RAW"
-		(at 69.85 134.62 0)
+		(at 69.85 138.43 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2113,7 +2113,7 @@
 		(uuid "de90be0c-5e0a-4dac-8763-27b480768f7d")
 	)
 	(label "PT1_I_RAW"
-		(at 69.85 101.6 0)
+		(at 69.85 102.87 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2168,7 +2168,7 @@
 		(uuid "f0b65037-e454-4782-8b54-ea184c917099")
 	)
 	(label "GND"
-		(at 40.64 154.94 180)
+		(at 40.64 161.29 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2190,7 +2190,7 @@
 		(uuid "f4f31b61-6703-4871-907f-eaf0465ee138")
 	)
 	(label "+5V"
-		(at 40.64 116.84 180)
+		(at 40.64 120.65 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2268,6 +2268,378 @@
 		(uuid "950c421e-5ec0-48bc-a1b6-5a0422fbb563")
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 200.66 46.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "03b04424-52e3-4b71-b4ef-45359c07331d")
+		(property "Reference" "R18"
+			(at 203.2 45.7199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2.7K"
+			(at 203.2 48.2599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 198.882 46.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf"
+			(at 200.66 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "2.7 kOhms ±5% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200 Thick Film"
+			(at 200.66 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Panasonic Electronic Components"
+			(at 200.66 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part #" "ERJ-6GEYJ272V"
+			(at 200.66 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 200.66 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part #" "P2.7KACT-ND"
+			(at 200.66 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Unit Cost" "0.10"
+			(at 200.66 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost @ Qty" "0.042"
+			(at 200.66 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "37f3d52e-4c1e-40fd-a559-ce7b249ce23f")
+		)
+		(pin "1"
+			(uuid "c82b3f89-d1d6-4dec-b1d4-7a06c9be379f")
+		)
+		(instances
+			(project "master_schematic"
+				(path "/c4f7e98c-e88d-49cc-9841-b70710a90a72/666fb9f9-c631-4136-ad00-30a1b375897d"
+					(reference "R18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 139.7 46.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0795f6da-5258-4a02-af7b-41363309b647")
+		(property "Reference" "R8"
+			(at 142.24 45.7199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2.7K"
+			(at 142.24 48.2599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 137.922 46.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf"
+			(at 139.7 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "2.7 kOhms ±5% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200 Thick Film"
+			(at 139.7 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Panasonic Electronic Components"
+			(at 139.7 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part #" "ERJ-6GEYJ272V"
+			(at 139.7 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 139.7 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part #" "P2.7KACT-ND"
+			(at 139.7 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Unit Cost" "0.10"
+			(at 139.7 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost @ Qty" "0.042"
+			(at 139.7 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "de4c3abd-ba4d-400b-98b7-1b008e2e5e7b")
+		)
+		(pin "1"
+			(uuid "1effee37-b2d3-4172-a06c-7470aee7afc8")
+		)
+		(instances
+			(project "master_schematic"
+				(path "/c4f7e98c-e88d-49cc-9841-b70710a90a72/666fb9f9-c631-4136-ad00-30a1b375897d"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 200.66 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0a07b813-cdbc-4c42-8b3d-9beaa66fc286")
+		(property "Reference" "R17"
+			(at 203.2 35.5599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1K"
+			(at 203.2 38.0999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 198.882 36.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf"
+			(at 200.66 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1 kOhms ±0.1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200 Thin Film"
+			(at 200.66 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Panasonic Electronic Components"
+			(at 200.66 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part #" "ERA-6AEB102V"
+			(at 200.66 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 200.66 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part #" "P1.0KDACT-ND"
+			(at 200.66 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Unit Cost" "0.10"
+			(at 200.66 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost @ Qty" "0.066"
+			(at 200.66 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4c86979d-6f0f-466d-8f17-d002bffc6d18")
+		)
+		(pin "1"
+			(uuid "84917be7-1067-442c-9fcc-ac1ce67d527b")
+		)
+		(instances
+			(project "master_schematic"
+				(path "/c4f7e98c-e88d-49cc-9841-b70710a90a72/666fb9f9-c631-4136-ad00-30a1b375897d"
+					(reference "R17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "hb_symbol_lib:pressure_transducer")
 		(at 55.88 34.29 0)
 		(unit 1)
@@ -2277,15 +2649,15 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0c3a398e-a3e3-4536-8b47-83f6f7df07d0")
-		(property "Reference" "PT1"
-			(at 55.88 25.4 0)
+		(property "Reference" "J10"
+			(at 55.88 25.654 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "0430450400"
 			(at 55.88 27.94 0)
 			(effects
 				(font
@@ -2302,7 +2674,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://tools.molex.com/pdm_docs/ps/PS-43045.pdf"
 			(at 55.88 34.29 0)
 			(effects
 				(font
@@ -2311,7 +2683,61 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Connector Header Through Hole, Right Angle 4 position 0.118\" (3.00mm)"
+			(at 55.88 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Molex"
+			(at 55.88 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part #" "0430450400"
+			(at 55.88 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 55.88 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part #" "WM1814-ND"
+			(at 55.88 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Unit Cost" "1.42"
+			(at 55.88 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost @ Qty" "1.42"
 			(at 55.88 34.29 0)
 			(effects
 				(font
@@ -2335,7 +2761,131 @@
 		(instances
 			(project "master_schematic"
 				(path "/c4f7e98c-e88d-49cc-9841-b70710a90a72/666fb9f9-c631-4136-ad00-30a1b375897d"
-					(reference "PT1")
+					(reference "J10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 177.8 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1d5380c7-0324-4138-a7ec-e041372a6840")
+		(property "Reference" "R13"
+			(at 180.34 35.5599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1K"
+			(at 180.34 38.0999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 176.022 36.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf"
+			(at 177.8 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1 kOhms ±0.1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200 Thin Film"
+			(at 177.8 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Panasonic Electronic Components"
+			(at 177.8 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part #" "ERA-6AEB102V"
+			(at 177.8 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 177.8 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part #" "P1.0KDACT-ND"
+			(at 177.8 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Unit Cost" "0.10"
+			(at 177.8 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost @ Qty" "0.066"
+			(at 177.8 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "53ec9aa2-4bcf-402f-a484-b6ccaec72408")
+		)
+		(pin "1"
+			(uuid "fb7e10b1-fc45-4029-be9d-0e5b7aa6217a")
+		)
+		(instances
+			(project "master_schematic"
+				(path "/c4f7e98c-e88d-49cc-9841-b70710a90a72/666fb9f9-c631-4136-ad00-30a1b375897d"
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -2343,24 +2893,24 @@
 	)
 	(symbol
 		(lib_id "hb_symbol_lib:pressure_transducer")
-		(at 55.88 137.16 0)
+		(at 55.88 158.75 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "1c532d57-553b-47a8-955b-8cbac8f94dee")
-		(property "Reference" "PT8"
-			(at 55.88 128.27 0)
+		(uuid "286b9193-585f-40ee-b236-28fda1bcfc49")
+		(property "Reference" "J17"
+			(at 55.88 150.114 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "~"
-			(at 55.88 130.81 0)
+		(property "Value" "0430450400"
+			(at 55.88 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2368,7 +2918,7 @@
 			)
 		)
 		(property "Footprint" "hb_footprint_lib:CONN_SD-43045-001_04_MOL"
-			(at 55.88 137.16 0)
+			(at 55.88 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2376,8 +2926,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 55.88 137.16 0)
+		(property "Datasheet" "https://tools.molex.com/pdm_docs/ps/PS-43045.pdf"
+			(at 55.88 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2385,8 +2935,62 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 55.88 137.16 0)
+		(property "Description" "Connector Header Through Hole, Right Angle 4 position 0.118\" (3.00mm)"
+			(at 55.88 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Molex"
+			(at 55.88 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part #" "0430450400"
+			(at 55.88 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 55.88 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part #" "WM1814-ND"
+			(at 55.88 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Unit Cost" "1.42"
+			(at 55.88 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost @ Qty" "1.42"
+			(at 55.88 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2395,65 +2999,54 @@
 			)
 		)
 		(pin "4"
-			(uuid "116a7b25-5084-4cd9-a13f-cfeb8cb11af0")
+			(uuid "da181b6f-2641-4a32-a818-6e0c056f8aa5")
 		)
 		(pin "1"
-			(uuid "c550b748-1f26-4d45-ba50-9e99e89cc27e")
+			(uuid "f5eac670-19a6-4f5c-b23e-3f51688c6190")
 		)
 		(pin "3"
-			(uuid "a25cb2c5-8fbd-4853-8b68-a391409bbdea")
+			(uuid "caa6388e-3f24-4249-82ea-0787d68c10f7")
 		)
 		(pin "2"
-			(uuid "a21fb817-65dc-4ed8-90b0-589c43ba3c95")
+			(uuid "13ac8dac-695e-41e0-8ba7-133c34e43876")
 		)
 		(instances
 			(project "master_schematic"
 				(path "/c4f7e98c-e88d-49cc-9841-b70710a90a72/666fb9f9-c631-4136-ad00-30a1b375897d"
-					(reference "PT8")
+					(reference "J17")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 102.87 46.99 0)
+		(lib_id "hb_symbol_lib:pressure_transducer")
+		(at 55.88 123.19 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "29c87f5f-0848-41cb-a29b-67beb22f457f")
-		(property "Reference" "R2"
-			(at 105.41 45.7199 0)
+		(uuid "2a201534-fa5c-4bf6-bb96-88354b339bd2")
+		(property "Reference" "J15"
+			(at 55.88 114.554 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "2.7K"
-			(at 105.41 48.2599 0)
+		(property "Value" "0430450400"
+			(at 55.88 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 101.092 46.99 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 102.87 46.99 0)
+		(property "Footprint" "hb_footprint_lib:CONN_SD-43045-001_04_MOL"
+			(at 55.88 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2461,8 +3054,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 102.87 46.99 0)
+		(property "Datasheet" "https://tools.molex.com/pdm_docs/ps/PS-43045.pdf"
+			(at 55.88 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2470,16 +3063,85 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "7363f3e1-5c48-4979-9047-a8f37c881ff9")
+		(property "Description" "Connector Header Through Hole, Right Angle 4 position 0.118\" (3.00mm)"
+			(at 55.88 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Molex"
+			(at 55.88 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part #" "0430450400"
+			(at 55.88 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 55.88 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part #" "WM1814-ND"
+			(at 55.88 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Unit Cost" "1.42"
+			(at 55.88 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost @ Qty" "1.42"
+			(at 55.88 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "05ae888b-f924-4aa0-b734-8ad50ae3f586")
 		)
 		(pin "1"
-			(uuid "62476039-f565-4f0a-8d3e-e28fcef10700")
+			(uuid "7311e71a-79e6-4ca4-88db-da8026f9a9b2")
+		)
+		(pin "3"
+			(uuid "3e3fa041-a04c-4359-809f-1a8778751de9")
+		)
+		(pin "2"
+			(uuid "b0d00c96-c389-4438-b99d-38f38d1bf073")
 		)
 		(instances
 			(project "master_schematic"
 				(path "/c4f7e98c-e88d-49cc-9841-b70710a90a72/666fb9f9-c631-4136-ad00-30a1b375897d"
-					(reference "R2")
+					(reference "J15")
 					(unit 1)
 				)
 			)
@@ -2553,16 +3215,16 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 177.8 46.99 0)
+		(at 189.23 36.83 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "398ed9a7-82a0-492c-a59b-2756e2b89632")
-		(property "Reference" "R16"
-			(at 180.34 45.7199 0)
+		(uuid "3a57e49c-ca50-4b4b-87c6-90bbf766ce2b")
+		(property "Reference" "R15"
+			(at 191.77 35.5599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2570,8 +3232,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.7K"
-			(at 180.34 48.2599 0)
+		(property "Value" "1K"
+			(at 191.77 38.0999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2579,8 +3241,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 176.022 46.99 90)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 187.452 36.83 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2588,8 +3250,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 177.8 46.99 0)
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf"
+			(at 189.23 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2597,8 +3259,62 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 177.8 46.99 0)
+		(property "Description" "1 kOhms ±0.1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200 Thin Film"
+			(at 189.23 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Panasonic Electronic Components"
+			(at 189.23 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part #" "ERA-6AEB102V"
+			(at 189.23 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 189.23 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part #" "P1.0KDACT-ND"
+			(at 189.23 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Unit Cost" "0.10"
+			(at 189.23 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost @ Qty" "0.066"
+			(at 189.23 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2607,15 +3323,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "c704bd50-5804-486b-8146-d29082764c8d")
+			(uuid "cdc92418-cfcd-487d-bcae-45e0a1b8da5e")
 		)
 		(pin "1"
-			(uuid "c6309a21-8dec-4b2f-8625-cf6af49a63e7")
+			(uuid "2d3f5093-87d0-4c9d-9a6f-f61f5b2ceae5")
 		)
 		(instances
 			(project "master_schematic"
 				(path "/c4f7e98c-e88d-49cc-9841-b70710a90a72/666fb9f9-c631-4136-ad00-30a1b375897d"
-					(reference "R16")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -2689,16 +3405,16 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 139.7 46.99 0)
+		(at 165.1 46.99 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "4f40cd4b-8791-4dab-a3e6-0b4044a5b7fb")
-		(property "Reference" "R10"
-			(at 142.24 45.7199 0)
+		(uuid "4d047c13-8ab9-4d95-b479-5f22242d0d21")
+		(property "Reference" "R12"
+			(at 167.64 45.7199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2707,7 +3423,7 @@
 			)
 		)
 		(property "Value" "2.7K"
-			(at 142.24 48.2599 0)
+			(at 167.64 48.2599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2715,8 +3431,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 137.922 46.99 90)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 163.322 46.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2724,8 +3440,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 139.7 46.99 0)
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf"
+			(at 165.1 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2733,8 +3449,62 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 139.7 46.99 0)
+		(property "Description" "2.7 kOhms ±5% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200 Thick Film"
+			(at 165.1 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Panasonic Electronic Components"
+			(at 165.1 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part #" "ERJ-6GEYJ272V"
+			(at 165.1 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 165.1 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part #" "P2.7KACT-ND"
+			(at 165.1 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Unit Cost" "0.10"
+			(at 165.1 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost @ Qty" "0.042"
+			(at 165.1 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2743,15 +3513,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "b91e3c5e-8970-40e9-b9a2-5f6354887efb")
+			(uuid "66f4dc5e-2e08-453e-8ea2-6bbb2117f706")
 		)
 		(pin "1"
-			(uuid "6a4c6506-c345-43ad-b08e-2407ded4376f")
+			(uuid "1294449e-38d5-49e3-9c3a-c26322a77faf")
 		)
 		(instances
 			(project "master_schematic"
 				(path "/c4f7e98c-e88d-49cc-9841-b70710a90a72/666fb9f9-c631-4136-ad00-30a1b375897d"
-					(reference "R10")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -2825,16 +3595,16 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 200.66 46.99 0)
+		(at 102.87 46.99 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "67ba8d05-14ce-4d41-9467-af3cb7b5b44f")
-		(property "Reference" "R20"
-			(at 203.2 45.7199 0)
+		(uuid "671aa97d-6db0-4f67-b056-985cd646cc66")
+		(property "Reference" "R2"
+			(at 105.41 45.7199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2843,7 +3613,7 @@
 			)
 		)
 		(property "Value" "2.7K"
-			(at 203.2 48.2599 0)
+			(at 105.41 48.2599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2851,8 +3621,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 198.882 46.99 90)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 101.092 46.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2860,8 +3630,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 200.66 46.99 0)
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf"
+			(at 102.87 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2869,8 +3639,62 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 200.66 46.99 0)
+		(property "Description" "2.7 kOhms ±5% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200 Thick Film"
+			(at 102.87 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Panasonic Electronic Components"
+			(at 102.87 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part #" "ERJ-6GEYJ272V"
+			(at 102.87 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 102.87 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part #" "P2.7KACT-ND"
+			(at 102.87 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Unit Cost" "0.10"
+			(at 102.87 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost @ Qty" "0.042"
+			(at 102.87 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2879,57 +3703,50 @@
 			)
 		)
 		(pin "2"
-			(uuid "e8127544-4659-4436-8499-2fb8fbe18f5d")
+			(uuid "65f18235-cdbc-4e8f-9e00-8a90ff19d94c")
 		)
 		(pin "1"
-			(uuid "b76f6c00-5c20-4680-bcaa-aabfd868652b")
+			(uuid "27146ebf-bee7-46f0-929a-e96088fd2f87")
 		)
 		(instances
 			(project "master_schematic"
 				(path "/c4f7e98c-e88d-49cc-9841-b70710a90a72/666fb9f9-c631-4136-ad00-30a1b375897d"
-					(reference "R20")
+					(reference "R2")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "hb_symbol_lib:pressure_transducer")
-		(at 55.88 167.64 0)
+		(lib_id "Device:R")
+		(at 115.57 46.99 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "82c1f4f4-3663-4308-b328-053385b23101")
-		(property "Reference" "PT3"
-			(at 55.88 158.75 0)
+		(uuid "7433f066-3f0f-4225-a181-db764aeb1ea8")
+		(property "Reference" "R4"
+			(at 118.11 45.7199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "~"
-			(at 55.88 161.29 0)
+		(property "Value" "2.7K"
+			(at 118.11 48.2599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "hb_footprint_lib:CONN_SD-43045-001_04_MOL"
-			(at 55.88 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 55.88 167.64 0)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 113.792 46.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2937,8 +3754,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 55.88 167.64 0)
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf"
+			(at 115.57 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2946,170 +3763,79 @@
 				(hide yes)
 			)
 		)
-		(pin "4"
-			(uuid "a51a86f3-0dd7-433f-97f0-3519563c454a")
+		(property "Description" "2.7 kOhms ±5% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200 Thick Film"
+			(at 115.57 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
-		(pin "1"
-			(uuid "ae5da1f4-1307-4552-97a0-6d3fb02750ee")
+		(property "Manufacturer" "Panasonic Electronic Components"
+			(at 115.57 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
-		(pin "3"
-			(uuid "2e863608-cc8c-4361-bad9-95bdea05acc8")
+		(property "Manufacturer Part #" "ERJ-6GEYJ272V"
+			(at 115.57 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 115.57 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part #" "P2.7KACT-ND"
+			(at 115.57 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Unit Cost" "0.10"
+			(at 115.57 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost @ Qty" "0.042"
+			(at 115.57 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "2"
-			(uuid "7495717d-e61a-4c5d-b861-e9c524fa6669")
+			(uuid "a2e94e48-ed8f-45e2-9002-4425d1311a72")
+		)
+		(pin "1"
+			(uuid "5e26472d-9bde-49bf-a8bd-d5509b6942a2")
 		)
 		(instances
 			(project "master_schematic"
 				(path "/c4f7e98c-e88d-49cc-9841-b70710a90a72/666fb9f9-c631-4136-ad00-30a1b375897d"
-					(reference "PT3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "hb_symbol_lib:pressure_transducer")
-		(at 55.88 104.14 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "87443ab8-014a-4ec4-a792-914ab60a8b55")
-		(property "Reference" "PT6"
-			(at 55.88 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "~"
-			(at 55.88 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "hb_footprint_lib:CONN_SD-43045-001_04_MOL"
-			(at 55.88 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 55.88 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 55.88 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "81352014-4879-4130-b07d-722da69a71e7")
-		)
-		(pin "1"
-			(uuid "d3af51cb-e82a-43d8-a079-3af574093474")
-		)
-		(pin "3"
-			(uuid "0ed3ee4b-506b-4955-a816-6521b369fd82")
-		)
-		(pin "2"
-			(uuid "e180d601-151d-492e-be27-a9e51f83b041")
-		)
-		(instances
-			(project "master_schematic"
-				(path "/c4f7e98c-e88d-49cc-9841-b70710a90a72/666fb9f9-c631-4136-ad00-30a1b375897d"
-					(reference "PT6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "hb_symbol_lib:pressure_transducer")
-		(at 55.88 152.4 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8dc2887d-0308-4a99-8504-d77d92d529a0")
-		(property "Reference" "PT9"
-			(at 55.88 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "~"
-			(at 55.88 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "hb_footprint_lib:CONN_SD-43045-001_04_MOL"
-			(at 55.88 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 55.88 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 55.88 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "2896f452-c1ae-4ddd-99f5-207616ab5a9e")
-		)
-		(pin "1"
-			(uuid "b9509434-64a5-43f4-adf1-fd1d62e93100")
-		)
-		(pin "3"
-			(uuid "153695f5-70ab-4a60-86fc-1f72d3b64676")
-		)
-		(pin "2"
-			(uuid "31e88969-55be-4d3b-a0e5-0a816a68ec1c")
-		)
-		(instances
-			(project "master_schematic"
-				(path "/c4f7e98c-e88d-49cc-9841-b70710a90a72/666fb9f9-c631-4136-ad00-30a1b375897d"
-					(reference "PT9")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -3124,8 +3850,8 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "8f171bdc-f47e-48f1-b8a9-bd0c62d8ce5f")
-		(property "Reference" "R13"
+		(uuid "762f41e8-41c9-4199-af55-b00ea632b0e9")
+		(property "Reference" "R11"
 			(at 167.64 35.5599 0)
 			(effects
 				(font
@@ -3143,7 +3869,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 163.322 36.83 90)
 			(effects
 				(font
@@ -3152,7 +3878,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf"
 			(at 165.1 36.83 0)
 			(effects
 				(font
@@ -3161,7 +3887,61 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "1 kOhms ±0.1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200 Thin Film"
+			(at 165.1 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Panasonic Electronic Components"
+			(at 165.1 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part #" "ERA-6AEB102V"
+			(at 165.1 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 165.1 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part #" "P1.0KDACT-ND"
+			(at 165.1 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Unit Cost" "0.10"
+			(at 165.1 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost @ Qty" "0.066"
 			(at 165.1 36.83 0)
 			(effects
 				(font
@@ -3171,15 +3951,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "979fe205-5923-4cb4-9855-6e29fce7ee97")
+			(uuid "daee1a88-fe7f-4217-87cb-7b131fce238b")
 		)
 		(pin "1"
-			(uuid "66a8bcb4-3fb3-4918-8ea4-b24c97c464b4")
+			(uuid "08c2f680-f570-4d2c-92b4-395776dcc7f5")
 		)
 		(instances
 			(project "master_schematic"
 				(path "/c4f7e98c-e88d-49cc-9841-b70710a90a72/666fb9f9-c631-4136-ad00-30a1b375897d"
-					(reference "R13")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -3187,16 +3967,16 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 139.7 36.83 0)
+		(at 115.57 36.83 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "8f668fec-c9ff-4bce-ab15-6e8dd1e48aa7")
-		(property "Reference" "R9"
-			(at 142.24 35.5599 0)
+		(uuid "7b254a34-644e-4ecd-a085-4fdf3b847f06")
+		(property "Reference" "R3"
+			(at 118.11 35.5599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3205,7 +3985,7 @@
 			)
 		)
 		(property "Value" "1K"
-			(at 142.24 38.0999 0)
+			(at 118.11 38.0999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3213,8 +3993,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 137.922 36.83 90)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 113.792 36.83 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3222,8 +4002,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 139.7 36.83 0)
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf"
+			(at 115.57 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3231,8 +4011,62 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 139.7 36.83 0)
+		(property "Description" "1 kOhms ±0.1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200 Thin Film"
+			(at 115.57 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Panasonic Electronic Components"
+			(at 115.57 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part #" "ERA-6AEB102V"
+			(at 115.57 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 115.57 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part #" "P1.0KDACT-ND"
+			(at 115.57 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Unit Cost" "0.10"
+			(at 115.57 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost @ Qty" "0.066"
+			(at 115.57 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3241,15 +4075,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "5f90f1e7-507e-4dc0-b602-66e6d03f7dab")
+			(uuid "6904ba54-b956-47c3-83ce-c74b0eb8b588")
 		)
 		(pin "1"
-			(uuid "b8c723ca-b3e2-47ee-9db2-709c5ca81f69")
+			(uuid "778d89ea-46a3-429a-9672-25759b8dd617")
 		)
 		(instances
 			(project "master_schematic"
 				(path "/c4f7e98c-e88d-49cc-9841-b70710a90a72/666fb9f9-c631-4136-ad00-30a1b375897d"
-					(reference "R9")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -3257,86 +4091,16 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 128.27 36.83 0)
+		(at 152.4 46.99 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "9345d7bf-15a1-4180-af0e-efd7192b37d5")
-		(property "Reference" "R7"
-			(at 130.81 35.5599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1K"
-			(at 130.81 38.0999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 126.492 36.83 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 128.27 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 128.27 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "3de2e842-9dae-44db-b4ac-95fe556fc592")
-		)
-		(pin "1"
-			(uuid "01172495-e03f-4c6e-8b79-b60f65bdf348")
-		)
-		(instances
-			(project "master_schematic"
-				(path "/c4f7e98c-e88d-49cc-9841-b70710a90a72/666fb9f9-c631-4136-ad00-30a1b375897d"
-					(reference "R7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 189.23 46.99 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "93806e4a-b2db-4028-b23b-8f2ce447e25a")
-		(property "Reference" "R18"
-			(at 191.77 45.7199 0)
+		(uuid "7d68c98e-5237-4113-b173-f6f9e4f134de")
+		(property "Reference" "R10"
+			(at 154.94 45.7199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3345,7 +4109,7 @@
 			)
 		)
 		(property "Value" "2.7K"
-			(at 191.77 48.2599 0)
+			(at 154.94 48.2599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3353,8 +4117,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 187.452 46.99 90)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 150.622 46.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3362,8 +4126,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 189.23 46.99 0)
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf"
+			(at 152.4 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3371,8 +4135,62 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 189.23 46.99 0)
+		(property "Description" "2.7 kOhms ±5% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200 Thick Film"
+			(at 152.4 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Panasonic Electronic Components"
+			(at 152.4 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part #" "ERJ-6GEYJ272V"
+			(at 152.4 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 152.4 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part #" "P2.7KACT-ND"
+			(at 152.4 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Unit Cost" "0.10"
+			(at 152.4 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost @ Qty" "0.042"
+			(at 152.4 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3381,15 +4199,139 @@
 			)
 		)
 		(pin "2"
-			(uuid "aabed9bc-9a21-4a36-89f2-71c22a78e23e")
+			(uuid "534fb758-7dee-4590-8cad-18ef396d95b4")
 		)
 		(pin "1"
-			(uuid "8e252b50-5af0-4274-b0a9-3dba91a682f0")
+			(uuid "3cb6f0f0-f2a0-4ccf-ac24-577e75a5ddca")
 		)
 		(instances
 			(project "master_schematic"
 				(path "/c4f7e98c-e88d-49cc-9841-b70710a90a72/666fb9f9-c631-4136-ad00-30a1b375897d"
-					(reference "R18")
+					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 128.27 46.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "92254b32-1e7f-42f4-9679-27ca0a2bd445")
+		(property "Reference" "R6"
+			(at 130.81 45.7199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2.7K"
+			(at 130.81 48.2599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 126.492 46.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf"
+			(at 128.27 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "2.7 kOhms ±5% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200 Thick Film"
+			(at 128.27 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Panasonic Electronic Components"
+			(at 128.27 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part #" "ERJ-6GEYJ272V"
+			(at 128.27 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 128.27 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part #" "P2.7KACT-ND"
+			(at 128.27 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Unit Cost" "0.10"
+			(at 128.27 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost @ Qty" "0.042"
+			(at 128.27 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "02714a45-bc2a-4f2a-8700-4417ea367e9e")
+		)
+		(pin "1"
+			(uuid "da712f05-8b45-48a5-8e68-8f11a02741db")
+		)
+		(instances
+			(project "master_schematic"
+				(path "/c4f7e98c-e88d-49cc-9841-b70710a90a72/666fb9f9-c631-4136-ad00-30a1b375897d"
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -3404,8 +4346,8 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "9923cdb9-cb05-47f7-bbb5-b4db75f7673b")
-		(property "Reference" "R11"
+		(uuid "9f3fe7cc-07e7-4e7e-9432-ecddd907271a")
+		(property "Reference" "R9"
 			(at 154.94 35.5599 0)
 			(effects
 				(font
@@ -3423,7 +4365,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 150.622 36.83 90)
 			(effects
 				(font
@@ -3432,7 +4374,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf"
 			(at 152.4 36.83 0)
 			(effects
 				(font
@@ -3441,7 +4383,61 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "1 kOhms ±0.1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200 Thin Film"
+			(at 152.4 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Panasonic Electronic Components"
+			(at 152.4 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part #" "ERA-6AEB102V"
+			(at 152.4 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 152.4 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part #" "P1.0KDACT-ND"
+			(at 152.4 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Unit Cost" "0.10"
+			(at 152.4 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost @ Qty" "0.066"
 			(at 152.4 36.83 0)
 			(effects
 				(font
@@ -3451,89 +4447,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "977333a0-c921-476c-b773-9ecba84e41e3")
+			(uuid "394fdd08-aec8-4808-ab9e-5b04fcf8ae9c")
 		)
 		(pin "1"
-			(uuid "8a1ca7c6-40d9-410d-a4e3-a064a9ed1705")
+			(uuid "ff16a6d9-9a4c-4d47-abf3-2dc6bbf0785b")
 		)
 		(instances
 			(project "master_schematic"
 				(path "/c4f7e98c-e88d-49cc-9841-b70710a90a72/666fb9f9-c631-4136-ad00-30a1b375897d"
-					(reference "R11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "hb_symbol_lib:pressure_transducer")
-		(at 55.88 119.38 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9b5383af-8b83-4fa1-87e8-f143cb52a5fc")
-		(property "Reference" "PT7"
-			(at 55.88 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "~"
-			(at 55.88 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "hb_footprint_lib:CONN_SD-43045-001_04_MOL"
-			(at 55.88 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 55.88 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 55.88 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "1fd802dd-3650-44f0-ac02-231827492fe8")
-		)
-		(pin "1"
-			(uuid "1cc744ea-8d4a-4aae-bc1a-4f81970a9810")
-		)
-		(pin "3"
-			(uuid "052b591a-f166-44c8-8ee1-d9c33077dc7e")
-		)
-		(pin "2"
-			(uuid "2ca43ef6-3a24-483e-b5d1-c664cf5db31a")
-		)
-		(instances
-			(project "master_schematic"
-				(path "/c4f7e98c-e88d-49cc-9841-b70710a90a72/666fb9f9-c631-4136-ad00-30a1b375897d"
-					(reference "PT7")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -3673,24 +4595,24 @@
 	)
 	(symbol
 		(lib_id "hb_symbol_lib:pressure_transducer")
-		(at 55.88 52.07 0)
+		(at 55.88 69.85 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "a0399e79-647a-4c23-a5c8-706327c522b8")
-		(property "Reference" "PT2"
-			(at 55.88 43.18 0)
+		(uuid "a2039547-7ce4-48cf-868f-e7ca2285508d")
+		(property "Reference" "J12"
+			(at 55.88 61.214 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "~"
-			(at 55.88 45.72 0)
+		(property "Value" "0430450400"
+			(at 55.88 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3698,7 +4620,7 @@
 			)
 		)
 		(property "Footprint" "hb_footprint_lib:CONN_SD-43045-001_04_MOL"
-			(at 55.88 52.07 0)
+			(at 55.88 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3706,8 +4628,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 55.88 52.07 0)
+		(property "Datasheet" "https://tools.molex.com/pdm_docs/ps/PS-43045.pdf"
+			(at 55.88 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3715,8 +4637,62 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 55.88 52.07 0)
+		(property "Description" "Connector Header Through Hole, Right Angle 4 position 0.118\" (3.00mm)"
+			(at 55.88 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Molex"
+			(at 55.88 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part #" "0430450400"
+			(at 55.88 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 55.88 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part #" "WM1814-ND"
+			(at 55.88 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Unit Cost" "1.42"
+			(at 55.88 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost @ Qty" "1.42"
+			(at 55.88 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3725,21 +4701,21 @@
 			)
 		)
 		(pin "4"
-			(uuid "ca0bc487-b050-4f25-a760-5ad368dc332f")
+			(uuid "164de818-cb12-4237-9f04-879792b12d52")
 		)
 		(pin "1"
-			(uuid "965c9f5f-262f-4d0a-bfab-ba68af30a5d9")
+			(uuid "3ada1ad3-9892-492b-be61-592a244404ac")
 		)
 		(pin "3"
-			(uuid "a627d28f-9c62-4b53-a2f4-dcffb610f8f7")
+			(uuid "a5d0d7e7-0129-42a1-9bee-993899d04032")
 		)
 		(pin "2"
-			(uuid "48562651-e237-4a54-b345-01246d32d20b")
+			(uuid "5de4cc94-5ecc-4039-9822-befbcb37d4c1")
 		)
 		(instances
 			(project "master_schematic"
 				(path "/c4f7e98c-e88d-49cc-9841-b70710a90a72/666fb9f9-c631-4136-ad00-30a1b375897d"
-					(reference "PT2")
+					(reference "J12")
 					(unit 1)
 				)
 			)
@@ -3747,16 +4723,16 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 115.57 36.83 0)
+		(at 189.23 46.99 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "a21523fd-4bd4-47e1-86eb-e3f6f8175279")
-		(property "Reference" "R3"
-			(at 118.11 35.5599 0)
+		(uuid "a50198c1-996d-4933-b295-189a66c4345d")
+		(property "Reference" "R16"
+			(at 191.77 45.7199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3764,8 +4740,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1K"
-			(at 118.11 38.0999 0)
+		(property "Value" "2.7K"
+			(at 191.77 48.2599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3773,8 +4749,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 113.792 36.83 90)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 187.452 46.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3782,8 +4758,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 115.57 36.83 0)
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf"
+			(at 189.23 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3791,8 +4767,62 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 115.57 36.83 0)
+		(property "Description" "2.7 kOhms ±5% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200 Thick Film"
+			(at 189.23 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Panasonic Electronic Components"
+			(at 189.23 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part #" "ERJ-6GEYJ272V"
+			(at 189.23 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 189.23 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part #" "P2.7KACT-ND"
+			(at 189.23 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Unit Cost" "0.10"
+			(at 189.23 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost @ Qty" "0.042"
+			(at 189.23 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3801,15 +4831,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "53cc6c23-feb8-4df3-965d-885df4b779f3")
+			(uuid "eb689744-4726-4149-ae48-a7b8dba57242")
 		)
 		(pin "1"
-			(uuid "0d743f62-8b6b-4faa-b68c-a5cbb8c0d8b0")
+			(uuid "25348da1-9f0d-429a-b8cc-bfc36140cc95")
 		)
 		(instances
 			(project "master_schematic"
 				(path "/c4f7e98c-e88d-49cc-9841-b70710a90a72/666fb9f9-c631-4136-ad00-30a1b375897d"
-					(reference "R3")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -3949,24 +4979,24 @@
 	)
 	(symbol
 		(lib_id "hb_symbol_lib:pressure_transducer")
-		(at 55.88 86.36 0)
+		(at 55.88 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "ac0894b9-4e4f-40db-9ad8-5f66b9c18b8a")
-		(property "Reference" "PT5"
-			(at 55.88 77.47 0)
+		(uuid "ab54df30-7ed1-4de3-9a76-d1caa4f0f388")
+		(property "Reference" "J14"
+			(at 55.88 96.774 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "~"
-			(at 55.88 80.01 0)
+		(property "Value" "0430450400"
+			(at 55.88 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3974,7 +5004,7 @@
 			)
 		)
 		(property "Footprint" "hb_footprint_lib:CONN_SD-43045-001_04_MOL"
-			(at 55.88 86.36 0)
+			(at 55.88 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3982,8 +5012,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 55.88 86.36 0)
+		(property "Datasheet" "https://tools.molex.com/pdm_docs/ps/PS-43045.pdf"
+			(at 55.88 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3991,8 +5021,62 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 55.88 86.36 0)
+		(property "Description" "Connector Header Through Hole, Right Angle 4 position 0.118\" (3.00mm)"
+			(at 55.88 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Molex"
+			(at 55.88 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part #" "0430450400"
+			(at 55.88 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 55.88 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part #" "WM1814-ND"
+			(at 55.88 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Unit Cost" "1.42"
+			(at 55.88 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost @ Qty" "1.42"
+			(at 55.88 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4001,21 +5085,21 @@
 			)
 		)
 		(pin "4"
-			(uuid "5caacc57-9836-4024-9d49-28e5d80081cf")
+			(uuid "1621f5e2-23d0-4a2f-a452-a733758ebed4")
 		)
 		(pin "1"
-			(uuid "e78413e9-1a7c-4ec1-a665-7600db70ac70")
+			(uuid "d7c6f04d-2e5a-4b75-8791-dc39a558189c")
 		)
 		(pin "3"
-			(uuid "6bea9e2f-6067-4571-b850-879047b641e3")
+			(uuid "7f5e5bcd-6454-4f49-a76b-2ea3dd690d69")
 		)
 		(pin "2"
-			(uuid "9530e922-e548-4b7c-bc4a-53225e733adf")
+			(uuid "111b0302-5949-4b54-b500-409fa6223508")
 		)
 		(instances
 			(project "master_schematic"
 				(path "/c4f7e98c-e88d-49cc-9841-b70710a90a72/666fb9f9-c631-4136-ad00-30a1b375897d"
-					(reference "PT5")
+					(reference "J14")
 					(unit 1)
 				)
 			)
@@ -4082,216 +5166,6 @@
 			(project "master_schematic"
 				(path "/c4f7e98c-e88d-49cc-9841-b70710a90a72/666fb9f9-c631-4136-ad00-30a1b375897d"
 					(reference "#PWR010")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 177.8 36.83 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b1728d7f-f233-4398-8225-e045375c00e4")
-		(property "Reference" "R15"
-			(at 180.34 35.5599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1K"
-			(at 180.34 38.0999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 176.022 36.83 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 177.8 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 177.8 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "573f9a5b-b3bf-4366-aa1b-498a690c402e")
-		)
-		(pin "1"
-			(uuid "0a6b1091-ae9a-4a02-9bdc-ed172a9227df")
-		)
-		(instances
-			(project "master_schematic"
-				(path "/c4f7e98c-e88d-49cc-9841-b70710a90a72/666fb9f9-c631-4136-ad00-30a1b375897d"
-					(reference "R15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 152.4 46.99 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b84beafa-0094-4edb-a5c7-442bbb62ccd8")
-		(property "Reference" "R12"
-			(at 154.94 45.7199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2.7K"
-			(at 154.94 48.2599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 150.622 46.99 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 152.4 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 152.4 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "b6ddf286-d2ea-4cd2-89bf-f47fdaa922ff")
-		)
-		(pin "1"
-			(uuid "398fcbc8-6daa-45fc-a052-4844acf78c2f")
-		)
-		(instances
-			(project "master_schematic"
-				(path "/c4f7e98c-e88d-49cc-9841-b70710a90a72/666fb9f9-c631-4136-ad00-30a1b375897d"
-					(reference "R12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 165.1 46.99 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ba79191d-0ff2-4ec0-a9cf-52eb2dbb8b50")
-		(property "Reference" "R14"
-			(at 167.64 45.7199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2.7K"
-			(at 167.64 48.2599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 163.322 46.99 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 165.1 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 165.1 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "5d17a320-c0b4-4933-aef0-729315e529ba")
-		)
-		(pin "1"
-			(uuid "301749f5-5713-4554-80f0-71250b2ecf31")
-		)
-		(instances
-			(project "master_schematic"
-				(path "/c4f7e98c-e88d-49cc-9841-b70710a90a72/666fb9f9-c631-4136-ad00-30a1b375897d"
-					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -4365,146 +5239,6 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 189.23 36.83 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c02c5ca8-cff6-41f2-9d65-955367706141")
-		(property "Reference" "R17"
-			(at 191.77 35.5599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1K"
-			(at 191.77 38.0999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 187.452 36.83 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 189.23 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 189.23 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "b59e642b-146f-4d1e-aeab-8e7f67664e3e")
-		)
-		(pin "1"
-			(uuid "61a39bb8-6a96-4b19-a71d-0cc4fa661960")
-		)
-		(instances
-			(project "master_schematic"
-				(path "/c4f7e98c-e88d-49cc-9841-b70710a90a72/666fb9f9-c631-4136-ad00-30a1b375897d"
-					(reference "R17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 128.27 46.99 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c9d38701-8ab1-4c1e-8e9d-6b5a3b86b22d")
-		(property "Reference" "R8"
-			(at 130.81 45.7199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2.7K"
-			(at 130.81 48.2599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 126.492 46.99 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 128.27 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 128.27 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "2253af4d-5c65-45e1-afc9-5a1d69b991a7")
-		)
-		(pin "1"
-			(uuid "c67fa8c9-7493-42cd-a323-b4143142047b")
-		)
-		(instances
-			(project "master_schematic"
-				(path "/c4f7e98c-e88d-49cc-9841-b70710a90a72/666fb9f9-c631-4136-ad00-30a1b375897d"
-					(reference "R8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
 		(at 102.87 36.83 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4531,7 +5265,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 101.092 36.83 90)
 			(effects
 				(font
@@ -4540,7 +5274,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf"
 			(at 102.87 36.83 0)
 			(effects
 				(font
@@ -4549,7 +5283,61 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "1 kOhms ±0.1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200 Thin Film"
+			(at 102.87 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Panasonic Electronic Components"
+			(at 102.87 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part #" "ERA-6AEB102V"
+			(at 102.87 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 102.87 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part #" "P1.0KDACT-ND"
+			(at 102.87 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Unit Cost" "0.10"
+			(at 102.87 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost @ Qty" "0.066"
 			(at 102.87 36.83 0)
 			(effects
 				(font
@@ -4574,44 +5362,33 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 200.66 36.83 0)
+		(lib_id "hb_symbol_lib:pressure_transducer")
+		(at 55.88 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "dde5b946-e0b3-4cf7-a566-4ca9f9ea0c00")
-		(property "Reference" "R19"
-			(at 203.2 35.5599 0)
+		(uuid "d68b0bdc-9c7b-4df9-83c3-7365aa9b6ef3")
+		(property "Reference" "J13"
+			(at 55.88 78.994 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "1K"
-			(at 203.2 38.0999 0)
+		(property "Value" "0430450400"
+			(at 55.88 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 198.882 36.83 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 200.66 36.83 0)
+		(property "Footprint" "hb_footprint_lib:CONN_SD-43045-001_04_MOL"
+			(at 55.88 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4619,8 +5396,201 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 200.66 36.83 0)
+		(property "Datasheet" "https://tools.molex.com/pdm_docs/ps/PS-43045.pdf"
+			(at 55.88 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Connector Header Through Hole, Right Angle 4 position 0.118\" (3.00mm)"
+			(at 55.88 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Molex"
+			(at 55.88 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part #" "0430450400"
+			(at 55.88 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 55.88 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part #" "WM1814-ND"
+			(at 55.88 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Unit Cost" "1.42"
+			(at 55.88 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost @ Qty" "1.42"
+			(at 55.88 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "4fe65af5-ec30-493b-8261-2d31ab101c39")
+		)
+		(pin "1"
+			(uuid "d710ebe2-4fe6-41c6-bb70-d0c92a82ec15")
+		)
+		(pin "3"
+			(uuid "a19b0853-4636-4982-8a64-7e0754ac1259")
+		)
+		(pin "2"
+			(uuid "183fcb76-5e92-4694-8582-268302e3638c")
+		)
+		(instances
+			(project "master_schematic"
+				(path "/c4f7e98c-e88d-49cc-9841-b70710a90a72/666fb9f9-c631-4136-ad00-30a1b375897d"
+					(reference "J13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 177.8 46.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e07b148f-f87d-4c5f-a55b-b70595aa6a71")
+		(property "Reference" "R14"
+			(at 180.34 45.7199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2.7K"
+			(at 180.34 48.2599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 176.022 46.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf"
+			(at 177.8 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "2.7 kOhms ±5% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200 Thick Film"
+			(at 177.8 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Panasonic Electronic Components"
+			(at 177.8 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part #" "ERJ-6GEYJ272V"
+			(at 177.8 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 177.8 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part #" "P2.7KACT-ND"
+			(at 177.8 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Unit Cost" "0.10"
+			(at 177.8 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost @ Qty" "0.042"
+			(at 177.8 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4629,15 +5599,139 @@
 			)
 		)
 		(pin "2"
-			(uuid "f0e7ac3e-37a2-476b-91d3-d084c69c623e")
+			(uuid "beca0ca7-046a-496a-87c1-0bbffb66622a")
 		)
 		(pin "1"
-			(uuid "00a03ed1-b9e3-4b71-b29e-4487d5b0def4")
+			(uuid "9b82cb25-6463-4366-be6f-371ffcf268d7")
 		)
 		(instances
 			(project "master_schematic"
 				(path "/c4f7e98c-e88d-49cc-9841-b70710a90a72/666fb9f9-c631-4136-ad00-30a1b375897d"
-					(reference "R19")
+					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 139.7 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e49bcac9-f4c2-4cb4-a261-cda49eb59147")
+		(property "Reference" "R7"
+			(at 142.24 35.5599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1K"
+			(at 142.24 38.0999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 137.922 36.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf"
+			(at 139.7 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1 kOhms ±0.1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200 Thin Film"
+			(at 139.7 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Panasonic Electronic Components"
+			(at 139.7 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part #" "ERA-6AEB102V"
+			(at 139.7 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 139.7 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part #" "P1.0KDACT-ND"
+			(at 139.7 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Unit Cost" "0.10"
+			(at 139.7 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost @ Qty" "0.066"
+			(at 139.7 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9af5994d-b801-465c-803f-961099024995")
+		)
+		(pin "1"
+			(uuid "6da3dc06-015c-4c34-97ba-fc65a7c33a9c")
+		)
+		(instances
+			(project "master_schematic"
+				(path "/c4f7e98c-e88d-49cc-9841-b70710a90a72/666fb9f9-c631-4136-ad00-30a1b375897d"
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -4710,44 +5804,33 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 115.57 46.99 0)
+		(lib_id "hb_symbol_lib:pressure_transducer")
+		(at 55.88 140.97 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "f21a2652-909a-4bf7-b364-bd7d8348b5f4")
-		(property "Reference" "R4"
-			(at 118.11 45.7199 0)
+		(uuid "ed4b9ce2-6925-4bf4-b40c-b5ba9f2487d5")
+		(property "Reference" "J16"
+			(at 55.88 132.334 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "2.7K"
-			(at 118.11 48.2599 0)
+		(property "Value" "0430450400"
+			(at 55.88 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 113.792 46.99 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 115.57 46.99 0)
+		(property "Footprint" "hb_footprint_lib:CONN_SD-43045-001_04_MOL"
+			(at 55.88 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4755,8 +5838,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 115.57 46.99 0)
+		(property "Datasheet" "https://tools.molex.com/pdm_docs/ps/PS-43045.pdf"
+			(at 55.88 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4764,16 +5847,340 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "657467b1-d9dd-43da-b8a6-0beaae78b2f4")
+		(property "Description" "Connector Header Through Hole, Right Angle 4 position 0.118\" (3.00mm)"
+			(at 55.88 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Molex"
+			(at 55.88 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part #" "0430450400"
+			(at 55.88 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 55.88 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part #" "WM1814-ND"
+			(at 55.88 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Unit Cost" "1.42"
+			(at 55.88 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost @ Qty" "1.42"
+			(at 55.88 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "085f1ae1-6824-42ff-8edc-a4fbb49d2d6c")
 		)
 		(pin "1"
-			(uuid "b8347219-1fbf-4a1b-a673-f04fcb77c835")
+			(uuid "2c991ed5-dbfa-440f-bd40-1dde756714ed")
+		)
+		(pin "3"
+			(uuid "aeaaafd7-a97a-470d-910e-3c65228e2843")
+		)
+		(pin "2"
+			(uuid "3576d483-19b8-47d7-a696-47bdaada386a")
 		)
 		(instances
 			(project "master_schematic"
 				(path "/c4f7e98c-e88d-49cc-9841-b70710a90a72/666fb9f9-c631-4136-ad00-30a1b375897d"
-					(reference "R4")
+					(reference "J16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "hb_symbol_lib:pressure_transducer")
+		(at 55.88 52.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f107578a-52d0-4238-9e7e-f98e634eadde")
+		(property "Reference" "J11"
+			(at 55.88 43.434 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0430450400"
+			(at 55.88 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "hb_footprint_lib:CONN_SD-43045-001_04_MOL"
+			(at 55.88 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://tools.molex.com/pdm_docs/ps/PS-43045.pdf"
+			(at 55.88 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Connector Header Through Hole, Right Angle 4 position 0.118\" (3.00mm)"
+			(at 55.88 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Molex"
+			(at 55.88 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part #" "0430450400"
+			(at 55.88 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 55.88 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part #" "WM1814-ND"
+			(at 55.88 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Unit Cost" "1.42"
+			(at 55.88 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost @ Qty" "1.42"
+			(at 55.88 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "bc416253-a020-4e1d-aa79-4bf11cb64f1c")
+		)
+		(pin "1"
+			(uuid "79fa9f90-74bf-414f-8d61-72a1e96d3e04")
+		)
+		(pin "3"
+			(uuid "a0bc23c9-e35a-4a86-9d22-b2ef3b8a2f1c")
+		)
+		(pin "2"
+			(uuid "187bfacc-def6-477a-8aef-6dd18b7853f1")
+		)
+		(instances
+			(project "master_schematic"
+				(path "/c4f7e98c-e88d-49cc-9841-b70710a90a72/666fb9f9-c631-4136-ad00-30a1b375897d"
+					(reference "J11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "hb_symbol_lib:pressure_transducer")
+		(at 55.88 176.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f1bad6fd-5b7a-40d6-8341-1f1213fb3de0")
+		(property "Reference" "J18"
+			(at 55.88 167.894 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0430450400"
+			(at 55.88 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "hb_footprint_lib:CONN_SD-43045-001_04_MOL"
+			(at 55.88 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://tools.molex.com/pdm_docs/ps/PS-43045.pdf"
+			(at 55.88 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Connector Header Through Hole, Right Angle 4 position 0.118\" (3.00mm)"
+			(at 55.88 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Molex"
+			(at 55.88 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part #" "0430450400"
+			(at 55.88 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 55.88 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part #" "WM1814-ND"
+			(at 55.88 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Unit Cost" "1.42"
+			(at 55.88 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost @ Qty" "1.42"
+			(at 55.88 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "37916eb6-9c1f-4882-b575-b622656eb879")
+		)
+		(pin "1"
+			(uuid "b5b2b9c2-bf4c-453e-af04-49dc20fd6e80")
+		)
+		(pin "3"
+			(uuid "71861f47-be9c-4eb8-8d36-40999d42cc6e")
+		)
+		(pin "2"
+			(uuid "44fa17bf-3835-482b-95de-413d35337bd5")
+		)
+		(instances
+			(project "master_schematic"
+				(path "/c4f7e98c-e88d-49cc-9841-b70710a90a72/666fb9f9-c631-4136-ad00-30a1b375897d"
+					(reference "J18")
 					(unit 1)
 				)
 			)
@@ -4846,42 +6253,35 @@
 		)
 	)
 	(symbol
-		(lib_id "hb_symbol_lib:pressure_transducer")
-		(at 55.88 69.85 0)
+		(lib_id "Device:R")
+		(at 128.27 36.83 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "fe501f12-01bc-4adb-bdf5-01104f20b18b")
-		(property "Reference" "PT4"
-			(at 55.88 60.96 0)
+		(uuid "fe28eec5-fc47-4ae5-8470-3b3660e2f86e")
+		(property "Reference" "R5"
+			(at 130.81 35.5599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "~"
-			(at 55.88 63.5 0)
+		(property "Value" "1K"
+			(at 130.81 38.0999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "hb_footprint_lib:CONN_SD-43045-001_04_MOL"
-			(at 55.88 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 55.88 69.85 0)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 126.492 36.83 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4889,8 +6289,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 55.88 69.85 0)
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf"
+			(at 128.27 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4898,22 +6298,79 @@
 				(hide yes)
 			)
 		)
-		(pin "4"
-			(uuid "14c2f37b-7c41-427f-9232-149964fef236")
+		(property "Description" "1 kOhms ±0.1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200 Thin Film"
+			(at 128.27 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
-		(pin "1"
-			(uuid "ff8b06dc-daaf-480d-b9b8-aba2fff3a06d")
+		(property "Manufacturer" "Panasonic Electronic Components"
+			(at 128.27 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
-		(pin "3"
-			(uuid "f62ae5d5-a81d-4bf9-b234-17b75823a91c")
+		(property "Manufacturer Part #" "ERA-6AEB102V"
+			(at 128.27 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 128.27 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part #" "P1.0KDACT-ND"
+			(at 128.27 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Unit Cost" "0.10"
+			(at 128.27 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost @ Qty" "0.066"
+			(at 128.27 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "2"
-			(uuid "a73f815a-5a87-413b-b068-72cdfed2529e")
+			(uuid "455176da-86ea-4941-b8de-d82c608c29ed")
+		)
+		(pin "1"
+			(uuid "ce7f43b5-e0dc-4755-8be2-7b29f9717c80")
 		)
 		(instances
 			(project "master_schematic"
 				(path "/c4f7e98c-e88d-49cc-9841-b70710a90a72/666fb9f9-c631-4136-ad00-30a1b375897d"
-					(reference "PT4")
+					(reference "R5")
 					(unit 1)
 				)
 			)

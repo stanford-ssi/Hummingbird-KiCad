@@ -1,4 +1,4 @@
-23864050152054511
+23871026159630544
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -34854,6 +34854,13 @@ Surface mounted pin header SMD 1x04 2.54mm single row style2 pin1 right
 4
 Connector_PinHeader_2.54mm
 PinHeader_1x05_P2.54mm_Horizontal
+Through hole angled pin header, 1x05, 2.54mm pitch, 6mm pin length, single row
+Through hole angled pin header THT 1x05 2.54mm single row
+0
+5
+5
+Connector_PinHeader_2.54mm
+PinHeader_1x05_P2.54mm_Horizontal_1
 Through hole angled pin header, 1x05, 2.54mm pitch, 6mm pin length, single row
 Through hole angled pin header THT 1x05 2.54mm single row
 0
@@ -96795,6 +96802,27 @@ Thermistor
 0
 2
 2
+hb_footprint_lib
+hx711_connector
+
+
+0
+6
+6
+hb_footprint_lib
+mcp9600_connector
+
+
+0
+0
+0
+hb_footprint_lib
+rfm95_connector
+
+
+0
+14
+9
 hb_footprint_lib
 teensy4.1
 

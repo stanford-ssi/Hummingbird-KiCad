@@ -5,6 +5,145 @@
 	(uuid "fdc0c4d2-16e2-4c4f-971b-08c33b354f37")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Connector_Generic:Conn_01x02"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x02"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x02_1_1"
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:D"
 			(pin_numbers hide)
 			(pin_names
@@ -152,163 +291,6 @@
 					(at 3.81 0 180)
 					(length 2.54)
 					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Device:L"
-			(pin_numbers hide)
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "L"
-				(at -1.27 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "L"
-				(at 1.905 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Inductor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "inductor choke coil reactor magnetic"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "L_0_1"
-				(arc
-					(start 0 -2.54)
-					(mid 0.6323 -1.905)
-					(end 0 -1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -1.27)
-					(mid 0.6323 -0.635)
-					(end 0 0)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 0)
-					(mid 0.6323 0.635)
-					(end 0 1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 1.27)
-					(mid 0.6323 1.905)
-					(end 0 2.54)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "L_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1031,16 +1013,6 @@
 		)
 		(uuid "eeb1576e-5e67-41ec-bf00-fa156084dd63")
 	)
-	(wire
-		(pts
-			(xy 77.47 85.09) (xy 77.47 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0172ed16-9b42-4315-9ab6-3f1bb2731c26")
-	)
 	(bus
 		(pts
 			(xy 162.56 31.75) (xy 175.26 31.75)
@@ -1053,7 +1025,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 120.65) (xy 69.85 121.92)
+			(xy 73.66 120.65) (xy 73.66 121.92)
 		)
 		(stroke
 			(width 0)
@@ -1083,7 +1055,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 88.9) (xy 132.08 90.17)
+			(xy 135.89 88.9) (xy 135.89 90.17)
 		)
 		(stroke
 			(width 0)
@@ -1103,7 +1075,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 120.65) (xy 69.85 120.65)
+			(xy 77.47 120.65) (xy 73.66 120.65)
 		)
 		(stroke
 			(width 0)
@@ -1113,23 +1085,13 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 80.01) (xy 194.31 80.01)
+			(xy 201.93 80.01) (xy 198.12 80.01)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "18ca3823-a47b-4fff-8eb7-78185f4769a3")
-	)
-	(wire
-		(pts
-			(xy 77.47 121.92) (xy 77.47 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1d057327-fc75-4d2b-8db6-b1201e2ee58e")
 	)
 	(bus
 		(pts
@@ -1143,7 +1105,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 44.45) (xy 201.93 44.45)
+			(xy 198.12 44.45) (xy 201.93 44.45)
 		)
 		(stroke
 			(width 0)
@@ -1163,13 +1125,23 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 43.18) (xy 139.7 44.45)
+			(xy 77.47 76.2) (xy 77.47 80.01)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2cb3a9e5-e8a8-4453-a9c9-80d09e8e755d")
+		(uuid "28ab278c-c1fe-478b-925b-fabf8a3db086")
+	)
+	(wire
+		(pts
+			(xy 139.7 80.01) (xy 139.7 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b521b4d-ae87-4cd9-919b-ed9ccdc9c4d8")
 	)
 	(wire
 		(pts
@@ -1180,6 +1152,16 @@
 			(type default)
 		)
 		(uuid "2cbc525c-6b57-4fad-80ea-c9d85a3f24e2")
+	)
+	(wire
+		(pts
+			(xy 201.93 127) (xy 201.93 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e1618db-2c00-47f6-bf1e-e8e0cde5cb69")
 	)
 	(wire
 		(pts
@@ -1203,7 +1185,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 172.72) (xy 77.47 173.99)
+			(xy 77.47 170.18) (xy 77.47 173.99)
 		)
 		(stroke
 			(width 0)
@@ -1223,7 +1205,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 129.54) (xy 77.47 130.81)
+			(xy 77.47 127) (xy 77.47 130.81)
 		)
 		(stroke
 			(width 0)
@@ -1233,7 +1215,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 34.29) (xy 132.08 34.29)
+			(xy 139.7 34.29) (xy 135.89 34.29)
 		)
 		(stroke
 			(width 0)
@@ -1243,7 +1225,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 88.9) (xy 201.93 90.17)
+			(xy 201.93 86.36) (xy 201.93 90.17)
 		)
 		(stroke
 			(width 0)
@@ -1253,7 +1235,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 30.48) (xy 69.85 30.48)
+			(xy 77.47 30.48) (xy 73.66 30.48)
 		)
 		(stroke
 			(width 0)
@@ -1263,7 +1245,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 90.17) (xy 201.93 90.17)
+			(xy 198.12 90.17) (xy 201.93 90.17)
 		)
 		(stroke
 			(width 0)
@@ -1283,7 +1265,17 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 30.48) (xy 69.85 31.75)
+			(xy 139.7 86.36) (xy 139.7 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "401f8bf9-d7f5-4f88-b9a2-27b926198cbb")
+	)
+	(wire
+		(pts
+			(xy 73.66 30.48) (xy 73.66 31.75)
 		)
 		(stroke
 			(width 0)
@@ -1293,7 +1285,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 85.09) (xy 69.85 86.36)
+			(xy 73.66 85.09) (xy 73.66 86.36)
 		)
 		(stroke
 			(width 0)
@@ -1303,7 +1295,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 137.16) (xy 201.93 137.16)
+			(xy 198.12 137.16) (xy 201.93 137.16)
 		)
 		(stroke
 			(width 0)
@@ -1333,7 +1325,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 39.37) (xy 69.85 40.64)
+			(xy 73.66 39.37) (xy 73.66 40.64)
 		)
 		(stroke
 			(width 0)
@@ -1343,7 +1335,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 165.1) (xy 77.47 163.83)
+			(xy 77.47 163.83) (xy 77.47 167.64)
 		)
 		(stroke
 			(width 0)
@@ -1353,7 +1345,17 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 34.29) (xy 132.08 35.56)
+			(xy 201.93 133.35) (xy 201.93 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5772e1ab-bde9-4142-b79f-fd785eaffd23")
+	)
+	(wire
+		(pts
+			(xy 135.89 34.29) (xy 135.89 35.56)
 		)
 		(stroke
 			(width 0)
@@ -1390,16 +1392,6 @@
 			(type default)
 		)
 		(uuid "5f04eaa2-59a3-4cc3-8c79-765bad7753ed")
-	)
-	(wire
-		(pts
-			(xy 201.93 135.89) (xy 201.93 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "634c8da3-39ee-47ce-84b7-5b0992cdfae8")
 	)
 	(wire
 		(pts
@@ -1443,7 +1435,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 39.37) (xy 77.47 40.64)
+			(xy 77.47 36.83) (xy 77.47 40.64)
 		)
 		(stroke
 			(width 0)
@@ -1453,7 +1445,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 76.2) (xy 69.85 77.47)
+			(xy 73.66 76.2) (xy 73.66 77.47)
 		)
 		(stroke
 			(width 0)
@@ -1473,7 +1465,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 43.18) (xy 201.93 44.45)
+			(xy 201.93 40.64) (xy 201.93 44.45)
 		)
 		(stroke
 			(width 0)
@@ -1493,16 +1485,6 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 81.28) (xy 139.7 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7c9ede46-d1d9-4d32-957a-1156119ec4bf")
-	)
-	(wire
-		(pts
 			(xy 238.76 26.67) (xy 238.76 34.29)
 		)
 		(stroke
@@ -1513,7 +1495,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 130.81) (xy 77.47 130.81)
+			(xy 73.66 130.81) (xy 77.47 130.81)
 		)
 		(stroke
 			(width 0)
@@ -1523,7 +1505,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 163.83) (xy 69.85 163.83)
+			(xy 77.47 163.83) (xy 73.66 163.83)
 		)
 		(stroke
 			(width 0)
@@ -1553,7 +1535,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 90.17) (xy 139.7 90.17)
+			(xy 135.89 90.17) (xy 139.7 90.17)
 		)
 		(stroke
 			(width 0)
@@ -1563,7 +1545,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 80.01) (xy 132.08 81.28)
+			(xy 135.89 80.01) (xy 135.89 81.28)
 		)
 		(stroke
 			(width 0)
@@ -1573,7 +1555,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 127) (xy 194.31 127)
+			(xy 201.93 127) (xy 198.12 127)
 		)
 		(stroke
 			(width 0)
@@ -1593,7 +1575,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 76.2) (xy 69.85 76.2)
+			(xy 77.47 76.2) (xy 73.66 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1613,7 +1595,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 127) (xy 194.31 128.27)
+			(xy 198.12 127) (xy 198.12 128.27)
 		)
 		(stroke
 			(width 0)
@@ -1623,7 +1605,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 129.54) (xy 69.85 130.81)
+			(xy 73.66 129.54) (xy 73.66 130.81)
 		)
 		(stroke
 			(width 0)
@@ -1643,7 +1625,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 173.99) (xy 77.47 173.99)
+			(xy 73.66 173.99) (xy 77.47 173.99)
 		)
 		(stroke
 			(width 0)
@@ -1653,7 +1635,27 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 40.64) (xy 77.47 40.64)
+			(xy 77.47 120.65) (xy 77.47 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a45087b3-2504-41ee-a503-dd8ff10680eb")
+	)
+	(wire
+		(pts
+			(xy 77.47 82.55) (xy 77.47 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5021be4-aea6-4a14-acdf-29cd3dec93c0")
+	)
+	(wire
+		(pts
+			(xy 73.66 40.64) (xy 77.47 40.64)
 		)
 		(stroke
 			(width 0)
@@ -1663,7 +1665,17 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 44.45) (xy 139.7 44.45)
+			(xy 139.7 40.64) (xy 139.7 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af5bfe0a-0948-4802-9110-aec4de23227e")
+	)
+	(wire
+		(pts
+			(xy 135.89 44.45) (xy 139.7 44.45)
 		)
 		(stroke
 			(width 0)
@@ -1673,13 +1685,23 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 35.56) (xy 201.93 34.29)
+			(xy 201.93 34.29) (xy 201.93 38.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "b2dcd0dd-cc97-4a8b-a4de-da4584cf147e")
+	)
+	(wire
+		(pts
+			(xy 77.47 30.48) (xy 77.47 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4f8b0be-cc47-4c52-8964-d2a7174f97b7")
 	)
 	(wire
 		(pts
@@ -1703,7 +1725,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 86.36) (xy 77.47 86.36)
+			(xy 73.66 86.36) (xy 77.47 86.36)
 		)
 		(stroke
 			(width 0)
@@ -1723,7 +1745,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 88.9) (xy 194.31 90.17)
+			(xy 198.12 88.9) (xy 198.12 90.17)
 		)
 		(stroke
 			(width 0)
@@ -1743,7 +1765,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 34.29) (xy 194.31 35.56)
+			(xy 198.12 34.29) (xy 198.12 35.56)
 		)
 		(stroke
 			(width 0)
@@ -1763,7 +1785,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 43.18) (xy 194.31 44.45)
+			(xy 198.12 43.18) (xy 198.12 44.45)
 		)
 		(stroke
 			(width 0)
@@ -1773,7 +1795,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 81.28) (xy 201.93 80.01)
+			(xy 201.93 80.01) (xy 201.93 83.82)
 		)
 		(stroke
 			(width 0)
@@ -1783,27 +1805,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 31.75) (xy 77.47 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cd906822-a184-4fcf-87c2-aa5b7ca753a1")
-	)
-	(wire
-		(pts
-			(xy 201.93 128.27) (xy 201.93 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ce027b72-dd1f-4299-9dbc-17e8ae696d0a")
-	)
-	(wire
-		(pts
-			(xy 69.85 163.83) (xy 69.85 165.1)
+			(xy 73.66 163.83) (xy 73.66 165.1)
 		)
 		(stroke
 			(width 0)
@@ -1843,7 +1845,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 34.29) (xy 194.31 34.29)
+			(xy 201.93 34.29) (xy 198.12 34.29)
 		)
 		(stroke
 			(width 0)
@@ -1863,7 +1865,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 43.18) (xy 132.08 44.45)
+			(xy 135.89 43.18) (xy 135.89 44.45)
 		)
 		(stroke
 			(width 0)
@@ -1873,7 +1875,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 80.01) (xy 132.08 80.01)
+			(xy 139.7 80.01) (xy 135.89 80.01)
 		)
 		(stroke
 			(width 0)
@@ -1913,7 +1915,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 35.56) (xy 139.7 34.29)
+			(xy 139.7 34.29) (xy 139.7 38.1)
 		)
 		(stroke
 			(width 0)
@@ -1923,23 +1925,13 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 172.72) (xy 69.85 173.99)
+			(xy 73.66 172.72) (xy 73.66 173.99)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "ef4d83ab-df74-47d3-8bf1-e6e65a518174")
-	)
-	(wire
-		(pts
-			(xy 139.7 88.9) (xy 139.7 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f3515be5-15b4-40a8-a263-a9f4d550ceed")
 	)
 	(wire
 		(pts
@@ -1953,7 +1945,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 80.01) (xy 194.31 81.28)
+			(xy 198.12 80.01) (xy 198.12 81.28)
 		)
 		(stroke
 			(width 0)
@@ -1963,17 +1955,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 77.47) (xy 77.47 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f6a63b52-eada-4e22-ba33-ab1e00435b5a")
-	)
-	(wire
-		(pts
-			(xy 194.31 135.89) (xy 194.31 137.16)
+			(xy 198.12 135.89) (xy 198.12 137.16)
 		)
 		(stroke
 			(width 0)
@@ -2235,6 +2217,129 @@
 		(uuid "e788e528-b37e-49ec-8c36-3269bc6bb7ee")
 	)
 	(symbol
+		(lib_id "Device:D")
+		(at 135.89 39.37 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0fd4bc5e-2034-4b3f-a855-1d8d578bf369")
+		(property "Reference" "D5"
+			(at 130.556 37.846 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SBRT20U60SP5-7"
+			(at 115.57 40.132 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "hb_footprint_lib:POWERDI5_DIO"
+			(at 135.89 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/SBRT20U60SP5.pdf"
+			(at 135.89 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode 60 V 20A Surface Mount PowerDI™ 5"
+			(at 135.89 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Diodes Incorporated"
+			(at 135.89 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part #" "SBRT20U60SP5-7"
+			(at 135.89 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 135.89 39.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part #" "SBRT20U60SP5-7DICT-ND"
+			(at 135.89 39.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Unit Cost" "0.78"
+			(at 135.89 39.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost @ Qty" "0.78"
+			(at 135.89 39.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8b7e37e5-5137-4cdb-9941-03106c36e8dd")
+		)
+		(pin "2"
+			(uuid "9eca54fd-b525-4cff-9b9f-a1bc6377ee9e")
+		)
+		(instances
+			(project "master_schematic"
+				(path "/c4f7e98c-e88d-49cc-9841-b70710a90a72/80ba4cbf-b15c-4feb-9ba0-eb5398786ffa"
+					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Transistor_FET:IRLZ34N")
 		(at 74.93 49.53 0)
 		(unit 1)
@@ -2253,7 +2358,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "IRLZ34NPBF"
+		(property "Value" "CWDM3011N TR13 PBFREE"
 			(at 81.28 50.7999 0)
 			(effects
 				(font
@@ -2262,7 +2367,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "IRLZ34NPBF:TO-220AB_INF"
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 80.01 51.435 0)
 			(effects
 				(font
@@ -2273,7 +2378,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.infineon.com/dgdl/irlz34npbf.pdf?fileId=5546d462533600a40153567206892720"
+		(property "Datasheet" "https://my.centralsemi.com/datasheets/CWDM3011N.PDF"
 			(at 80.01 53.34 0)
 			(effects
 				(font
@@ -2283,7 +2388,61 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "30A Id, 55V Vds, 35mOhm Rds, N-Channel HEXFET Power MOSFET, TO-220AB"
+		(property "Description" "N-Channel 30 V 11A (Ta) 2.5W (Ta) Surface Mount 8-SOIC"
+			(at 74.93 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Central Semiconductor Corp"
+			(at 74.93 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part #" "CWDM3011N TR13 PBFREE"
+			(at 74.93 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 74.93 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part #" "1514-CWDM3011NTR13PBFREECT-ND"
+			(at 74.93 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Unit Cost" "1.09"
+			(at 74.93 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost @ Qty" "1.09"
 			(at 74.93 49.53 0)
 			(effects
 				(font
@@ -2305,169 +2464,6 @@
 			(project "master_schematic"
 				(path "/c4f7e98c-e88d-49cc-9841-b70710a90a72/80ba4cbf-b15c-4feb-9ba0-eb5398786ffa"
 					(reference "Q1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:IRLZ34N")
-		(at 199.39 53.34 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1731b033-6fd7-44b8-8ccd-36ffd5f4ea9c")
-		(property "Reference" "Q7"
-			(at 205.74 52.0699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "IRLZ34NPBF"
-			(at 205.74 54.6099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "IRLZ34NPBF:TO-220AB_INF"
-			(at 204.47 55.245 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.infineon.com/dgdl/irlz34npbf.pdf?fileId=5546d462533600a40153567206892720"
-			(at 204.47 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "30A Id, 55V Vds, 35mOhm Rds, N-Channel HEXFET Power MOSFET, TO-220AB"
-			(at 199.39 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "4c0f8eed-2894-4d92-85ea-fec6e6b32c5e")
-		)
-		(pin "1"
-			(uuid "4ba4400b-f78c-458b-a78a-fe143cede4f7")
-		)
-		(pin "2"
-			(uuid "2f109899-e38e-4239-9877-4aa048327f3b")
-		)
-		(instances
-			(project "master_schematic"
-				(path "/c4f7e98c-e88d-49cc-9841-b70710a90a72/80ba4cbf-b15c-4feb-9ba0-eb5398786ffa"
-					(reference "Q7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D")
-		(at 69.85 168.91 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "18c6bd14-3340-4c5e-80d1-be4ab1557d51")
-		(property "Reference" "D4"
-			(at 64.516 167.386 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "FERD20H100STS"
-			(at 53.086 171.704 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 69.85 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 69.85 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode"
-			(at 69.85 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 69.85 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 69.85 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5c6c8542-91e8-417b-96f8-7fab315e2cae")
-		)
-		(pin "2"
-			(uuid "6d5f44a9-3b71-4c9e-bdaf-b0d4e0615b8c")
-		)
-		(instances
-			(project "master_schematic"
-				(path "/c4f7e98c-e88d-49cc-9841-b70710a90a72/80ba4cbf-b15c-4feb-9ba0-eb5398786ffa"
-					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -2540,6 +2536,136 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_FET:IRLZ34N")
+		(at 199.39 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "19e5eb86-d249-47ce-99c3-310f3a41d6f1")
+		(property "Reference" "Q8"
+			(at 205.74 97.7899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "CWDM3011N TR13 PBFREE"
+			(at 205.74 100.3299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 204.47 100.965 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://my.centralsemi.com/datasheets/CWDM3011N.PDF"
+			(at 204.47 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "N-Channel 30 V 11A (Ta) 2.5W (Ta) Surface Mount 8-SOIC"
+			(at 199.39 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Central Semiconductor Corp"
+			(at 199.39 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part #" "CWDM3011N TR13 PBFREE"
+			(at 199.39 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 199.39 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part #" "1514-CWDM3011NTR13PBFREECT-ND"
+			(at 199.39 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Unit Cost" "1.09"
+			(at 199.39 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost @ Qty" "1.09"
+			(at 199.39 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "4c3619e0-d99f-4487-af45-c556270e6ddd")
+		)
+		(pin "1"
+			(uuid "6c5c7333-236f-40b0-ac4a-520d67622052")
+		)
+		(pin "2"
+			(uuid "5042ef9d-5794-4e5f-9df6-b1e413f53ed6")
+		)
+		(instances
+			(project "master_schematic"
+				(path "/c4f7e98c-e88d-49cc-9841-b70710a90a72/80ba4cbf-b15c-4feb-9ba0-eb5398786ffa"
+					(reference "Q8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 139.7 104.14 0)
 		(unit 1)
@@ -2600,6 +2726,130 @@
 			(project "master_schematic"
 				(path "/c4f7e98c-e88d-49cc-9841-b70710a90a72/80ba4cbf-b15c-4feb-9ba0-eb5398786ffa"
 					(reference "#PWR043")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 144.78 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1e9e8358-2d2a-4c74-a2be-c469929868d6")
+		(property "Reference" "J5"
+			(at 147.32 38.0999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1723103102"
+			(at 147.32 40.6399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "hb_footprint_lib:CONN02_1723103102_MOL"
+			(at 144.78 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/1723103102?display=pdf"
+			(at 144.78 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Connector Header Through Hole, Right Angle 2 position 0.138\" (3.50mm)"
+			(at 144.78 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Molex"
+			(at 144.78 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part #" "1723103102"
+			(at 144.78 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 144.78 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part #" "900-1723103102-ND"
+			(at 144.78 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Unit Cost" "0.85"
+			(at 144.78 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost @ Qty" "0.85"
+			(at 144.78 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9bead39c-19f2-4359-92c7-47b253a8aa0c")
+		)
+		(pin "1"
+			(uuid "8ce6150e-c7b6-4baa-add9-d3bddfda2200")
+		)
+		(instances
+			(project "master_schematic"
+				(path "/c4f7e98c-e88d-49cc-9841-b70710a90a72/80ba4cbf-b15c-4feb-9ba0-eb5398786ffa"
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -2804,6 +3054,260 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 82.55 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2f722c23-10ed-48f7-8754-febb8d2e3596")
+		(property "Reference" "J2"
+			(at 85.09 80.0099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1723103102"
+			(at 85.09 82.5499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "hb_footprint_lib:CONN02_1723103102_MOL"
+			(at 82.55 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/1723103102?display=pdf"
+			(at 82.55 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Connector Header Through Hole, Right Angle 2 position 0.138\" (3.50mm)"
+			(at 82.55 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Molex"
+			(at 82.55 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part #" "1723103102"
+			(at 82.55 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 82.55 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part #" "900-1723103102-ND"
+			(at 82.55 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Unit Cost" "0.85"
+			(at 82.55 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost @ Qty" "0.85"
+			(at 82.55 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9802057b-6600-4e21-a940-4f99613bb589")
+		)
+		(pin "1"
+			(uuid "5cf8adfb-6bf7-4ff8-b0b1-abbb479ea855")
+		)
+		(instances
+			(project "master_schematic"
+				(path "/c4f7e98c-e88d-49cc-9841-b70710a90a72/80ba4cbf-b15c-4feb-9ba0-eb5398786ffa"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:IRLZ34N")
+		(at 137.16 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3ac3e3af-104e-4263-8a5c-0930fd5997db")
+		(property "Reference" "Q6"
+			(at 143.51 97.7899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "CWDM3011N TR13 PBFREE"
+			(at 143.51 100.3299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 142.24 100.965 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://my.centralsemi.com/datasheets/CWDM3011N.PDF"
+			(at 142.24 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "N-Channel 30 V 11A (Ta) 2.5W (Ta) Surface Mount 8-SOIC"
+			(at 137.16 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Central Semiconductor Corp"
+			(at 137.16 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part #" "CWDM3011N TR13 PBFREE"
+			(at 137.16 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 137.16 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part #" "1514-CWDM3011NTR13PBFREECT-ND"
+			(at 137.16 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Unit Cost" "1.09"
+			(at 137.16 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost @ Qty" "1.09"
+			(at 137.16 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "23fc150d-78fe-4cd8-82ae-1e7d060cbe43")
+		)
+		(pin "1"
+			(uuid "0dc8b6d9-c1ad-409b-b154-60a83d6675f0")
+		)
+		(pin "2"
+			(uuid "e8cf5687-c8cd-469a-8e5f-cfde4d2eab6f")
+		)
+		(instances
+			(project "master_schematic"
+				(path "/c4f7e98c-e88d-49cc-9841-b70710a90a72/80ba4cbf-b15c-4feb-9ba0-eb5398786ffa"
+					(reference "Q6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Transistor_FET:IRLZ34N")
 		(at 74.93 182.88 0)
 		(unit 1)
@@ -2812,7 +3316,7 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "31d79a82-5b5a-4e49-9da8-d706f251feca")
+		(uuid "40909cc6-dad9-4163-b9eb-fabbdd43a2f0")
 		(property "Reference" "Q4"
 			(at 81.28 181.6099 0)
 			(effects
@@ -2822,7 +3326,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "IRLZ34NPBF"
+		(property "Value" "CWDM3011N TR13 PBFREE"
 			(at 81.28 184.1499 0)
 			(effects
 				(font
@@ -2831,7 +3335,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "IRLZ34NPBF:TO-220AB_INF"
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 80.01 184.785 0)
 			(effects
 				(font
@@ -2842,7 +3346,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.infineon.com/dgdl/irlz34npbf.pdf?fileId=5546d462533600a40153567206892720"
+		(property "Datasheet" "https://my.centralsemi.com/datasheets/CWDM3011N.PDF"
 			(at 80.01 186.69 0)
 			(effects
 				(font
@@ -2852,7 +3356,61 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "30A Id, 55V Vds, 35mOhm Rds, N-Channel HEXFET Power MOSFET, TO-220AB"
+		(property "Description" "N-Channel 30 V 11A (Ta) 2.5W (Ta) Surface Mount 8-SOIC"
+			(at 74.93 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Central Semiconductor Corp"
+			(at 74.93 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part #" "CWDM3011N TR13 PBFREE"
+			(at 74.93 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 74.93 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part #" "1514-CWDM3011NTR13PBFREECT-ND"
+			(at 74.93 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Unit Cost" "1.09"
+			(at 74.93 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost @ Qty" "1.09"
 			(at 74.93 182.88 0)
 			(effects
 				(font
@@ -2862,13 +3420,13 @@
 			)
 		)
 		(pin "3"
-			(uuid "3a28c083-df62-4d70-b2aa-53523c33abad")
+			(uuid "ef435c08-7510-4d73-9b52-fcd6f0498dfd")
 		)
 		(pin "1"
-			(uuid "3739df2b-6453-4c9a-9946-4f3b374364bb")
+			(uuid "f732aa86-278f-4826-bfda-fa38ba55543a")
 		)
 		(pin "2"
-			(uuid "918655fe-024e-4827-ad75-a02feaed2a97")
+			(uuid "a9de8945-0845-4f69-9edf-c626daed36c6")
 		)
 		(instances
 			(project "master_schematic"
@@ -2880,17 +3438,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:L")
-		(at 139.7 39.37 0)
+		(lib_id "Transistor_FET:IRLZ34N")
+		(at 199.39 53.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "35760b51-4c95-45d2-8d1a-3847f5c796c3")
-		(property "Reference" "L5"
-			(at 140.97 38.0999 0)
+		(uuid "4147223e-065b-4682-9ad5-aa1dda03ffbc")
+		(property "Reference" "Q7"
+			(at 205.74 52.0699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2898,8 +3456,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Solenoid"
-			(at 140.97 40.6399 0)
+		(property "Value" "CWDM3011N TR13 PBFREE"
+			(at 205.74 54.6099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2907,8 +3465,29 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 139.7 39.37 0)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 204.47 55.245 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://my.centralsemi.com/datasheets/CWDM3011N.PDF"
+			(at 204.47 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "N-Channel 30 V 11A (Ta) 2.5W (Ta) Surface Mount 8-SOIC"
+			(at 199.39 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2916,8 +3495,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 139.7 39.37 0)
+		(property "Manufacturer" "Central Semiconductor Corp"
+			(at 199.39 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2925,25 +3504,194 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Inductor"
-			(at 139.7 39.37 0)
+		(property "Manufacturer Part #" "CWDM3011N TR13 PBFREE"
+			(at 199.39 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
+		)
+		(property "Supplier" "Digikey"
+			(at 199.39 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part #" "1514-CWDM3011NTR13PBFREECT-ND"
+			(at 199.39 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Unit Cost" "1.09"
+			(at 199.39 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost @ Qty" "1.09"
+			(at 199.39 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "4a72c099-9849-4e76-a39a-2b5e8304e9ba")
 		)
 		(pin "1"
-			(uuid "b127b652-195d-408e-be77-f4738949a815")
+			(uuid "420110b3-23bc-49be-a53e-048100a1a968")
 		)
 		(pin "2"
-			(uuid "89bbe8db-7a18-49f3-99b1-c6c4516240c0")
+			(uuid "4a2ba0ce-d93e-4e15-a731-f2f66da35bec")
 		)
 		(instances
 			(project "master_schematic"
 				(path "/c4f7e98c-e88d-49cc-9841-b70710a90a72/80ba4cbf-b15c-4feb-9ba0-eb5398786ffa"
-					(reference "L5")
+					(reference "Q7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:IRLZ34N")
+		(at 74.93 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "43578c93-ee62-4983-940f-e6a6c8294c17")
+		(property "Reference" "Q2"
+			(at 81.28 93.9799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "CWDM3011N TR13 PBFREE"
+			(at 81.28 96.5199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 80.01 97.155 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://my.centralsemi.com/datasheets/CWDM3011N.PDF"
+			(at 80.01 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "N-Channel 30 V 11A (Ta) 2.5W (Ta) Surface Mount 8-SOIC"
+			(at 74.93 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Central Semiconductor Corp"
+			(at 74.93 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part #" "CWDM3011N TR13 PBFREE"
+			(at 74.93 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 74.93 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part #" "1514-CWDM3011NTR13PBFREECT-ND"
+			(at 74.93 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Unit Cost" "1.09"
+			(at 74.93 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost @ Qty" "1.09"
+			(at 74.93 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "200f511e-18f5-47fa-942b-b060dbeb1b95")
+		)
+		(pin "1"
+			(uuid "8efe71d0-1443-4124-9454-fc37bdebc6d0")
+		)
+		(pin "2"
+			(uuid "ec31b4ba-a633-4c1d-b4ad-6a63ab39e13d")
+		)
+		(instances
+			(project "master_schematic"
+				(path "/c4f7e98c-e88d-49cc-9841-b70710a90a72/80ba4cbf-b15c-4feb-9ba0-eb5398786ffa"
+					(reference "Q2")
 					(unit 1)
 				)
 			)
@@ -2951,15 +3699,15 @@
 	)
 	(symbol
 		(lib_id "Device:D")
-		(at 194.31 39.37 270)
+		(at 73.66 168.91 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "406b1d63-e6f9-4702-b62e-6b1aed0f7b21")
-		(property "Reference" "D7"
-			(at 188.976 37.846 90)
+		(uuid "468826b7-4883-46be-b4ff-330ceca7f5e0")
+		(property "Reference" "D4"
+			(at 68.326 167.386 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2967,8 +3715,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "FERD20H100STS"
-			(at 177.546 42.164 90)
+		(property "Value" "SBRT20U60SP5-7"
+			(at 53.34 169.672 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2976,8 +3724,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 194.31 39.37 0)
+		(property "Footprint" "hb_footprint_lib:POWERDI5_DIO"
+			(at 73.66 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2985,8 +3733,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 194.31 39.37 0)
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/SBRT20U60SP5.pdf"
+			(at 73.66 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2994,8 +3742,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Diode"
-			(at 194.31 39.37 0)
+		(property "Description" "Diode 60 V 20A Surface Mount PowerDI™ 5"
+			(at 73.66 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3003,8 +3751,8 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" "D"
-			(at 194.31 39.37 0)
+		(property "Manufacturer" "Diodes Incorporated"
+			(at 73.66 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3012,8 +3760,44 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 194.31 39.37 0)
+		(property "Manufacturer Part #" "SBRT20U60SP5-7"
+			(at 73.66 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 73.66 168.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part #" "SBRT20U60SP5-7DICT-ND"
+			(at 73.66 168.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Unit Cost" "0.78"
+			(at 73.66 168.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost @ Qty" "0.78"
+			(at 73.66 168.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3022,85 +3806,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "eb79136e-2391-480b-822d-cf7a6d67fdb8")
+			(uuid "68c20b0c-980b-4561-9b2f-cdd6268e6c65")
 		)
 		(pin "2"
-			(uuid "3dab08ad-4d23-4171-8d98-1a5d05e1c46e")
+			(uuid "8b18411d-8e1a-4f7d-b7aa-72a44caee406")
 		)
 		(instances
 			(project "master_schematic"
 				(path "/c4f7e98c-e88d-49cc-9841-b70710a90a72/80ba4cbf-b15c-4feb-9ba0-eb5398786ffa"
-					(reference "D7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:L")
-		(at 201.93 39.37 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4f9f2335-0f32-4cf5-be22-6825a0d905d0")
-		(property "Reference" "L7"
-			(at 203.2 38.0999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Solenoid"
-			(at 203.2 40.6399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 201.93 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 201.93 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Inductor"
-			(at 201.93 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d0f08f0c-08b5-4dc9-bc65-38bbbaad49b2")
-		)
-		(pin "2"
-			(uuid "997412aa-c389-41e5-b88d-5102ef7090d7")
-		)
-		(instances
-			(project "master_schematic"
-				(path "/c4f7e98c-e88d-49cc-9841-b70710a90a72/80ba4cbf-b15c-4feb-9ba0-eb5398786ffa"
-					(reference "L7")
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -3115,7 +3829,7 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "58ad4056-a543-47a0-8174-1f11b8efb596")
+		(uuid "55927832-04e4-437a-b9ac-2da1e9bfaff1")
 		(property "Reference" "Q3"
 			(at 81.28 138.4299 0)
 			(effects
@@ -3125,7 +3839,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "IRLZ34NPBF"
+		(property "Value" "CWDM3011N TR13 PBFREE"
 			(at 81.28 140.9699 0)
 			(effects
 				(font
@@ -3134,7 +3848,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "IRLZ34NPBF:TO-220AB_INF"
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 80.01 141.605 0)
 			(effects
 				(font
@@ -3145,7 +3859,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.infineon.com/dgdl/irlz34npbf.pdf?fileId=5546d462533600a40153567206892720"
+		(property "Datasheet" "https://my.centralsemi.com/datasheets/CWDM3011N.PDF"
 			(at 80.01 143.51 0)
 			(effects
 				(font
@@ -3155,7 +3869,61 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "30A Id, 55V Vds, 35mOhm Rds, N-Channel HEXFET Power MOSFET, TO-220AB"
+		(property "Description" "N-Channel 30 V 11A (Ta) 2.5W (Ta) Surface Mount 8-SOIC"
+			(at 74.93 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Central Semiconductor Corp"
+			(at 74.93 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part #" "CWDM3011N TR13 PBFREE"
+			(at 74.93 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 74.93 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part #" "1514-CWDM3011NTR13PBFREECT-ND"
+			(at 74.93 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Unit Cost" "1.09"
+			(at 74.93 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost @ Qty" "1.09"
 			(at 74.93 139.7 0)
 			(effects
 				(font
@@ -3165,13 +3933,13 @@
 			)
 		)
 		(pin "3"
-			(uuid "f6b534d3-f0e4-445a-9545-e09afff583ac")
+			(uuid "951ae505-4afc-4565-9958-d3b0fafb6a4f")
 		)
 		(pin "1"
-			(uuid "0f8fb67e-e68e-4496-ab30-9dbc82a36290")
+			(uuid "de3bb4df-136e-4171-9459-2937f7b6cc80")
 		)
 		(pin "2"
-			(uuid "0fdcc8d2-94fb-48a4-a750-7b4833b7e0a0")
+			(uuid "2f61892e-f25d-410e-a5d1-489bda1ece50")
 		)
 		(instances
 			(project "master_schematic"
@@ -3249,17 +4017,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:L")
-		(at 77.47 81.28 0)
+		(lib_id "Device:D")
+		(at 135.89 85.09 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "619e938f-2d7b-4bd7-959c-204e07375e44")
-		(property "Reference" "L2"
-			(at 78.74 80.0099 0)
+		(uuid "6362c5fb-3b61-4b78-b2b7-969e95646fad")
+		(property "Reference" "D6"
+			(at 130.556 83.566 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3267,8 +4034,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Solenoid"
-			(at 78.74 82.5499 0)
+		(property "Value" "SBRT20U60SP5-7"
+			(at 115.57 85.852 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3276,8 +4043,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 77.47 81.28 0)
+		(property "Footprint" "hb_footprint_lib:POWERDI5_DIO"
+			(at 135.89 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3285,8 +4052,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 77.47 81.28 0)
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/SBRT20U60SP5.pdf"
+			(at 135.89 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3294,8 +4061,62 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Inductor"
-			(at 77.47 81.28 0)
+		(property "Description" "Diode 60 V 20A Surface Mount PowerDI™ 5"
+			(at 135.89 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Diodes Incorporated"
+			(at 135.89 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part #" "SBRT20U60SP5-7"
+			(at 135.89 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 135.89 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part #" "SBRT20U60SP5-7DICT-ND"
+			(at 135.89 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Unit Cost" "0.78"
+			(at 135.89 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost @ Qty" "0.78"
+			(at 135.89 85.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3304,32 +4125,32 @@
 			)
 		)
 		(pin "1"
-			(uuid "1592d615-ee1e-456f-8d06-40143188d957")
+			(uuid "026872a3-8264-4c96-879c-79e86f58e3f9")
 		)
 		(pin "2"
-			(uuid "926dc121-4483-4f21-983f-19cfbe9265ad")
+			(uuid "dc223538-02e9-47d6-855e-abfcae2dddd5")
 		)
 		(instances
 			(project "master_schematic"
 				(path "/c4f7e98c-e88d-49cc-9841-b70710a90a72/80ba4cbf-b15c-4feb-9ba0-eb5398786ffa"
-					(reference "L2")
+					(reference "D6")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:IRLZ34N")
-		(at 199.39 146.05 0)
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 82.55 34.29 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "63610744-3360-4692-b913-02db73d5f945")
-		(property "Reference" "Q9"
-			(at 205.74 144.7799 0)
+		(uuid "64aa1019-f089-4233-99f6-227ff84d2c0b")
+		(property "Reference" "J1"
+			(at 85.09 34.2899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3337,8 +4158,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "IRLZ34NPBF"
-			(at 205.74 147.3199 0)
+		(property "Value" "1723103102"
+			(at 85.09 36.8299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3346,29 +4167,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "IRLZ34NPBF:TO-220AB_INF"
-			(at 204.47 147.955 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.infineon.com/dgdl/irlz34npbf.pdf?fileId=5546d462533600a40153567206892720"
-			(at 204.47 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "30A Id, 55V Vds, 35mOhm Rds, N-Channel HEXFET Power MOSFET, TO-220AB"
-			(at 199.39 146.05 0)
+		(property "Footprint" "hb_footprint_lib:CONN02_1723103102_MOL"
+			(at 82.55 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3376,19 +4176,88 @@
 				(hide yes)
 			)
 		)
-		(pin "3"
-			(uuid "7fe52a78-13c7-41d2-8fe8-dcb1bfd3753f")
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/1723103102?display=pdf"
+			(at 82.55 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
-		(pin "1"
-			(uuid "55527d4e-defb-45e9-86b0-e7f28dc5dca8")
+		(property "Description" "Connector Header Through Hole, Right Angle 2 position 0.138\" (3.50mm)"
+			(at 82.55 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Molex"
+			(at 82.55 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part #" "1723103102"
+			(at 82.55 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 82.55 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part #" "900-1723103102-ND"
+			(at 82.55 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Unit Cost" "0.85"
+			(at 82.55 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost @ Qty" "0.85"
+			(at 82.55 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "2"
-			(uuid "9c64591e-2d1f-44a2-8420-e2cce1414ef2")
+			(uuid "9e0801d3-f1e0-4598-9f87-2b0fd4964372")
+		)
+		(pin "1"
+			(uuid "4312d01a-0d95-4af4-88d2-81ebe594b3f6")
 		)
 		(instances
-			(project "master_schematic"
+			(project ""
 				(path "/c4f7e98c-e88d-49cc-9841-b70710a90a72/80ba4cbf-b15c-4feb-9ba0-eb5398786ffa"
-					(reference "Q9")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -3455,6 +4324,136 @@
 			(project "master_schematic"
 				(path "/c4f7e98c-e88d-49cc-9841-b70710a90a72/80ba4cbf-b15c-4feb-9ba0-eb5398786ffa"
 					(reference "#PWR046")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:IRLZ34N")
+		(at 199.39 146.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6c9c0f7a-ea21-4a59-bee8-bfc1c3d4dccd")
+		(property "Reference" "Q9"
+			(at 205.74 144.7799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "CWDM3011N TR13 PBFREE"
+			(at 205.74 147.3199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 204.47 147.955 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://my.centralsemi.com/datasheets/CWDM3011N.PDF"
+			(at 204.47 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "N-Channel 30 V 11A (Ta) 2.5W (Ta) Surface Mount 8-SOIC"
+			(at 199.39 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Central Semiconductor Corp"
+			(at 199.39 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part #" "CWDM3011N TR13 PBFREE"
+			(at 199.39 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 199.39 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part #" "1514-CWDM3011NTR13PBFREECT-ND"
+			(at 199.39 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Unit Cost" "1.09"
+			(at 199.39 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost @ Qty" "1.09"
+			(at 199.39 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "90e050dc-f52f-4d50-8d5e-d500aac0194b")
+		)
+		(pin "1"
+			(uuid "66861039-0ee9-4d69-9a3c-85da8866845e")
+		)
+		(pin "2"
+			(uuid "8f2c5899-61c3-4edb-9734-1d1b7e99edad")
+		)
+		(instances
+			(project "master_schematic"
+				(path "/c4f7e98c-e88d-49cc-9841-b70710a90a72/80ba4cbf-b15c-4feb-9ba0-eb5398786ffa"
+					(reference "Q9")
 					(unit 1)
 				)
 			)
@@ -3593,104 +4592,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 132.08 85.09 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7ac9c8fb-73d9-4ca7-9eb5-fa8ab6aa40f6")
-		(property "Reference" "D6"
-			(at 126.746 83.566 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "FERD20H100STS"
-			(at 115.316 87.884 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 132.08 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 132.08 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode"
-			(at 132.08 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 132.08 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 132.08 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ee172970-71a4-4030-9ec4-2346fd75eaf3")
-		)
-		(pin "2"
-			(uuid "57405bba-3b02-417a-bdd7-297776f54d00")
-		)
-		(instances
-			(project "master_schematic"
-				(path "/c4f7e98c-e88d-49cc-9841-b70710a90a72/80ba4cbf-b15c-4feb-9ba0-eb5398786ffa"
-					(reference "D6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:L")
-		(at 77.47 125.73 0)
+		(lib_id "Transistor_FET:IRLZ34N")
+		(at 137.16 53.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "7c32c141-0d81-4dce-acc5-30f9c0e3e6c0")
-		(property "Reference" "L3"
-			(at 78.74 124.4599 0)
+		(uuid "757360e4-651c-4bf6-b39b-8a8e5cb6814b")
+		(property "Reference" "Q5"
+			(at 143.51 52.0699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3698,8 +4610,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Solenoid"
-			(at 78.74 126.9999 0)
+		(property "Value" "CWDM3011N TR13 PBFREE"
+			(at 143.51 54.6099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3707,8 +4619,29 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 77.47 125.73 0)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 142.24 55.245 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://my.centralsemi.com/datasheets/CWDM3011N.PDF"
+			(at 142.24 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "N-Channel 30 V 11A (Ta) 2.5W (Ta) Surface Mount 8-SOIC"
+			(at 137.16 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3716,8 +4649,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 77.47 125.73 0)
+		(property "Manufacturer" "Central Semiconductor Corp"
+			(at 137.16 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3725,25 +4658,64 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Inductor"
-			(at 77.47 125.73 0)
+		(property "Manufacturer Part #" "CWDM3011N TR13 PBFREE"
+			(at 137.16 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
+		)
+		(property "Supplier" "Digikey"
+			(at 137.16 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part #" "1514-CWDM3011NTR13PBFREECT-ND"
+			(at 137.16 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Unit Cost" "1.09"
+			(at 137.16 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost @ Qty" "1.09"
+			(at 137.16 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "f6fee817-36ea-4842-8d55-f6498bec96b0")
 		)
 		(pin "1"
-			(uuid "fceaf201-0ffa-4361-875e-5eec36aa1399")
+			(uuid "0426c799-051e-4498-98b3-8e1bc917fdba")
 		)
 		(pin "2"
-			(uuid "d6d217a8-3060-4494-9802-9a66afdc6585")
+			(uuid "536d54af-726c-4d8b-a5fb-e31cc50e8ee4")
 		)
 		(instances
 			(project "master_schematic"
 				(path "/c4f7e98c-e88d-49cc-9841-b70710a90a72/80ba4cbf-b15c-4feb-9ba0-eb5398786ffa"
-					(reference "L3")
+					(reference "Q5")
 					(unit 1)
 				)
 			)
@@ -3816,82 +4788,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:IRLZ34N")
-		(at 137.16 99.06 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8a524fdd-ff1c-4a70-ad10-74f1a09fdc8a")
-		(property "Reference" "Q6"
-			(at 143.51 97.7899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "IRLZ34NPBF"
-			(at 143.51 100.3299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "IRLZ34NPBF:TO-220AB_INF"
-			(at 142.24 100.965 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.infineon.com/dgdl/irlz34npbf.pdf?fileId=5546d462533600a40153567206892720"
-			(at 142.24 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "30A Id, 55V Vds, 35mOhm Rds, N-Channel HEXFET Power MOSFET, TO-220AB"
-			(at 137.16 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "4f494a10-1c14-467f-91c4-213669f3ac7a")
-		)
-		(pin "1"
-			(uuid "8d979c94-e7f5-4350-9e30-3ee0accaa0e7")
-		)
-		(pin "2"
-			(uuid "3397bf7e-1419-4195-973e-0ce06476fcfd")
-		)
-		(instances
-			(project "master_schematic"
-				(path "/c4f7e98c-e88d-49cc-9841-b70710a90a72/80ba4cbf-b15c-4feb-9ba0-eb5398786ffa"
-					(reference "Q6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 139.7 58.42 0)
 		(unit 1)
@@ -3952,76 +4848,6 @@
 			(project "master_schematic"
 				(path "/c4f7e98c-e88d-49cc-9841-b70710a90a72/80ba4cbf-b15c-4feb-9ba0-eb5398786ffa"
 					(reference "#PWR041")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:L")
-		(at 139.7 85.09 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8f80e1e0-7703-4941-8ce7-baa95df18d3a")
-		(property "Reference" "L6"
-			(at 140.97 83.8199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Solenoid"
-			(at 140.97 86.3599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 139.7 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 139.7 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Inductor"
-			(at 139.7 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fd6346a8-226f-4d83-8ede-a3469e1f299e")
-		)
-		(pin "2"
-			(uuid "b665c26c-6d14-4550-a9aa-ef8f3bec16cc")
-		)
-		(instances
-			(project "master_schematic"
-				(path "/c4f7e98c-e88d-49cc-9841-b70710a90a72/80ba4cbf-b15c-4feb-9ba0-eb5398786ffa"
-					(reference "L6")
 					(unit 1)
 				)
 			)
@@ -4094,16 +4920,140 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 69.85 125.73 270)
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 207.01 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "a4f48c9a-17d5-4296-9a1c-f21e827ba670")
+		(fields_autoplaced yes)
+		(uuid "94d9732a-9f9c-4a6b-beb7-049505f972ad")
+		(property "Reference" "J7"
+			(at 209.55 38.0999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1723103102"
+			(at 209.55 40.6399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "hb_footprint_lib:CONN02_1723103102_MOL"
+			(at 207.01 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/1723103102?display=pdf"
+			(at 207.01 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Connector Header Through Hole, Right Angle 2 position 0.138\" (3.50mm)"
+			(at 207.01 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Molex"
+			(at 207.01 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part #" "1723103102"
+			(at 207.01 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 207.01 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part #" "900-1723103102-ND"
+			(at 207.01 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Unit Cost" "0.85"
+			(at 207.01 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost @ Qty" "0.85"
+			(at 207.01 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d9dda943-2747-460d-81ab-74635798be2f")
+		)
+		(pin "1"
+			(uuid "b352b122-d439-4c10-b9ad-3642d1473145")
+		)
+		(instances
+			(project "master_schematic"
+				(path "/c4f7e98c-e88d-49cc-9841-b70710a90a72/80ba4cbf-b15c-4feb-9ba0-eb5398786ffa"
+					(reference "J7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 73.66 125.73 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "962f0718-6375-44dc-96d8-9a90a5a19ca5")
 		(property "Reference" "D3"
-			(at 64.516 124.206 90)
+			(at 68.326 124.206 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4111,8 +5061,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "FERD20H100STS"
-			(at 53.086 128.524 90)
+		(property "Value" "SBRT20U60SP5-7"
+			(at 53.34 126.492 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4120,8 +5070,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 69.85 125.73 0)
+		(property "Footprint" "hb_footprint_lib:POWERDI5_DIO"
+			(at 73.66 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4129,8 +5079,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 69.85 125.73 0)
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/SBRT20U60SP5.pdf"
+			(at 73.66 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4138,8 +5088,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Diode"
-			(at 69.85 125.73 0)
+		(property "Description" "Diode 60 V 20A Surface Mount PowerDI™ 5"
+			(at 73.66 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4147,8 +5097,8 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" "D"
-			(at 69.85 125.73 0)
+		(property "Manufacturer" "Diodes Incorporated"
+			(at 73.66 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4156,8 +5106,44 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 69.85 125.73 0)
+		(property "Manufacturer Part #" "SBRT20U60SP5-7"
+			(at 73.66 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 73.66 125.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part #" "SBRT20U60SP5-7DICT-ND"
+			(at 73.66 125.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Unit Cost" "0.78"
+			(at 73.66 125.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost @ Qty" "0.78"
+			(at 73.66 125.73 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4166,10 +5152,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "00276a19-eb16-4f2b-acb1-ef5ab139f8f9")
+			(uuid "d43a54cd-2b8e-4ec5-8a52-918a70da3abf")
 		)
 		(pin "2"
-			(uuid "d6e75e2d-5dff-4036-8cfd-04cb3c5d2295")
+			(uuid "34af5fe8-3c80-4dc8-b2ce-1be814139a24")
 		)
 		(instances
 			(project "master_schematic"
@@ -4181,17 +5167,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:IRLZ34N")
-		(at 137.16 53.34 0)
+		(lib_id "Device:D")
+		(at 198.12 85.09 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ae5bbb6e-75ac-4b14-aad9-065d128feec4")
-		(property "Reference" "Q5"
-			(at 143.51 52.0699 0)
+		(uuid "9880e3e7-893c-40a2-b384-7af957609e45")
+		(property "Reference" "D8"
+			(at 192.786 83.566 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4199,8 +5184,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "IRLZ34NPBF"
-			(at 143.51 54.6099 0)
+		(property "Value" "SBRT20U60SP5-7"
+			(at 177.8 85.852 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4208,29 +5193,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "IRLZ34NPBF:TO-220AB_INF"
-			(at 142.24 55.245 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.infineon.com/dgdl/irlz34npbf.pdf?fileId=5546d462533600a40153567206892720"
-			(at 142.24 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "30A Id, 55V Vds, 35mOhm Rds, N-Channel HEXFET Power MOSFET, TO-220AB"
-			(at 137.16 53.34 0)
+		(property "Footprint" "hb_footprint_lib:POWERDI5_DIO"
+			(at 198.12 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4238,19 +5202,88 @@
 				(hide yes)
 			)
 		)
-		(pin "3"
-			(uuid "25552578-022e-49bf-b179-80af19f777cc")
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/SBRT20U60SP5.pdf"
+			(at 198.12 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode 60 V 20A Surface Mount PowerDI™ 5"
+			(at 198.12 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Diodes Incorporated"
+			(at 198.12 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part #" "SBRT20U60SP5-7"
+			(at 198.12 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 198.12 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part #" "SBRT20U60SP5-7DICT-ND"
+			(at 198.12 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Unit Cost" "0.78"
+			(at 198.12 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost @ Qty" "0.78"
+			(at 198.12 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "1"
-			(uuid "be5b1853-1c02-4382-b877-fa3a6cfc17ba")
+			(uuid "ba96b649-a679-4501-8d1d-f2d656311897")
 		)
 		(pin "2"
-			(uuid "0f2622c0-9b57-4742-b162-052e98fef092")
+			(uuid "bde3dedb-fecb-4eb4-a4b9-ccfb06dde67b")
 		)
 		(instances
 			(project "master_schematic"
 				(path "/c4f7e98c-e88d-49cc-9841-b70710a90a72/80ba4cbf-b15c-4feb-9ba0-eb5398786ffa"
-					(reference "Q5")
+					(reference "D8")
 					(unit 1)
 				)
 			)
@@ -4324,15 +5357,15 @@
 	)
 	(symbol
 		(lib_id "Device:D")
-		(at 194.31 85.09 270)
+		(at 198.12 39.37 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "b877ad7c-5c56-4332-8977-874f0de81ab1")
-		(property "Reference" "D8"
-			(at 188.976 83.566 90)
+		(uuid "c1bf1ff0-dd5d-4c4f-8444-36990c5c5d00")
+		(property "Reference" "D7"
+			(at 192.786 37.846 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4340,8 +5373,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "FERD20H100STS"
-			(at 177.546 87.884 90)
+		(property "Value" "SBRT20U60SP5-7"
+			(at 177.8 40.132 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4349,8 +5382,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 194.31 85.09 0)
+		(property "Footprint" "hb_footprint_lib:POWERDI5_DIO"
+			(at 198.12 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4358,8 +5391,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 194.31 85.09 0)
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/SBRT20U60SP5.pdf"
+			(at 198.12 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4367,8 +5400,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Diode"
-			(at 194.31 85.09 0)
+		(property "Description" "Diode 60 V 20A Surface Mount PowerDI™ 5"
+			(at 198.12 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4376,8 +5409,8 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" "D"
-			(at 194.31 85.09 0)
+		(property "Manufacturer" "Diodes Incorporated"
+			(at 198.12 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4385,8 +5418,44 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 194.31 85.09 0)
+		(property "Manufacturer Part #" "SBRT20U60SP5-7"
+			(at 198.12 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 198.12 39.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part #" "SBRT20U60SP5-7DICT-ND"
+			(at 198.12 39.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Unit Cost" "0.78"
+			(at 198.12 39.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost @ Qty" "0.78"
+			(at 198.12 39.37 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4395,32 +5464,32 @@
 			)
 		)
 		(pin "1"
-			(uuid "c8315180-d8bf-4e9d-a84a-eef9be43eddf")
+			(uuid "6436732f-3f34-4d0f-a6f6-f70574d007bb")
 		)
 		(pin "2"
-			(uuid "afcf6793-5937-4a6f-afee-fe34d08da390")
+			(uuid "555cb63e-c1bb-4626-9dc6-dea0e8c1ac09")
 		)
 		(instances
 			(project "master_schematic"
 				(path "/c4f7e98c-e88d-49cc-9841-b70710a90a72/80ba4cbf-b15c-4feb-9ba0-eb5398786ffa"
-					(reference "D8")
+					(reference "D7")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:IRLZ34N")
-		(at 74.93 95.25 0)
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 207.01 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "bec257e3-b4b4-4bf1-916b-35ce01c04c39")
-		(property "Reference" "Q2"
-			(at 81.28 93.9799 0)
+		(uuid "c27e7fcd-2e41-4b69-bc27-75a4b4184710")
+		(property "Reference" "J8"
+			(at 209.55 83.8199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4428,8 +5497,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "IRLZ34NPBF"
-			(at 81.28 96.5199 0)
+		(property "Value" "1723103102"
+			(at 209.55 86.3599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4437,29 +5506,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "IRLZ34NPBF:TO-220AB_INF"
-			(at 80.01 97.155 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.infineon.com/dgdl/irlz34npbf.pdf?fileId=5546d462533600a40153567206892720"
-			(at 80.01 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "30A Id, 55V Vds, 35mOhm Rds, N-Channel HEXFET Power MOSFET, TO-220AB"
-			(at 74.93 95.25 0)
+		(property "Footprint" "hb_footprint_lib:CONN02_1723103102_MOL"
+			(at 207.01 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4467,106 +5515,88 @@
 				(hide yes)
 			)
 		)
-		(pin "3"
-			(uuid "1f75aae9-7295-4cad-b372-f14f0512cd33")
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/1723103102?display=pdf"
+			(at 207.01 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
-		(pin "1"
-			(uuid "a00321a6-371b-469e-bb50-bafdcc4ced68")
+		(property "Description" "Connector Header Through Hole, Right Angle 2 position 0.138\" (3.50mm)"
+			(at 207.01 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Molex"
+			(at 207.01 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part #" "1723103102"
+			(at 207.01 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 207.01 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part #" "900-1723103102-ND"
+			(at 207.01 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Unit Cost" "0.85"
+			(at 207.01 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost @ Qty" "0.85"
+			(at 207.01 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "2"
-			(uuid "61af3a7f-02c9-4625-9eea-a6d3859294b4")
+			(uuid "7eb3716c-ff12-43e5-8d0f-54ac529fd8ad")
+		)
+		(pin "1"
+			(uuid "ab75ee05-9ddf-4a75-80f9-a17a898331a5")
 		)
 		(instances
 			(project "master_schematic"
 				(path "/c4f7e98c-e88d-49cc-9841-b70710a90a72/80ba4cbf-b15c-4feb-9ba0-eb5398786ffa"
-					(reference "Q2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D")
-		(at 69.85 81.28 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "bf10d60a-9dc8-45e5-a9bc-963615aed0fd")
-		(property "Reference" "D2"
-			(at 64.516 79.756 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "FERD20H100STS"
-			(at 53.086 84.074 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 69.85 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 69.85 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode"
-			(at 69.85 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 69.85 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 69.85 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6a168195-7edc-4cd0-835a-38561ac83fa3")
-		)
-		(pin "2"
-			(uuid "4502825b-fb05-425b-bd4f-f38258239f9c")
-		)
-		(instances
-			(project "master_schematic"
-				(path "/c4f7e98c-e88d-49cc-9841-b70710a90a72/80ba4cbf-b15c-4feb-9ba0-eb5398786ffa"
-					(reference "D2")
+					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -4639,104 +5669,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 132.08 39.37 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c5012aed-17bb-40b8-937b-05ec7c8831bf")
-		(property "Reference" "D5"
-			(at 126.746 37.846 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "FERD20H100STS"
-			(at 115.316 42.164 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 132.08 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 132.08 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode"
-			(at 132.08 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 132.08 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 132.08 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4f0acaea-ed02-432a-9d78-b65c1bffbb2e")
-		)
-		(pin "2"
-			(uuid "3dbaabcb-80e3-4acb-8f81-f36be9637c50")
-		)
-		(instances
-			(project "master_schematic"
-				(path "/c4f7e98c-e88d-49cc-9841-b70710a90a72/80ba4cbf-b15c-4feb-9ba0-eb5398786ffa"
-					(reference "D5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:L")
-		(at 201.93 132.08 0)
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 82.55 167.64 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "c801a678-117a-48d7-b43e-2d368b8b097d")
-		(property "Reference" "L9"
-			(at 203.2 130.8099 0)
+		(uuid "c8154864-97d4-4bf7-93bc-e3cc4adcb485")
+		(property "Reference" "J4"
+			(at 85.09 167.6399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4744,8 +5687,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Solenoid"
-			(at 203.2 133.3499 0)
+		(property "Value" "1723103102"
+			(at 85.09 170.1799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4753,8 +5696,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 201.93 132.08 0)
+		(property "Footprint" "hb_footprint_lib:CONN02_1723103102_MOL"
+			(at 82.55 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4762,8 +5705,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 201.93 132.08 0)
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/1723103102?display=pdf"
+			(at 82.55 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4771,8 +5714,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Inductor"
-			(at 201.93 132.08 0)
+		(property "Description" "Connector Header Through Hole, Right Angle 2 position 0.138\" (3.50mm)"
+			(at 82.55 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4780,16 +5723,70 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "0527ceab-0a32-474f-a8b2-6afb362bdca0")
+		(property "Manufacturer" "Molex"
+			(at 82.55 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part #" "1723103102"
+			(at 82.55 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 82.55 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part #" "900-1723103102-ND"
+			(at 82.55 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Unit Cost" "0.85"
+			(at 82.55 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost @ Qty" "0.85"
+			(at 82.55 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "2"
-			(uuid "fcbdaebd-0b39-4f4c-b791-4d8b98ec32a3")
+			(uuid "f2c1901f-7dc1-48c2-9b2f-cc811b043e24")
+		)
+		(pin "1"
+			(uuid "e73959d0-2cae-42fb-9375-4f970a891da4")
 		)
 		(instances
 			(project "master_schematic"
 				(path "/c4f7e98c-e88d-49cc-9841-b70710a90a72/80ba4cbf-b15c-4feb-9ba0-eb5398786ffa"
-					(reference "L9")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -4862,84 +5859,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:IRLZ34N")
-		(at 199.39 99.06 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ce108e6f-6d55-4b13-9069-7d01c96d1609")
-		(property "Reference" "Q8"
-			(at 205.74 97.7899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "IRLZ34NPBF"
-			(at 205.74 100.3299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "IRLZ34NPBF:TO-220AB_INF"
-			(at 204.47 100.965 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.infineon.com/dgdl/irlz34npbf.pdf?fileId=5546d462533600a40153567206892720"
-			(at 204.47 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "30A Id, 55V Vds, 35mOhm Rds, N-Channel HEXFET Power MOSFET, TO-220AB"
-			(at 199.39 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "a786a451-59a7-466a-84d5-10ecd24b61c5")
-		)
-		(pin "1"
-			(uuid "04814eb6-7033-4ea2-91ae-5d73ff1bf1cc")
-		)
-		(pin "2"
-			(uuid "3f997b8b-9ca2-40be-a3c2-4015d1542cf0")
-		)
-		(instances
-			(project "master_schematic"
-				(path "/c4f7e98c-e88d-49cc-9841-b70710a90a72/80ba4cbf-b15c-4feb-9ba0-eb5398786ffa"
-					(reference "Q8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:D")
-		(at 69.85 35.56 270)
+		(at 73.66 35.56 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4947,7 +5868,7 @@
 		(dnp no)
 		(uuid "cf87f5a3-7cb7-45b1-ace0-f02f0ac86496")
 		(property "Reference" "D1"
-			(at 64.516 34.036 90)
+			(at 68.326 34.036 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4955,8 +5876,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "FERD20H100STS"
-			(at 53.086 38.354 90)
+		(property "Value" "SBRT20U60SP5-7"
+			(at 53.34 36.322 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4964,8 +5885,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 69.85 35.56 0)
+		(property "Footprint" "hb_footprint_lib:POWERDI5_DIO"
+			(at 73.66 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4973,8 +5894,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 69.85 35.56 0)
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/SBRT20U60SP5.pdf"
+			(at 73.66 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4982,8 +5903,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Diode"
-			(at 69.85 35.56 0)
+		(property "Description" "Diode 60 V 20A Surface Mount PowerDI™ 5"
+			(at 73.66 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4991,8 +5912,8 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" "D"
-			(at 69.85 35.56 0)
+		(property "Manufacturer" "Diodes Incorporated"
+			(at 73.66 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5000,8 +5921,44 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 69.85 35.56 0)
+		(property "Manufacturer Part #" "SBRT20U60SP5-7"
+			(at 73.66 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 73.66 35.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part #" "SBRT20U60SP5-7DICT-ND"
+			(at 73.66 35.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Unit Cost" "0.78"
+			(at 73.66 35.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost @ Qty" "0.78"
+			(at 73.66 35.56 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5091,17 +6048,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:L")
-		(at 201.93 85.09 0)
+		(lib_id "Device:D")
+		(at 73.66 81.28 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d917d610-8595-40b7-9863-a344526a11a4")
-		(property "Reference" "L8"
-			(at 203.2 83.8199 0)
+		(uuid "d6de4bc0-a0d7-4df0-81cd-b6471a7ef879")
+		(property "Reference" "D2"
+			(at 68.326 79.756 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5109,8 +6065,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Solenoid"
-			(at 203.2 86.3599 0)
+		(property "Value" "SBRT20U60SP5-7"
+			(at 53.34 82.042 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5118,8 +6074,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 201.93 85.09 0)
+		(property "Footprint" "hb_footprint_lib:POWERDI5_DIO"
+			(at 73.66 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5127,8 +6083,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 201.93 85.09 0)
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/SBRT20U60SP5.pdf"
+			(at 73.66 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5136,8 +6092,62 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Inductor"
-			(at 201.93 85.09 0)
+		(property "Description" "Diode 60 V 20A Surface Mount PowerDI™ 5"
+			(at 73.66 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Diodes Incorporated"
+			(at 73.66 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part #" "SBRT20U60SP5-7"
+			(at 73.66 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 73.66 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part #" "SBRT20U60SP5-7DICT-ND"
+			(at 73.66 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Unit Cost" "0.78"
+			(at 73.66 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost @ Qty" "0.78"
+			(at 73.66 81.28 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5146,32 +6156,32 @@
 			)
 		)
 		(pin "1"
-			(uuid "cc59aefb-6888-47da-ab00-005a910bcd8f")
+			(uuid "d9ae506a-29c1-48b9-9a10-f40dd40d1063")
 		)
 		(pin "2"
-			(uuid "4825a02e-f270-4e42-bfc6-b068096023a3")
+			(uuid "36c12b2a-5c8c-4815-a091-301bcc895244")
 		)
 		(instances
 			(project "master_schematic"
 				(path "/c4f7e98c-e88d-49cc-9841-b70710a90a72/80ba4cbf-b15c-4feb-9ba0-eb5398786ffa"
-					(reference "L8")
+					(reference "D2")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:L")
-		(at 77.47 35.56 0)
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 144.78 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "dc5f2798-9f5d-4a2e-8545-fe8ff25af4d5")
-		(property "Reference" "L1"
-			(at 78.74 34.2899 0)
+		(uuid "de2fc6e2-0d87-4810-80f3-d28cf96ef357")
+		(property "Reference" "J6"
+			(at 147.32 83.8199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5179,8 +6189,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Solenoid"
-			(at 78.74 36.8299 0)
+		(property "Value" "1723103102"
+			(at 147.32 86.3599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5188,8 +6198,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 77.47 35.56 0)
+		(property "Footprint" "hb_footprint_lib:CONN02_1723103102_MOL"
+			(at 144.78 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5197,8 +6207,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 77.47 35.56 0)
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/1723103102?display=pdf"
+			(at 144.78 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5206,8 +6216,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Inductor"
-			(at 77.47 35.56 0)
+		(property "Description" "Connector Header Through Hole, Right Angle 2 position 0.138\" (3.50mm)"
+			(at 144.78 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5215,16 +6225,70 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "c4450c7e-8884-474f-91d1-77235f577705")
+		(property "Manufacturer" "Molex"
+			(at 144.78 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part #" "1723103102"
+			(at 144.78 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 144.78 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part #" "900-1723103102-ND"
+			(at 144.78 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Unit Cost" "0.85"
+			(at 144.78 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost @ Qty" "0.85"
+			(at 144.78 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "2"
-			(uuid "dc6d9028-e668-4dc2-8590-390ddb2bd2aa")
+			(uuid "4ab05f2b-cda5-491a-ac15-413c2add954d")
+		)
+		(pin "1"
+			(uuid "be4b38bb-7a34-47ea-ac3d-cd7e4d7b5a7e")
 		)
 		(instances
 			(project "master_schematic"
 				(path "/c4f7e98c-e88d-49cc-9841-b70710a90a72/80ba4cbf-b15c-4feb-9ba0-eb5398786ffa"
-					(reference "L1")
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -5297,104 +6361,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 194.31 132.08 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "eb270d26-0022-4923-9b32-c3969f2f7851")
-		(property "Reference" "D9"
-			(at 188.976 130.556 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "FERD20H100STS"
-			(at 177.546 134.874 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 194.31 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 194.31 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode"
-			(at 194.31 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 194.31 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 194.31 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "233f1bc0-bb97-401b-b6bc-af21058e171b")
-		)
-		(pin "2"
-			(uuid "61b6fca8-feb1-4baf-88f0-3039dcab2cbe")
-		)
-		(instances
-			(project "master_schematic"
-				(path "/c4f7e98c-e88d-49cc-9841-b70710a90a72/80ba4cbf-b15c-4feb-9ba0-eb5398786ffa"
-					(reference "D9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:L")
-		(at 77.47 168.91 0)
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 207.01 130.81 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "f1cc68f8-8dbb-4a49-84e4-fcb0b64287ce")
-		(property "Reference" "L4"
-			(at 78.74 167.6399 0)
+		(uuid "e4c3a9d0-4ceb-4971-9cce-7cd5fd4b8c21")
+		(property "Reference" "J9"
+			(at 209.55 130.8099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5402,8 +6379,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Solenoid"
-			(at 78.74 170.1799 0)
+		(property "Value" "1723103102"
+			(at 209.55 133.3499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5411,8 +6388,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 77.47 168.91 0)
+		(property "Footprint" "hb_footprint_lib:CONN02_1723103102_MOL"
+			(at 207.01 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5420,8 +6397,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 77.47 168.91 0)
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/1723103102?display=pdf"
+			(at 207.01 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5429,8 +6406,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Inductor"
-			(at 77.47 168.91 0)
+		(property "Description" "Connector Header Through Hole, Right Angle 2 position 0.138\" (3.50mm)"
+			(at 207.01 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5438,16 +6415,194 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "7ea6c290-a79a-41e3-bc6d-c3c958d13a0f")
+		(property "Manufacturer" "Molex"
+			(at 207.01 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part #" "1723103102"
+			(at 207.01 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 207.01 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part #" "900-1723103102-ND"
+			(at 207.01 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Unit Cost" "0.85"
+			(at 207.01 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost @ Qty" "0.85"
+			(at 207.01 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "2"
-			(uuid "91488c33-cd37-4468-bd5b-480b5e4911de")
+			(uuid "54f45f6a-b095-45d7-a5b0-2cc584ab12a7")
+		)
+		(pin "1"
+			(uuid "edf93868-df5e-4fd8-b9bd-cb1a4bf1e6ca")
 		)
 		(instances
 			(project "master_schematic"
 				(path "/c4f7e98c-e88d-49cc-9841-b70710a90a72/80ba4cbf-b15c-4feb-9ba0-eb5398786ffa"
-					(reference "L4")
+					(reference "J9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 82.55 124.46 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ee9d154b-459b-44b3-bc34-7beb5ae31a51")
+		(property "Reference" "J3"
+			(at 85.09 124.4599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1723103102"
+			(at 85.09 126.9999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "hb_footprint_lib:CONN02_1723103102_MOL"
+			(at 82.55 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/1723103102?display=pdf"
+			(at 82.55 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Connector Header Through Hole, Right Angle 2 position 0.138\" (3.50mm)"
+			(at 82.55 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Molex"
+			(at 82.55 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part #" "1723103102"
+			(at 82.55 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 82.55 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part #" "900-1723103102-ND"
+			(at 82.55 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Unit Cost" "0.85"
+			(at 82.55 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost @ Qty" "0.85"
+			(at 82.55 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "df4ba7df-9b90-4188-ba79-cd6ed44eab4d")
+		)
+		(pin "1"
+			(uuid "c8121f8b-40d4-4b40-80a2-5abbe67bff0a")
+		)
+		(instances
+			(project "master_schematic"
+				(path "/c4f7e98c-e88d-49cc-9841-b70710a90a72/80ba4cbf-b15c-4feb-9ba0-eb5398786ffa"
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -5646,6 +6801,129 @@
 			(project "master_schematic"
 				(path "/c4f7e98c-e88d-49cc-9841-b70710a90a72/80ba4cbf-b15c-4feb-9ba0-eb5398786ffa"
 					(reference "#PWR045")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 198.12 132.08 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fad89f20-ef6d-46f5-b207-b4a4b53ab84b")
+		(property "Reference" "D9"
+			(at 192.786 130.556 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SBRT20U60SP5-7"
+			(at 177.8 132.842 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "hb_footprint_lib:POWERDI5_DIO"
+			(at 198.12 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/SBRT20U60SP5.pdf"
+			(at 198.12 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode 60 V 20A Surface Mount PowerDI™ 5"
+			(at 198.12 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Diodes Incorporated"
+			(at 198.12 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part #" "SBRT20U60SP5-7"
+			(at 198.12 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 198.12 132.08 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part #" "SBRT20U60SP5-7DICT-ND"
+			(at 198.12 132.08 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Unit Cost" "0.78"
+			(at 198.12 132.08 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost @ Qty" "0.78"
+			(at 198.12 132.08 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b289b725-d913-46f6-8da7-30d390610d71")
+		)
+		(pin "2"
+			(uuid "e407a115-87b3-45e0-acf3-00cffe74b6cb")
+		)
+		(instances
+			(project "master_schematic"
+				(path "/c4f7e98c-e88d-49cc-9841-b70710a90a72/80ba4cbf-b15c-4feb-9ba0-eb5398786ffa"
+					(reference "D9")
 					(unit 1)
 				)
 			)

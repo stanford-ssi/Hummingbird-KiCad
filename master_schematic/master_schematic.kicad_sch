@@ -5,6 +5,145 @@
 	(uuid "c4f7e98c-e88d-49cc-9841-b70710a90a72")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Connector_Generic:Conn_01x02"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x02"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x02_1_1"
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Converter_DCDC:Ag9905LP"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2689,7 +2828,7 @@
 		(uuid "63b69d29-05e6-418b-b197-50bba7566e5f")
 	)
 	(no_connect
-		(at 125.73 48.26)
+		(at 205.74 92.71)
 		(uuid "65897f21-6418-45da-84e6-48a789ef3b81")
 	)
 	(no_connect
@@ -3040,7 +3179,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 43.18) (xy 93.98 45.72)
+			(xy 173.99 87.63) (xy 173.99 90.17)
 		)
 		(stroke
 			(width 0)
@@ -3170,6 +3309,16 @@
 	)
 	(wire
 		(pts
+			(xy 182.88 115.57) (xy 182.88 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a16aa7e-7da0-4e5b-b4f0-e27ce9e4f0f1")
+	)
+	(wire
+		(pts
 			(xy 69.85 129.54) (xy 87.63 129.54)
 		)
 		(stroke
@@ -3180,7 +3329,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 45.72) (xy 135.89 45.72)
+			(xy 205.74 90.17) (xy 215.9 90.17)
 		)
 		(stroke
 			(width 0)
@@ -3210,7 +3359,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 43.18) (xy 135.89 45.72)
+			(xy 215.9 87.63) (xy 215.9 90.17)
 		)
 		(stroke
 			(width 0)
@@ -3220,7 +3369,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 45.72) (xy 105.41 45.72)
+			(xy 173.99 90.17) (xy 185.42 90.17)
 		)
 		(stroke
 			(width 0)
@@ -3420,13 +3569,23 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 50.8) (xy 105.41 50.8)
+			(xy 173.99 95.25) (xy 185.42 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "796aa83d-f6a5-404b-b8b4-f06cc0c7e1a1")
+	)
+	(wire
+		(pts
+			(xy 182.88 107.95) (xy 182.88 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "798a0ce6-89c8-461c-abcc-0070fab93277")
 	)
 	(wire
 		(pts
@@ -3460,7 +3619,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 50.8) (xy 135.89 50.8)
+			(xy 205.74 95.25) (xy 215.9 95.25)
 		)
 		(stroke
 			(width 0)
@@ -3748,6 +3907,16 @@
 		)
 		(uuid "c3292ce1-bd46-4020-8875-a5946d8b3f84")
 	)
+	(wire
+		(pts
+			(xy 182.88 113.03) (xy 185.42 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c875395a-00c5-487a-b826-28c3f79476d7")
+	)
 	(bus
 		(pts
 			(xy 234.95 55.88) (xy 245.11 55.88)
@@ -3837,6 +4006,16 @@
 			(type default)
 		)
 		(uuid "e2ea290c-96ba-4be0-85dc-ccb0ce80bf2b")
+	)
+	(wire
+		(pts
+			(xy 182.88 110.49) (xy 185.42 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3cc0777-e7e6-44e1-912b-bc8628347f2c")
 	)
 	(bus
 		(pts
@@ -4653,7 +4832,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "20696cc5-e001-4568-a61c-ed8bbfc598ca")
@@ -4684,7 +4863,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.amazon.com/ExpertPower-EXP1270-Rechargeable-Lead-Battery/dp/B003S1RQ2S/ref=sr_1_7?crid=1JHK8EXIGQQ7H&dib=eyJ2IjoiMSJ9.tPjFFP7jkCl5qY3Rv_IoV_hrAXuqe_qS8_vOgY1n_s_uEHBbHhYznYA_toMfjEW-Dj32IoUz4UqSUoxeb17ccL9X9B4Mi-qaM9l6Q_wPe5mSoPkmDc7BbHfr6LluB8sAfzSOalknZIUhQDeLWYhPPm-lppKOv85oy8zFNLJNXNFV5_oO3gMLAfMdoAjpPBmcuAPeCC77ASp8y58Gle43Z_qDCBN1C3UNsinaIqbRqreriTgFaOGKeNoKIHDsd2wL6t2SmdBlXikEdUnwhCJTEv1pt-KWL6ZCnia4NrYCXvIuRyaNWSEfat3QNTRB-xf8-Ebv6x3DpKsdJLfvxM9UOQWQti3XMp0F48lPROoutZg.4e0Z-tOi5nXgAY1xIeXtXvJCRX9MtSnw_4xDpxFnca0&dib_tag=se&keywords=12v%2Bbattery&qid=1741645307&s=automotive&sprefix=12v%2Bbattery%2Cautomotive%2C163&sr=1-7&th=1"
 			(at 187.96 61.976 90)
 			(effects
 				(font
@@ -4693,7 +4872,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Multiple-cell battery"
+		(property "Description" "ExpertPower 12v 7ah Rechargeable Sealed Lead Acid Battery"
 			(at 187.96 63.5 0)
 			(effects
 				(font
@@ -4718,11 +4897,77 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+12V")
+		(at 182.88 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "45157325-4a91-4c90-bb35-147e411c826c")
+		(property "Reference" "#PWR049"
+			(at 182.88 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 182.88 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 182.88 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 182.88 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 182.88 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d9b88b2b-6300-4e84-a191-b0a3096684e7")
+		)
+		(instances
+			(project ""
+				(path "/c4f7e98c-e88d-49cc-9841-b70710a90a72"
+					(reference "#PWR049")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "hb_symbol_lib:teensy_4.1")
 		(at 107.95 132.08 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "52075538-e5df-4aed-a4e4-82e9882ad86c")
@@ -5228,16 +5473,16 @@
 	)
 	(symbol
 		(lib_id "Converter_DCDC:Ag9905LP")
-		(at 115.57 48.26 0)
+		(at 195.58 92.71 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7c3fdea7-8646-455d-b8b9-65461fee9ec1")
 		(property "Reference" "U15"
-			(at 115.57 38.1 0)
+			(at 195.58 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5245,7 +5490,7 @@
 			)
 		)
 		(property "Value" "EA50 Power Converter"
-			(at 115.57 40.64 0)
+			(at 195.58 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5253,7 +5498,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 115.57 53.34 0)
+			(at 195.58 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5262,7 +5507,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.amazon.com/EPBOWPT-Converter-Regulator-Supply-Transformer/dp/B01M03288J/ref=sr_1_8?crid=319ROMQ48GEIS&dib=eyJ2IjoiMSJ9.MOFGVt_gYJa_sRkeExrvaocKk-1KyEwUz61HleLKENfqK0QijmQQkoy1MTlK0emOfTkhLpeT7EbKw14UHy6VtTFk9W6niHLmNekxtQw75sHQX9-ykt-Kc0xlonP0UJ1wDOnqY5HoreLRVitFi4haWklBqw45Bbek8MXLUh7m_oRybSMIw_bEAwNOb7DoV2Z8OpAH1GLVnXlCFN4QnVDUTWYWgXbbnCTaxFMHcldSnFEfCoaHiAUFLlGUy4LzEAwyWMtNAPNJKxlKDhNRMxufU0d5tHKr0gnpkKpseoN8orwdLnQNq-KJyDIejkYojzIkm7UR6z-geDbfb7YMeFBJ3_iOx1LvB6d9CtQCtfMmEJQ.BzAZiZxpuOjYGYkgUasBhWN1dsYIzqdgf68EJnNXsY0&dib_tag=se&keywords=12v+to+5v+Converter&qid=1743369786&s=electronics&sprefix=12v+to+5v+converter%2Celectronics%2C142&sr=1-8"
-			(at 115.57 55.88 0)
+			(at 195.58 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5271,7 +5516,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 115.57 48.26 0)
+			(at 195.58 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5313,6 +5558,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 182.88 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7e62f0ae-7620-4828-b940-6b2e903a8c60")
+		(property "Reference" "#PWR050"
+			(at 182.88 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 182.88 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 182.88 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 182.88 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 182.88 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "92f63efd-b826-45a3-9b8c-3ba730a8f0c0")
+		)
+		(instances
+			(project ""
+				(path "/c4f7e98c-e88d-49cc-9841-b70710a90a72"
+					(reference "#PWR050")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "hb_symbol_lib:radio_module_900MHz")
 		(at 69.85 35.56 0)
 		(unit 1)
@@ -5338,7 +5649,7 @@
 				)
 			)
 		)
-		(property "Footprint" "hb_footprint_lib:Radio_Module"
+		(property "Footprint" "hb_footprint_lib:rfm95_connector"
 			(at 81.28 35.56 0)
 			(effects
 				(font
@@ -5347,7 +5658,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://learn.adafruit.com/adafruit-rfm69hcw-and-rfm96-rfm95-rfm98-lora-packet-padio-breakouts/overview"
 			(at 81.28 35.56 0)
 			(effects
 				(font
@@ -5616,7 +5927,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 135.89 43.18 0)
+		(at 215.9 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5625,7 +5936,7 @@
 		(fields_autoplaced yes)
 		(uuid "c4fe58f3-0564-4539-8dc1-f4b1e435c002")
 		(property "Reference" "#PWR038"
-			(at 135.89 46.99 0)
+			(at 215.9 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5634,7 +5945,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 135.89 38.1 0)
+			(at 215.9 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5642,7 +5953,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 135.89 43.18 0)
+			(at 215.9 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5651,7 +5962,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 135.89 43.18 0)
+			(at 215.9 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5660,7 +5971,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 135.89 43.18 0)
+			(at 215.9 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5681,8 +5992,132 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 190.5 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e0861ee0-c57d-46d6-b69e-f1837cc90d34")
+		(property "Reference" "J19"
+			(at 193.04 110.4899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x02_Shielded"
+			(at 193.04 113.0299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "hb_footprint_lib:AMASS_XT60PW-M"
+			(at 190.5 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2401181031_Changzhou-Amass-Elec-XT60PW-M_C98732.pdf"
+			(at 190.5 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Changzhou Amass Elec XT60PW-M"
+			(at 190.5 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Changzhou Amass Elec"
+			(at 190.5 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part #" "XT60PW-M"
+			(at 190.5 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 190.5 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part #" "C98732"
+			(at 190.5 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Unit Cost" "0.59"
+			(at 190.5 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost @ Qty" "0.59"
+			(at 190.5 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1d3b6213-2ba3-4398-9adc-078d03010460")
+		)
+		(pin "1"
+			(uuid "cec4785e-ccc5-485b-9eaf-80d0d0c75dcf")
+		)
+		(instances
+			(project ""
+				(path "/c4f7e98c-e88d-49cc-9841-b70710a90a72"
+					(reference "J19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+12V")
-		(at 93.98 43.18 0)
+		(at 173.99 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5691,7 +6126,7 @@
 		(fields_autoplaced yes)
 		(uuid "eb3a3085-a90c-4691-bda6-206e5586de5d")
 		(property "Reference" "#PWR036"
-			(at 93.98 46.99 0)
+			(at 173.99 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5700,7 +6135,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 93.98 38.1 0)
+			(at 173.99 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5708,7 +6143,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 93.98 43.18 0)
+			(at 173.99 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5717,7 +6152,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 93.98 43.18 0)
+			(at 173.99 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5726,7 +6161,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 93.98 43.18 0)
+			(at 173.99 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5748,7 +6183,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 93.98 50.8 0)
+		(at 173.99 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5757,7 +6192,7 @@
 		(fields_autoplaced yes)
 		(uuid "f8734b05-8f9f-481f-b3c5-074d2fa8986c")
 		(property "Reference" "#PWR037"
-			(at 93.98 57.15 0)
+			(at 173.99 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5766,7 +6201,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 93.98 55.88 0)
+			(at 173.99 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5774,7 +6209,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 93.98 50.8 0)
+			(at 173.99 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5783,7 +6218,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 93.98 50.8 0)
+			(at 173.99 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5792,7 +6227,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 93.98 50.8 0)
+			(at 173.99 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5814,7 +6249,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 135.89 50.8 0)
+		(at 215.9 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5823,7 +6258,7 @@
 		(fields_autoplaced yes)
 		(uuid "fadf6ede-5b6a-4dec-9e37-baaf025fb4aa")
 		(property "Reference" "#PWR039"
-			(at 135.89 57.15 0)
+			(at 215.9 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5832,7 +6267,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 135.89 55.88 0)
+			(at 215.9 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5840,7 +6275,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 135.89 50.8 0)
+			(at 215.9 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5849,7 +6284,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 135.89 50.8 0)
+			(at 215.9 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5858,7 +6293,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 135.89 50.8 0)
+			(at 215.9 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)

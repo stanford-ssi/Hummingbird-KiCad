@@ -2049,16 +2049,16 @@
 	)
 	(symbol
 		(lib_id "hb_symbol_lib:hx711_load_cell_amplifier")
-		(at 106.68 125.73 0)
+		(at 106.68 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "39818dba-9f43-4433-bcfc-6a606e974535")
-		(property "Reference" "U13"
-			(at 106.68 109.22 0)
+		(uuid "4cf94aee-000c-4eeb-9423-490210e1d24d")
+		(property "Reference" "U9"
+			(at 106.68 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2066,15 +2066,15 @@
 			)
 		)
 		(property "Value" "HX711"
-			(at 106.68 111.76 0)
+			(at 106.68 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x06_P1.00mm_Vertical"
-			(at 105.664 125.73 90)
+		(property "Footprint" "hb_footprint_lib:hx711_connector"
+			(at 105.664 91.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2082,8 +2082,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 106.934 125.73 90)
+		(property "Datasheet" "https://learn.adafruit.com/adafruit-hx711-24-bit-adc"
+			(at 106.934 91.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2092,7 +2092,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 106.934 125.73 90)
+			(at 106.934 91.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2101,45 +2101,45 @@
 			)
 		)
 		(pin "7"
-			(uuid "ed4f563e-d441-4f3f-8b22-745793304a6b")
+			(uuid "c0619814-9714-429a-8c35-9eb361cc35bb")
 		)
 		(pin "4"
-			(uuid "92499d41-9980-4bbe-9cdc-b364351684ec")
+			(uuid "4a822ad9-2f6d-4375-b61e-f94f0bdc7764")
 		)
 		(pin "9"
-			(uuid "395998a9-4b9a-4948-b3ba-5811f1fea1cc")
+			(uuid "ba98983c-a68c-43fa-b7f0-12aedf9ff75e")
 		)
 		(pin "11"
-			(uuid "fd2e7080-ec77-45c8-94e5-e8ecd26c0007")
+			(uuid "746d7546-a31c-4f15-b7e0-3b5546ad5945")
 		)
 		(pin "6"
-			(uuid "3d2a7973-ac37-4474-983a-8975926b6df8")
+			(uuid "75c3abbd-d7d5-4fbd-91f9-e0a272483ae0")
 		)
 		(pin "1"
-			(uuid "abb94b97-0cce-479c-8729-9ec435a69af5")
+			(uuid "750513a4-1615-442f-9c1d-c21fa87d513a")
 		)
 		(pin "5"
-			(uuid "9d8d6620-06dc-44cd-8460-a05d8045dd6c")
+			(uuid "926aa466-89cc-4ea7-b1e1-c3b89072c65a")
 		)
 		(pin "8"
-			(uuid "69175e11-3ffb-4148-8160-5a8e3d283371")
+			(uuid "3c79ba8d-28d0-4165-90a4-2e85dac9c25a")
 		)
 		(pin "12"
-			(uuid "e10f3b11-47a2-4c44-93bf-02a102d8c131")
+			(uuid "f7e46ab6-9517-4542-b72c-9ed51e0b499b")
 		)
 		(pin "3"
-			(uuid "f1173dfd-d532-45c3-8c38-ac745ee94a2a")
+			(uuid "733ce8fe-25f9-4d7f-bc38-efe154c01bed")
 		)
 		(pin "10"
-			(uuid "f0423902-5e37-49ca-a519-aa89f4803527")
+			(uuid "a6d21f4f-f8ad-439c-a342-b9d888ab33a0")
 		)
 		(pin "2"
-			(uuid "10951e86-b55a-4ff5-9184-845cb6a2d77f")
+			(uuid "d68486e0-d9c2-42c5-832e-3022127efcda")
 		)
 		(instances
 			(project "master_schematic"
 				(path "/c4f7e98c-e88d-49cc-9841-b70710a90a72/0c2b79c8-c5dd-4fa2-8a84-72fd6742794a"
-					(reference "U13")
+					(reference "U9")
 					(unit 1)
 				)
 			)
@@ -2150,8 +2150,8 @@
 		(at 143.51 124.46 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(in_bom no)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4dcdd53b-53c9-44ed-ada7-690c9dcf5721")
@@ -2314,7 +2314,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x06_P1.00mm_Vertical"
+		(property "Footprint" "hb_footprint_lib:hx711_connector"
 			(at 105.664 57.15 90)
 			(effects
 				(font
@@ -2323,7 +2323,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://learn.adafruit.com/adafruit-hx711-24-bit-adc"
 			(at 106.934 57.15 90)
 			(effects
 				(font
@@ -2453,12 +2453,110 @@
 		)
 	)
 	(symbol
-		(lib_id "hb_symbol_lib:load_cell_yzc516_50kg")
-		(at 143.51 90.17 0)
+		(lib_id "hb_symbol_lib:hx711_load_cell_amplifier")
+		(at 106.68 125.73 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bd6d3657-c855-4550-8730-c676ecf48ebe")
+		(property "Reference" "U11"
+			(at 106.68 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "HX711"
+			(at 106.68 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "hb_footprint_lib:hx711_connector"
+			(at 105.664 125.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://learn.adafruit.com/adafruit-hx711-24-bit-adc"
+			(at 106.934 125.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 106.934 125.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "bb18e9fb-c087-46d8-9c42-6f4905e936e7")
+		)
+		(pin "4"
+			(uuid "04e38bbc-7cda-4b9c-b44e-6361a5df5099")
+		)
+		(pin "9"
+			(uuid "c83376fe-cfc6-4990-a7b1-ddba89544994")
+		)
+		(pin "11"
+			(uuid "9c0a33ec-5bed-4e13-84fa-f5c3dd711662")
+		)
+		(pin "6"
+			(uuid "fb55ae38-45db-490b-b6e5-167c5eada296")
+		)
+		(pin "1"
+			(uuid "37695472-8594-40cb-8810-68d365bd3fd8")
+		)
+		(pin "5"
+			(uuid "656480b4-9600-4060-a076-7d61d6974a47")
+		)
+		(pin "8"
+			(uuid "558af166-2500-4be4-a551-831f83c187eb")
+		)
+		(pin "12"
+			(uuid "b765485f-561a-410f-9189-efb4fe6d4ba7")
+		)
+		(pin "3"
+			(uuid "098bf512-2e34-4860-8300-a3020dcbcce8")
+		)
+		(pin "10"
+			(uuid "9a46edcc-c846-4848-934c-c8c17a229fe5")
+		)
+		(pin "2"
+			(uuid "8e55bedf-bc80-4676-b734-a8bfd8745937")
+		)
+		(instances
+			(project "master_schematic"
+				(path "/c4f7e98c-e88d-49cc-9841-b70710a90a72/0c2b79c8-c5dd-4fa2-8a84-72fd6742794a"
+					(reference "U11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "hb_symbol_lib:load_cell_yzc516_50kg")
+		(at 143.51 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c9cf6b69-519d-4603-b0ee-1e9a17d1a467")
@@ -2534,8 +2632,8 @@
 		(at 143.51 55.88 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(in_bom no)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e9c767fa-b861-4d99-bc69-25ee32121fda")
@@ -2601,104 +2699,6 @@
 			(project ""
 				(path "/c4f7e98c-e88d-49cc-9841-b70710a90a72/0c2b79c8-c5dd-4fa2-8a84-72fd6742794a"
 					(reference "U3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "hb_symbol_lib:hx711_load_cell_amplifier")
-		(at 106.68 91.44 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ed89fe61-a41b-4ea2-b7aa-9591deb298ae")
-		(property "Reference" "U11"
-			(at 106.68 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "HX711"
-			(at 106.68 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x06_P1.00mm_Vertical"
-			(at 105.664 91.44 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 106.934 91.44 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 106.934 91.44 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "7"
-			(uuid "f82c9ba6-6d23-46e9-bb5f-b4f9ca20d463")
-		)
-		(pin "4"
-			(uuid "acbbf808-99e8-4268-8f09-a72f6911ae6f")
-		)
-		(pin "9"
-			(uuid "23bdb51a-98b6-43ed-9954-b651b32f157c")
-		)
-		(pin "11"
-			(uuid "f772db7c-8544-4d48-af49-e7f3804c0335")
-		)
-		(pin "6"
-			(uuid "bce00e46-6452-4ece-b2f0-9fecaf87dcac")
-		)
-		(pin "1"
-			(uuid "c27138e6-77c3-428f-b989-de549a0e13ee")
-		)
-		(pin "5"
-			(uuid "03a91de0-f2a3-4bf8-beb2-91f3dd2929fc")
-		)
-		(pin "8"
-			(uuid "740833d7-98b6-40c8-9ddc-ea7b12b30bbd")
-		)
-		(pin "12"
-			(uuid "5b777da9-2965-4c5f-841f-d768756b51a0")
-		)
-		(pin "3"
-			(uuid "3c0b4d75-1964-4fd4-9ba1-42a99f3d3ea4")
-		)
-		(pin "10"
-			(uuid "e86630ef-6cfd-42df-b810-a7ce006e3024")
-		)
-		(pin "2"
-			(uuid "93b6744e-cdc1-479b-8104-f19754dd73b3")
-		)
-		(instances
-			(project "master_schematic"
-				(path "/c4f7e98c-e88d-49cc-9841-b70710a90a72/0c2b79c8-c5dd-4fa2-8a84-72fd6742794a"
-					(reference "U11")
 					(unit 1)
 				)
 			)

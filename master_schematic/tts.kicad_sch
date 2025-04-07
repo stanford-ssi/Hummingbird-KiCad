@@ -1160,6 +1160,7 @@
 		(uuid "b4cdb0d3-d975-43fe-8862-934d1e15327e")
 	)
 	(symbol
+		(lib_name "hb_symbol_lib:MCP9600_Module")
 		(lib_id "hb_symbol_lib:MCP9600_Module")
 		(at 59.69 77.47 0)
 		(unit 1)
@@ -1168,7 +1169,7 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "29924d44-f4e3-4f87-8036-d26ef8f1c713")
+		(uuid "4f274d54-0642-4fc5-9723-2979ea406827")
 		(property "Reference" "U5"
 			(at 59.055 73.66 0)
 			(effects
@@ -1185,7 +1186,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "hb_footprint_lib:mcp9600_connector"
 			(at 59.69 77.47 0)
 			(effects
 				(font
@@ -1194,7 +1195,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://learn.adafruit.com/adafruit-mcp9600-i2c-thermocouple-amplifier/overview"
 			(at 59.69 77.47 0)
 			(effects
 				(font
@@ -1213,303 +1214,36 @@
 			)
 		)
 		(pin "1"
-			(uuid "4bcd401e-1dc3-431a-be94-a8fd29aca558")
+			(uuid "aa6d2a19-a492-4447-a402-2db6f1b2afad")
 		)
 		(pin "7"
-			(uuid "6f7fdda8-5c3e-44cf-be51-2e640189aeda")
+			(uuid "e7752aa3-9d54-4949-9bed-9c4aaddad548")
 		)
 		(pin "5"
-			(uuid "51ecef6c-d3ad-4def-aa60-93ae963c5767")
+			(uuid "203078e8-0408-49cb-8c18-7db16c80e74b")
 		)
 		(pin "4"
-			(uuid "045d83bb-7f88-4396-ab11-d7dc1e79e1c7")
+			(uuid "61a62f8b-a965-41fd-93c4-fcbc7a72016c")
 		)
 		(pin "6"
-			(uuid "5e68da8a-6acf-417b-9359-ac145083fdbb")
+			(uuid "9f2790f1-0495-4b59-ab93-add19ddd1604")
 		)
 		(pin "3"
-			(uuid "552cafb5-469d-4105-9172-9c3d0ef73b67")
+			(uuid "4d0f9a17-1fed-42e9-b1c3-8ad7ce5fbf51")
 		)
 		(pin "2"
-			(uuid "ce4957d7-12de-422c-a20e-c6610c0c80bd")
+			(uuid "3799cf14-91cf-4fed-9471-35fb8f6de3fd")
 		)
 		(pin "8"
-			(uuid "709a7feb-92fd-405c-9248-1133f94e84de")
+			(uuid "6d756a3f-8f6e-4ded-be7d-79b0558e0163")
 		)
 		(pin "8"
-			(uuid "2a725328-f37e-4a0d-8dee-03806944711b")
+			(uuid "cc669d17-8a4b-44be-a194-7a12e08181a4")
 		)
 		(instances
 			(project "master_schematic"
 				(path "/c4f7e98c-e88d-49cc-9841-b70710a90a72/ac0b5093-6e20-433c-b604-e10ee3af976c"
 					(reference "U5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "hb_symbol_lib:MCP9600_Module")
-		(at 101.6 77.47 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "66f86459-eb1c-4cb7-9998-054caad32f9d")
-		(property "Reference" "U8"
-			(at 100.965 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MCP9600_Module"
-			(at 100.965 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 101.6 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 101.6 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 101.6 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "89bfc5b1-146c-43f1-86e5-286ffeea19b4")
-		)
-		(pin "7"
-			(uuid "4c94db2e-7dce-4ac2-8256-e7bfa74510f2")
-		)
-		(pin "5"
-			(uuid "5e4cf7e7-2700-4166-b349-0cf02b6231ba")
-		)
-		(pin "4"
-			(uuid "50e4b9d7-d019-452f-8c86-ebb1327e184a")
-		)
-		(pin "6"
-			(uuid "19a9fb3a-a70c-4f2f-a763-48dc99c2fdfc")
-		)
-		(pin "3"
-			(uuid "d41589f5-5c9a-4db9-92a2-ae00cfacc3dc")
-		)
-		(pin "2"
-			(uuid "2f174f8d-97e6-4cab-84a6-4a0f155209fc")
-		)
-		(pin "8"
-			(uuid "c8aa4e32-fe3b-48cc-af10-555d3e916f78")
-		)
-		(pin "8"
-			(uuid "be62e5ba-73b8-4445-8593-942fd2e1e0bc")
-		)
-		(instances
-			(project "master_schematic"
-				(path "/c4f7e98c-e88d-49cc-9841-b70710a90a72/ac0b5093-6e20-433c-b604-e10ee3af976c"
-					(reference "U8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "hb_symbol_lib:MCP9600_Module")
-		(at 101.6 48.26 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "76c4b55b-8adb-4dc0-9c60-0b7d201d2f15")
-		(property "Reference" "U7"
-			(at 100.965 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MCP9600_Module"
-			(at 100.965 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 101.6 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 101.6 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 101.6 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7f3fc818-b342-4662-ada5-79ea68b742a0")
-		)
-		(pin "7"
-			(uuid "5b2fba6a-5257-403b-8709-3b9ef87cc068")
-		)
-		(pin "5"
-			(uuid "dbc25135-aec8-462c-8c77-0719eb0ec6a7")
-		)
-		(pin "4"
-			(uuid "09609cd5-e095-4cf2-8498-418e5df23662")
-		)
-		(pin "6"
-			(uuid "ee7e3e2c-4504-4e3a-bd09-9066c90f620d")
-		)
-		(pin "3"
-			(uuid "b0395549-16d9-49a4-92a1-04e217592c7b")
-		)
-		(pin "2"
-			(uuid "7ba65ae6-16db-4209-8c22-8e12fd8863e3")
-		)
-		(pin "8"
-			(uuid "1fce23f3-c48b-4b5e-9b08-cfa6d3caad6d")
-		)
-		(pin "8"
-			(uuid "37fcd8b2-dd9d-4c7a-8cee-bfd6f2cf36e7")
-		)
-		(instances
-			(project "master_schematic"
-				(path "/c4f7e98c-e88d-49cc-9841-b70710a90a72/ac0b5093-6e20-433c-b604-e10ee3af976c"
-					(reference "U7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "hb_symbol_lib:MCP9600_Module")
-		(at 59.69 105.41 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b4eadd5a-246f-4132-ba80-7d66d5bf6ef9")
-		(property "Reference" "U6"
-			(at 59.055 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MCP9600_Module"
-			(at 59.055 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 59.69 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 59.69 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 59.69 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5450d314-cfe1-4e67-ae85-43c38f334cb3")
-		)
-		(pin "7"
-			(uuid "e656b31d-863b-4193-bc31-6e8dbc7800fc")
-		)
-		(pin "5"
-			(uuid "52d7e4d0-5d62-4555-8adc-f2d6adcc511f")
-		)
-		(pin "4"
-			(uuid "34873ec9-c417-4ab1-81e4-acdab875f72a")
-		)
-		(pin "6"
-			(uuid "5d0fd102-1dbe-4ba6-882a-516ef0dab3c0")
-		)
-		(pin "3"
-			(uuid "fe9536d3-d3e6-4518-a2ce-45bcf9ff2238")
-		)
-		(pin "2"
-			(uuid "54a27959-c672-4f06-8cd4-c27f295cfbaa")
-		)
-		(pin "8"
-			(uuid "def45604-a6c8-4c2d-a018-15502e896da0")
-		)
-		(pin "8"
-			(uuid "701a2fac-2c78-47be-9fa1-e6a1c1dafb79")
-		)
-		(instances
-			(project "master_schematic"
-				(path "/c4f7e98c-e88d-49cc-9841-b70710a90a72/ac0b5093-6e20-433c-b604-e10ee3af976c"
-					(reference "U6")
 					(unit 1)
 				)
 			)
@@ -1582,6 +1316,186 @@
 		)
 	)
 	(symbol
+		(lib_name "hb_symbol_lib:MCP9600_Module")
+		(lib_id "hb_symbol_lib:MCP9600_Module")
+		(at 101.6 77.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ba55cd45-da42-4ac9-9753-c35d3c55c7b3")
+		(property "Reference" "U8"
+			(at 100.965 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MCP9600_Module"
+			(at 100.965 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "hb_footprint_lib:mcp9600_connector"
+			(at 101.6 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://learn.adafruit.com/adafruit-mcp9600-i2c-thermocouple-amplifier/overview"
+			(at 101.6 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 101.6 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6cec3b7a-86b9-4acc-946e-c1e4b5fa20ad")
+		)
+		(pin "7"
+			(uuid "0aeed3b7-7209-49f3-b9c6-e0a60d882f6e")
+		)
+		(pin "5"
+			(uuid "2bec3e4d-0ed6-4520-aedd-9dd6cc842258")
+		)
+		(pin "4"
+			(uuid "86f115f6-8215-44e7-9066-a361b4fa6f94")
+		)
+		(pin "6"
+			(uuid "baff0139-6c7f-4873-8363-3aa44b09c5a5")
+		)
+		(pin "3"
+			(uuid "9e96746a-8d7d-4037-9d04-e86cb9357029")
+		)
+		(pin "2"
+			(uuid "48c75c06-ccaf-4bd5-9989-6a35b02835b9")
+		)
+		(pin "8"
+			(uuid "1e6a9cef-ddc2-42b5-93d3-c50417e2620c")
+		)
+		(pin "8"
+			(uuid "d2953f96-8e62-4efe-b973-9d438f75474d")
+		)
+		(instances
+			(project "master_schematic"
+				(path "/c4f7e98c-e88d-49cc-9841-b70710a90a72/ac0b5093-6e20-433c-b604-e10ee3af976c"
+					(reference "U8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "hb_symbol_lib:MCP9600_Module")
+		(lib_id "hb_symbol_lib:MCP9600_Module")
+		(at 101.6 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d0f74f77-535e-47d7-916e-aa728968ca8b")
+		(property "Reference" "U7"
+			(at 100.965 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MCP9600_Module"
+			(at 100.965 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "hb_footprint_lib:mcp9600_connector"
+			(at 101.6 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://learn.adafruit.com/adafruit-mcp9600-i2c-thermocouple-amplifier/overview"
+			(at 101.6 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 101.6 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f4109c2e-fe6a-4f4d-b629-1985260c6154")
+		)
+		(pin "7"
+			(uuid "a509d652-e509-4b35-851b-7c2044507a98")
+		)
+		(pin "5"
+			(uuid "290eda8e-9310-4b8c-8f22-2389f37d05e6")
+		)
+		(pin "4"
+			(uuid "476e1105-0b95-4be1-ae17-283c7200ee44")
+		)
+		(pin "6"
+			(uuid "8a5abe94-8040-46bf-9d10-93af43a13d81")
+		)
+		(pin "3"
+			(uuid "ca429436-c6ce-4d60-a9a3-f38a8a5a12c9")
+		)
+		(pin "2"
+			(uuid "7e6231ae-0899-4b5b-bc23-9f895c8a0360")
+		)
+		(pin "8"
+			(uuid "b2da8f35-c544-4a8d-a605-3470b3bd5c4b")
+		)
+		(pin "8"
+			(uuid "ea7eb4c4-8fb3-45b8-ae3e-90d5201ad498")
+		)
+		(instances
+			(project "master_schematic"
+				(path "/c4f7e98c-e88d-49cc-9841-b70710a90a72/ac0b5093-6e20-433c-b604-e10ee3af976c"
+					(reference "U7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 36.83 29.21 0)
 		(unit 1)
@@ -1648,6 +1562,7 @@
 		)
 	)
 	(symbol
+		(lib_name "hb_symbol_lib:MCP9600_Module")
 		(lib_id "hb_symbol_lib:MCP9600_Module")
 		(at 59.69 48.26 0)
 		(unit 1)
@@ -1673,7 +1588,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "hb_footprint_lib:mcp9600_connector"
 			(at 59.69 48.26 0)
 			(effects
 				(font
@@ -1682,7 +1597,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://learn.adafruit.com/adafruit-mcp9600-i2c-thermocouple-amplifier/overview"
 			(at 59.69 48.26 0)
 			(effects
 				(font
@@ -1731,6 +1646,96 @@
 			(project "master_schematic"
 				(path "/c4f7e98c-e88d-49cc-9841-b70710a90a72/ac0b5093-6e20-433c-b604-e10ee3af976c"
 					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "hb_symbol_lib:MCP9600_Module")
+		(lib_id "hb_symbol_lib:MCP9600_Module")
+		(at 59.69 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fd182b77-b915-4857-b4d3-5b758efd9c51")
+		(property "Reference" "U6"
+			(at 59.055 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MCP9600_Module"
+			(at 59.055 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "hb_footprint_lib:mcp9600_connector"
+			(at 59.69 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://learn.adafruit.com/adafruit-mcp9600-i2c-thermocouple-amplifier/overview"
+			(at 59.69 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 59.69 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d0119829-7782-4575-8e86-5556eea68e48")
+		)
+		(pin "7"
+			(uuid "9866032d-5c12-4e4e-8416-f6566287eb0b")
+		)
+		(pin "5"
+			(uuid "3a2f7ef4-367f-40bb-9bff-61c63e02c354")
+		)
+		(pin "4"
+			(uuid "ee6ed473-33ee-4cf2-b141-4893e613a6dd")
+		)
+		(pin "6"
+			(uuid "4965b325-030d-4d30-91fd-e340771a2290")
+		)
+		(pin "3"
+			(uuid "87a6076c-ac11-4e9b-886c-8dd9cc5743dc")
+		)
+		(pin "2"
+			(uuid "8befa4d8-9fa5-4281-9ed3-2bb855416fc7")
+		)
+		(pin "8"
+			(uuid "eb06c57f-c9cb-4ece-ab74-4785eae0d34d")
+		)
+		(pin "8"
+			(uuid "7ab2514f-44c2-4392-8333-44c74e2334db")
+		)
+		(instances
+			(project "master_schematic"
+				(path "/c4f7e98c-e88d-49cc-9841-b70710a90a72/ac0b5093-6e20-433c-b604-e10ee3af976c"
+					(reference "U6")
 					(unit 1)
 				)
 			)
