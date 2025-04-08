@@ -1160,7 +1160,6 @@
 		(uuid "b4cdb0d3-d975-43fe-8862-934d1e15327e")
 	)
 	(symbol
-		(lib_name "hb_symbol_lib:MCP9600_Module")
 		(lib_id "hb_symbol_lib:MCP9600_Module")
 		(at 59.69 77.47 0)
 		(unit 1)
@@ -1259,7 +1258,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b7f6ad27-4de1-4ffc-809b-642ab6c7e52c")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR046"
 			(at 29.21 48.26 0)
 			(effects
 				(font
@@ -1309,14 +1308,13 @@
 		(instances
 			(project "master_schematic"
 				(path "/c4f7e98c-e88d-49cc-9841-b70710a90a72/ac0b5093-6e20-433c-b604-e10ee3af976c"
-					(reference "#PWR030")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_name "hb_symbol_lib:MCP9600_Module")
 		(lib_id "hb_symbol_lib:MCP9600_Module")
 		(at 101.6 77.47 0)
 		(unit 1)
@@ -1406,7 +1404,6 @@
 		)
 	)
 	(symbol
-		(lib_name "hb_symbol_lib:MCP9600_Module")
 		(lib_id "hb_symbol_lib:MCP9600_Module")
 		(at 101.6 48.26 0)
 		(unit 1)
@@ -1505,7 +1502,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d9af4e97-81e0-4fbd-bf0b-4e1136104919")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR047"
 			(at 36.83 33.02 0)
 			(effects
 				(font
@@ -1555,14 +1552,13 @@
 		(instances
 			(project "master_schematic"
 				(path "/c4f7e98c-e88d-49cc-9841-b70710a90a72/ac0b5093-6e20-433c-b604-e10ee3af976c"
-					(reference "#PWR031")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_name "hb_symbol_lib:MCP9600_Module")
 		(lib_id "hb_symbol_lib:MCP9600_Module")
 		(at 59.69 48.26 0)
 		(unit 1)
@@ -1652,7 +1648,6 @@
 		)
 	)
 	(symbol
-		(lib_name "hb_symbol_lib:MCP9600_Module")
 		(lib_id "hb_symbol_lib:MCP9600_Module")
 		(at 59.69 105.41 0)
 		(unit 1)
