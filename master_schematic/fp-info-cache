@@ -1,4 +1,4 @@
-23871026159630544
+23874514220846030
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -96747,6 +96747,13 @@ Varistor VF
 2
 2
 hb_footprint_lib
+AMASS_XT60PW-M
+
+
+0
+4
+4
+hb_footprint_lib
 CONN02_1723103102_MOL
 
 
@@ -96760,6 +96767,13 @@ CONN_SD-43045-001_04_MOL
 0
 4
 4
+hb_footprint_lib
+POWERDI5_DIO
+
+SBRT20U60SP5-7 
+0
+3
+3
 hb_footprint_lib
 Pressure Transducer (Low)
 
@@ -96814,8 +96828,8 @@ mcp9600_connector
 
 
 0
-0
-0
+9
+9
 hb_footprint_lib
 rfm95_connector
 
