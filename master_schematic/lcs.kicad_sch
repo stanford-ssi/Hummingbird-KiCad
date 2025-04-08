@@ -5,177 +5,6 @@
 	(uuid "c15a8322-c77d-4c7d-be8e-db60c03048be")
 	(paper "A4")
 	(lib_symbols
-		(symbol "hb_symbol_lib:hx711_load_cell_amplifier"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at -0.254 14.732 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "HX711"
-				(at -2.54 12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x06_P1.00mm_Vertical"
-				(at -1.016 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0.254 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0.254 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "hx711_load_cell_amplifier_1_1"
-				(rectangle
-					(start -10.16 11.43)
-					(end 10.16 -11.43)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin input line
-					(at -12.7 6.35 0)
-					(length 2.54)
-					(name "VIN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at -12.7 3.81 0)
-					(length 2.54)
-					(name "VIO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -12.7 1.27 0)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -12.7 -1.27 0)
-					(length 2.54)
-					(name "SCK"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at -12.7 -3.81 0)
-					(length 2.54)
-					(name "DATA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at -12.7 -6.35 0)
-					(length 2.54)
-					(name "RATE"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "hb_symbol_lib:load_cell_yzc516_50kg"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -377,177 +206,6 @@
 				)
 			)
 			(symbol "hx711_load_cell_amplifier_1_1_1"
-				(rectangle
-					(start -10.16 11.43)
-					(end 10.16 -11.43)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin input line
-					(at -12.7 6.35 0)
-					(length 2.54)
-					(name "VIN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at -12.7 3.81 0)
-					(length 2.54)
-					(name "VIO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -12.7 1.27 0)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -12.7 -1.27 0)
-					(length 2.54)
-					(name "SCK"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at -12.7 -3.81 0)
-					(length 2.54)
-					(name "DATA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at -12.7 -6.35 0)
-					(length 2.54)
-					(name "RATE"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "hx711_load_cell_amplifier_2"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at -0.254 14.732 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "HX711"
-				(at -2.54 12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x06_P1.00mm_Vertical"
-				(at -1.016 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0.254 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0.254 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "hx711_load_cell_amplifier_2_1_1"
 				(rectangle
 					(start -10.16 11.43)
 					(end 10.16 -11.43)
@@ -2006,18 +1664,18 @@
 		)
 	)
 	(symbol
-		(lib_name "hx711_load_cell_amplifier_2")
+		(lib_name "hx711_load_cell_amplifier_1")
 		(lib_id "hb_symbol_lib:hx711_load_cell_amplifier")
-		(at 106.68 91.44 0)
+		(at 106.68 125.73 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "4cf94aee-000c-4eeb-9423-490210e1d24d")
-		(property "Reference" "U10"
-			(at 106.68 74.93 0)
+		(uuid "3a3515c7-6e11-4d5f-a608-c11730312fa6")
+		(property "Reference" "U11"
+			(at 106.68 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2025,15 +1683,15 @@
 			)
 		)
 		(property "Value" "HX711"
-			(at 106.68 77.47 0)
+			(at 106.68 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x06_P1.00mm_Vertical"
-			(at 105.664 91.44 90)
+		(property "Footprint" "hb_footprint_lib:hx711_connector"
+			(at 105.664 125.73 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2042,7 +1700,7 @@
 			)
 		)
 		(property "Datasheet" "https://learn.adafruit.com/adafruit-hx711-24-bit-adc"
-			(at 106.934 91.44 90)
+			(at 106.934 125.73 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2051,7 +1709,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 106.934 91.44 90)
+			(at 106.934 125.73 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2060,27 +1718,27 @@
 			)
 		)
 		(pin "4"
-			(uuid "4a822ad9-2f6d-4375-b61e-f94f0bdc7764")
+			(uuid "192b588c-4054-49fe-bfa6-179065f97dac")
 		)
 		(pin "6"
-			(uuid "75c3abbd-d7d5-4fbd-91f9-e0a272483ae0")
+			(uuid "5a5c63a0-4905-4378-a534-629900fba845")
 		)
 		(pin "1"
-			(uuid "750513a4-1615-442f-9c1d-c21fa87d513a")
+			(uuid "7b49d20f-bec2-4d4d-a0af-f7fb7e9531a1")
 		)
 		(pin "5"
-			(uuid "926aa466-89cc-4ea7-b1e1-c3b89072c65a")
+			(uuid "be8b49e5-3b8c-44d2-8afe-b771d215bc2d")
 		)
 		(pin "3"
-			(uuid "733ce8fe-25f9-4d7f-bc38-efe154c01bed")
+			(uuid "b242cde6-ffc4-4515-80ae-cb9ae6906917")
 		)
 		(pin "2"
-			(uuid "d68486e0-d9c2-42c5-832e-3022127efcda")
+			(uuid "dc0d3fb8-6f58-469e-9e9e-d6828980b1a0")
 		)
 		(instances
 			(project "master_schematic"
 				(path "/c4f7e98c-e88d-49cc-9841-b70710a90a72/0c2b79c8-c5dd-4fa2-8a84-72fd6742794a"
-					(reference "U10")
+					(reference "U11")
 					(unit 1)
 				)
 			)
@@ -2256,7 +1914,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x06_P1.00mm_Vertical"
+		(property "Footprint" "hb_footprint_lib:hx711_connector"
 			(at 105.664 57.15 90)
 			(effects
 				(font
@@ -2371,86 +2029,6 @@
 			(project "master_schematic"
 				(path "/c4f7e98c-e88d-49cc-9841-b70710a90a72/0c2b79c8-c5dd-4fa2-8a84-72fd6742794a"
 					(reference "#PWR049")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "hb_symbol_lib:hx711_load_cell_amplifier")
-		(at 106.68 125.73 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bd6d3657-c855-4550-8730-c676ecf48ebe")
-		(property "Reference" "U11"
-			(at 106.68 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "HX711"
-			(at 106.68 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x06_P1.00mm_Vertical"
-			(at 105.664 125.73 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://learn.adafruit.com/adafruit-hx711-24-bit-adc"
-			(at 106.934 125.73 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 106.934 125.73 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "04e38bbc-7cda-4b9c-b44e-6361a5df5099")
-		)
-		(pin "6"
-			(uuid "fb55ae38-45db-490b-b6e5-167c5eada296")
-		)
-		(pin "1"
-			(uuid "37695472-8594-40cb-8810-68d365bd3fd8")
-		)
-		(pin "5"
-			(uuid "656480b4-9600-4060-a076-7d61d6974a47")
-		)
-		(pin "3"
-			(uuid "098bf512-2e34-4860-8300-a3020dcbcce8")
-		)
-		(pin "2"
-			(uuid "8e55bedf-bc80-4676-b734-a8bfd8745937")
-		)
-		(instances
-			(project "master_schematic"
-				(path "/c4f7e98c-e88d-49cc-9841-b70710a90a72/0c2b79c8-c5dd-4fa2-8a84-72fd6742794a"
-					(reference "U11")
 					(unit 1)
 				)
 			)
@@ -2605,6 +2183,87 @@
 			(project "master_schematic"
 				(path "/c4f7e98c-e88d-49cc-9841-b70710a90a72/0c2b79c8-c5dd-4fa2-8a84-72fd6742794a"
 					(reference "U12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "hx711_load_cell_amplifier_1")
+		(lib_id "hb_symbol_lib:hx711_load_cell_amplifier")
+		(at 106.68 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ea6ad91b-5795-43b9-b13a-d27579b03c32")
+		(property "Reference" "U10"
+			(at 106.68 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "HX711"
+			(at 106.68 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "hb_footprint_lib:hx711_connector"
+			(at 105.664 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://learn.adafruit.com/adafruit-hx711-24-bit-adc"
+			(at 106.934 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 106.934 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "87f31af7-082a-47c1-9579-1fd5923650e0")
+		)
+		(pin "6"
+			(uuid "93c2bf51-95e3-4f60-af50-d973f0a8b04b")
+		)
+		(pin "1"
+			(uuid "23a66c36-ab45-4eb7-aa1e-77bf4cf5b18a")
+		)
+		(pin "5"
+			(uuid "43e7abea-ad2b-41fb-888c-de39c894fedc")
+		)
+		(pin "3"
+			(uuid "fef48196-8553-4880-80af-9d19955d8eda")
+		)
+		(pin "2"
+			(uuid "d07a6112-449d-4d09-affe-9bb61c674312")
+		)
+		(instances
+			(project "master_schematic"
+				(path "/c4f7e98c-e88d-49cc-9841-b70710a90a72/0c2b79c8-c5dd-4fa2-8a84-72fd6742794a"
+					(reference "U10")
 					(unit 1)
 				)
 			)
