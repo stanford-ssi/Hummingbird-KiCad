@@ -218,7 +218,7 @@
 	(net 72 "unconnected-(U1-PadT-)")
 	(net 73 "/RST")
 	(net 74 "/MOSI")
-	(net 75 "unconnected-(U1-3.3V-Pad3.3V_1)_0")
+	(net 75 "unconnected-(U1-3.3V-Pad3.3V_1)_2")
 	(net 76 "unconnected-(U1-A6-Pad20)")
 	(net 77 "/LC2_DATA")
 	(net 78 "unconnected-(U1-3.3V-Pad3.3V_1)_1")
@@ -297,6 +297,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -309,6 +310,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -321,6 +323,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -660,6 +663,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -672,6 +676,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -684,6 +689,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -948,6 +954,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -960,6 +967,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -972,6 +980,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -1266,7 +1275,6 @@
 				)
 			)
 		)
-		(path "/ac0b5093-6e20-433c-b604-e10ee3af976c/4f274d54-0642-4fc5-9723-2979ea406827")
 		(sheetname "thermocouples")
 		(sheetfile "tts.kicad_sch")
 		(attr through_hole)
@@ -1939,7 +1947,6 @@
 				)
 			)
 		)
-		(path "/ac0b5093-6e20-433c-b604-e10ee3af976c/fd182b77-b915-4857-b4d3-5b758efd9c51")
 		(sheetname "thermocouples")
 		(sheetfile "tts.kicad_sch")
 		(attr through_hole)
@@ -2599,12 +2606,90 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "9 Position Header Connector 0.100\" (2.54mm) Through Hole Gold"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "d910986d-2fcd-4bc6-b88f-cf9b039f7b51")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Sullins Connector Solutions"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d320628a-f8fc-4421-90e8-23df54139141")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part #" "PPPC091LFBN-RC"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6ca42d72-1efc-424d-b938-48e0a048bc03")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "83df68af-f23a-45c1-8bd8-2625c8a5d1aa")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Supplier Part #" "PPPC091LFBN-RC"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "33210d9b-7257-439e-9d15-6aed556815b3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Unit Cost" "0.63"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c53b54c4-2a84-40ba-a38a-8e56b3a2c4d8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Cost @ Qty" "0.63"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b3632255-2346-4527-b32b-94de7dc5b890")
 			(effects
 				(font
 					(size 1 1)
@@ -2895,6 +2980,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -2907,6 +2993,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -2919,6 +3006,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -3273,6 +3361,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -3285,6 +3374,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -3297,6 +3387,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -4309,6 +4400,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -4321,6 +4413,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -4333,6 +4426,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -4672,6 +4766,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -4684,6 +4779,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -4696,6 +4792,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -4960,6 +5057,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -4972,6 +5070,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -4984,6 +5083,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -5249,6 +5349,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -5261,6 +5362,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -5273,6 +5375,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -5923,6 +6026,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -5935,6 +6039,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -5947,6 +6052,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -6212,6 +6318,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -6224,6 +6331,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -6236,6 +6344,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -6589,6 +6698,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -6601,6 +6711,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -6613,6 +6724,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -6907,7 +7019,6 @@
 				)
 			)
 		)
-		(path "/ac0b5093-6e20-433c-b604-e10ee3af976c/ba55cd45-da42-4ac9-9753-c35d3c55c7b3")
 		(sheetname "thermocouples")
 		(sheetfile "tts.kicad_sch")
 		(attr through_hole)
@@ -7219,7 +7330,6 @@
 				)
 			)
 		)
-		(path "/ac0b5093-6e20-433c-b604-e10ee3af976c/d0f74f77-535e-47d7-916e-aa728968ca8b")
 		(sheetname "thermocouples")
 		(sheetfile "tts.kicad_sch")
 		(attr through_hole)
@@ -7502,6 +7612,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -7514,6 +7625,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -7526,6 +7638,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -7866,6 +7979,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -7878,6 +7992,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -7890,6 +8005,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -8241,10 +8357,11 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/sparkfun-electronics/PRT-17152/13543378?gclsrc=aw.ds&&utm_adgroup=&utm_source=google&utm_medium=cpc&utm_campaign=PMax%20Shopping_Product_Low%20ROAS%20Categories&utm_term=&utm_content=&utm_id=go_cmp-20243063506_adg-_ad-__dev-c_ext-_prd-13543378_sig-Cj0KCQjw2N2_BhCAARIsAK4pEkUQkn3iAR7iG6uvMNULuTFBZCPc69gKKUhWnaOWSNnREsZoAU1YMNAaAjJ-EALw_wcB&gad_source=1&gclid=Cj0KCQjw2N2_BhCAARIsAK4pEkUQkn3iAR7iG6uvMNULuTFBZCPc69gKKUhWnaOWSNnREsZoAU1YMNAaAjJ-EALw_wcB&gclsrc=aw.ds"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8253,10 +8370,11 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "TEENSY STACKABLE HEADER KIT (EXT"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8265,15 +8383,16 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
-		(property "MF" "SparkFun Electronics"
+		(property "Manufacturer" "SparkFun Electronics"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d2839e33-2ad8-4a4b-9d1d-de39ebb93ac0")
+			(uuid "9e9e4657-3cad-442d-8ebb-a1574e932072")
 			(effects
 				(font
 					(size 1 1)
@@ -8281,12 +8400,12 @@
 				)
 			)
 		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "4.07mm"
+		(property "Manufacturer Part #" "PRT-17152"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7ba4adbd-1d73-42e4-aa42-03f4a988c498")
+			(uuid "1b5d7467-b6fa-49d9-a419-962a607dd23e")
 			(effects
 				(font
 					(size 1 1)
@@ -8294,12 +8413,12 @@
 				)
 			)
 		)
-		(property "Package" "None"
+		(property "Supplier" "Digikey"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9aed7369-6363-4c1a-a142-07141873ee35")
+			(uuid "6a269f13-4375-46b5-a33c-541dbe356054")
 			(effects
 				(font
 					(size 1 1)
@@ -8307,12 +8426,12 @@
 				)
 			)
 		)
-		(property "Price" "None"
+		(property "Supplier Part #" "PRT-17152"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ad517478-c422-4401-b9d6-9a6348480dfe")
+			(uuid "b5b1cd24-4194-4501-bfe9-68de919d6629")
 			(effects
 				(font
 					(size 1 1)
@@ -8320,12 +8439,12 @@
 				)
 			)
 		)
-		(property "Check_prices" "https://www.snapeda.com/parts/DEV-16771/SparkFun+Electronics/view-part/?ref=eda"
+		(property "Unit Cost" "1.75"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ffc99637-b090-4fa2-81c6-95929ac7d692")
+			(uuid "058b66a9-c2ba-49cf-8039-eaca0ce1d77f")
 			(effects
 				(font
 					(size 1 1)
@@ -8333,90 +8452,12 @@
 				)
 			)
 		)
-		(property "STANDARD" "Manufacturer recommendations"
+		(property "Cost @ Qty" "1.75"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9ef1c5ca-f5bb-4343-a1a6-83a5a6e9c35c")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "PARTREV" "4.1"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "5a135ddc-8bd4-4fcd-bbc2-4861501b2a85")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/DEV-16771/SparkFun+Electronics/view-part/?ref=snap"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "271cc81e-d403-4edc-8112-59db665bc0d5")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MP" "DEV-16771"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "9b9dec31-0f69-4c96-8932-ff29214fe7ad")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description_1" "\n                        \n                            RT1062 Teensy 4.1 series ARM® Cortex®-M7 MPU Embedded Evaluation Board\n                        \n"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "dc74e0a0-e631-44d8-8d09-9369bd383a5e")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "20393d0e-eebc-494c-adf3-a2b4bdcdf207")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MANUFACTURER" "SparkFun Electronics"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "f3a24190-7a1f-46f0-888a-89c14a95c2ad")
+			(uuid "c575e4fa-04a9-4ed8-a611-478e97a9fda7")
 			(effects
 				(font
 					(size 1 1)
@@ -8425,7 +8466,7 @@
 			)
 		)
 		(path "/52075538-e5df-4aed-a4e4-82e9882ad86c")
-		(sheetname "Root")
+		(sheetname "ルート")
 		(sheetfile "master_schematic.kicad_sch")
 		(attr through_hole exclude_from_bom)
 		(fp_line
@@ -8755,7 +8796,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 75 "unconnected-(U1-3.3V-Pad3.3V_1)_0")
+			(net 78 "unconnected-(U1-3.3V-Pad3.3V_1)_1")
 			(pinfunction "3.3V")
 			(pintype "power_in+no_connect")
 			(solder_mask_margin 0.102)
@@ -8779,7 +8820,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 78 "unconnected-(U1-3.3V-Pad3.3V_1)_1")
+			(net 75 "unconnected-(U1-3.3V-Pad3.3V_1)_2")
 			(pinfunction "3.3V")
 			(pintype "power_in+no_connect")
 			(solder_mask_margin 0.102)
@@ -9878,6 +9919,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -9890,6 +9932,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -9902,6 +9945,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -10553,6 +10597,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -10565,6 +10610,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -10577,6 +10623,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -10931,6 +10978,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -10943,6 +10991,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -10955,6 +11004,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -11257,6 +11307,396 @@
 			(uuid "6f1aff9d-84e4-4b21-9ff6-3143946f019d")
 		)
 	)
+	(footprint "hb_footprint_lib:mcp9600_connector"
+		(layer "F.Cu")
+		(uuid "43145fee-1dc4-421d-8e4e-e7ebc4dbb049")
+		(at 12.725 21.845)
+		(property "Reference" "U6"
+			(at 0 -0.5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "61d3321e-0aae-4c89-929a-518c279d6000")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "MCP9600_Module"
+			(at 0 1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "5ea93659-fd38-421c-ade0-d44bd4454fb2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "hb_footprint_lib:mcp9600_connector"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "982d5b35-69cf-465c-a693-51e01c6abb09")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://learn.adafruit.com/adafruit-mcp9600-i2c-thermocouple-amplifier/overview"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a4d4f291-34b0-4e06-b8c5-7190054da103")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "9 Position Header Connector 0.100\" (2.54mm) Through Hole Gold"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "975aa26a-c23b-4907-8a67-5cd200235378")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Sullins Connector Solutions"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a5919324-c2c5-4cb2-a524-2be9f67d8f46")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part #" "PPPC091LFBN-RC"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c0875e83-be02-4f22-9180-a3b86681f0ed")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fea7f32e-e3eb-42d2-9ef7-1825c5e1508c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Supplier Part #" "PPPC091LFBN-RC"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f4c55158-671f-4404-82fb-e3ef067fe3e1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Unit Cost" "0.63"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "533e22e2-50b9-44e6-9738-5f27d75e78fc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Cost @ Qty" "0.63"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bfcee255-32c6-49ff-b384-7d8dd5ca9b1b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/ac0b5093-6e20-433c-b604-e10ee3af976c/e62f9799-3497-4b92-a527-06ffb9762c8d")
+		(sheetname "thermocouples")
+		(sheetfile "tts.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start -12.125 17.085)
+			(end -10.795 17.085)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "0a96843f-0c50-4c3d-8488-bab6c4090ad2")
+		)
+		(fp_line
+			(start -12.125 18.415)
+			(end -12.125 17.085)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "6a1b6c84-fd06-4eec-9893-9d1c62584492")
+		)
+		(fp_line
+			(start -9.525 17.085)
+			(end 10.855 17.085)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "40191b27-7aa2-49fb-a497-b7bea70971f8")
+		)
+		(fp_line
+			(start -9.525 19.745)
+			(end -9.525 17.085)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "76d6d536-3881-472d-8e20-6e7b1a413780")
+		)
+		(fp_line
+			(start -9.525 19.745)
+			(end 10.855 19.745)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "447385b5-7770-439e-8f86-43f31aaa67d2")
+		)
+		(fp_line
+			(start 10.855 19.745)
+			(end 10.855 17.085)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "eca9f5e9-5866-4e96-a706-ea05c5b2d20a")
+		)
+		(fp_rect
+			(start -12.7 0)
+			(end 11.43 20.32)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "aaf70c55-82d9-4557-9ca3-592df36a346c")
+		)
+		(fp_line
+			(start -12.065 17.78)
+			(end -11.43 17.145)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "469655aa-2af5-44fd-8c7a-347c383a6f59")
+		)
+		(fp_line
+			(start -12.065 19.685)
+			(end -12.065 17.78)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "22923ce3-57e7-4d9d-91e8-51ef2ff536c8")
+		)
+		(fp_line
+			(start -11.43 17.145)
+			(end 10.795 17.145)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "b6d5edb8-3598-45b4-a7ea-ba85007d404e")
+		)
+		(fp_line
+			(start 10.795 17.145)
+			(end 10.795 19.685)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "9fb5fcf7-49a6-4b6e-9faf-5a8ea8356a88")
+		)
+		(fp_line
+			(start 10.795 19.685)
+			(end -12.065 19.685)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "91af52d8-b4ef-4fb4-8e30-9e3c38c277bb")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 2.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "934bb864-b817-4323-bdeb-34d649031d4c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(fp_text user "${REFERENCE}"
+			(at -0.635 18.415 180)
+			(layer "F.Fab")
+			(uuid "eee2f5c8-294a-4f81-8bad-d5f4c93a6617")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole rect
+			(at -10.795 18.415 90)
+			(size 1.7 1.7)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 14 "+5V")
+			(pinfunction "VIN")
+			(pintype "power_in")
+			(uuid "63a3cc70-23a1-4c9d-a4e1-d7797614c0f3")
+		)
+		(pad "2" thru_hole oval
+			(at -8.255 18.415 90)
+			(size 1.7 1.7)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 11 "GND")
+			(pinfunction "GND")
+			(pintype "power_in")
+			(uuid "c62ae1ad-bb38-408f-bc0c-ecc304ca0a25")
+		)
+		(pad "3" thru_hole oval
+			(at -5.715 18.415 90)
+			(size 1.7 1.7)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 80 "/SCL")
+			(pinfunction "SCL")
+			(pintype "bidirectional")
+			(uuid "465ff9d8-0492-46ed-80e7-2a60b8a3b669")
+		)
+		(pad "4" thru_hole oval
+			(at -3.175 18.415 90)
+			(size 1.7 1.7)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 82 "/SDA")
+			(pinfunction "SDA")
+			(pintype "bidirectional")
+			(uuid "4db3cce3-f294-46fb-8240-1568731ad6b9")
+		)
+		(pad "5" thru_hole oval
+			(at -0.635 18.415 90)
+			(size 1.7 1.7)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 99 "unconnected-(U6-A1-Pad5)")
+			(pinfunction "A1")
+			(pintype "input+no_connect")
+			(uuid "479e0f3f-e7fb-48c1-8b43-93af71673cdf")
+		)
+		(pad "6" thru_hole oval
+			(at 1.905 18.415 90)
+			(size 1.7 1.7)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 97 "unconnected-(U6-A2-Pad6)")
+			(pinfunction "A2")
+			(pintype "input+no_connect")
+			(uuid "81c90cf7-89e6-4760-8db3-3c06e7b7f9e5")
+		)
+		(pad "7" thru_hole oval
+			(at 4.445 18.415 90)
+			(size 1.7 1.7)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 96 "unconnected-(U6-A3-Pad7)")
+			(pinfunction "A3")
+			(pintype "input+no_connect")
+			(uuid "0772997a-2f52-4355-9d32-7d4ab1f55ef0")
+		)
+		(pad "8" thru_hole oval
+			(at 6.985 18.415 90)
+			(size 1.7 1.7)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 98 "unconnected-(U6-A4-Pad8)")
+			(pinfunction "A4")
+			(pintype "input+no_connect")
+			(uuid "c3084e6a-04ac-4c6d-9733-4ed425d7e11a")
+		)
+		(pad "9" thru_hole oval
+			(at 9.525 18.415 90)
+			(size 1.7 1.7)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(uuid "a5e19026-ee80-4bd9-a06a-fb2a0f723fda")
+		)
+	)
 	(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "47829e35-a92d-4bc8-945d-bf99411b39f0")
@@ -11294,6 +11734,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -11306,6 +11747,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -11318,6 +11760,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -11582,6 +12025,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -11594,6 +12038,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -11606,6 +12051,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -12622,7 +13068,6 @@
 				)
 			)
 		)
-		(path "/0c2b79c8-c5dd-4fa2-8a84-72fd6742794a/ea6ad91b-5795-43b9-b13a-d27579b03c32")
 		(sheetname "load_cells")
 		(sheetfile "lcs.kicad_sch")
 		(attr through_hole)
@@ -12907,6 +13352,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -12919,6 +13365,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -12931,6 +13378,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -13195,6 +13643,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -13207,6 +13656,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -13219,12 +13669,13 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
 		(property ki_fp_filters "MountingHole*")
 		(path "/37602a07-2de2-46d9-b7d9-929f1a10f538")
-		(sheetname "Root")
+		(sheetname "ルート")
 		(sheetfile "master_schematic.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
@@ -13307,6 +13758,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -13319,6 +13771,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -13331,6 +13784,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -13684,6 +14138,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -13696,6 +14151,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -13708,6 +14164,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -13973,6 +14430,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -13985,6 +14443,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -13997,6 +14456,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -14648,6 +15108,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -14660,6 +15121,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -14672,6 +15134,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -15025,6 +15488,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -15037,6 +15501,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -15049,6 +15514,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -15311,6 +15777,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -15323,6 +15790,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -15335,6 +15803,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -15418,7 +15887,7 @@
 		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/e0861ee0-c57d-46d6-b69e-f1837cc90d34")
-		(sheetname "Root")
+		(sheetname "ルート")
 		(sheetfile "master_schematic.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -15751,7 +16220,6 @@
 				)
 			)
 		)
-		(path "/0c2b79c8-c5dd-4fa2-8a84-72fd6742794a/3a3515c7-6e11-4d5f-a608-c11730312fa6")
 		(sheetname "load_cells")
 		(sheetfile "lcs.kicad_sch")
 		(attr through_hole)
@@ -15999,6 +16467,396 @@
 			(uuid "23434028-7671-4d24-92b5-19aa9fbd0f09")
 		)
 	)
+	(footprint "hb_footprint_lib:mcp9600_connector"
+		(layer "F.Cu")
+		(uuid "7c14faf2-832d-4f80-9d5a-385e1dc1ba31")
+		(at 12.725 43.44)
+		(property "Reference" "U7"
+			(at 0 -0.5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "0e5f4842-a8ba-4194-b41b-e8f1a60543ba")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "MCP9600_Module"
+			(at 0 1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "94fdee0a-0d36-4a5c-8e85-b4b4d0318af2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "hb_footprint_lib:mcp9600_connector"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f110f48b-fdc0-42ca-8104-ef7555a1b8e3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://learn.adafruit.com/adafruit-mcp9600-i2c-thermocouple-amplifier/overview"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "85873a92-d05e-4220-a7e5-2ebedad7b726")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "9 Position Header Connector 0.100\" (2.54mm) Through Hole Gold"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b14ad4f9-7061-4736-9659-7bd04b792538")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Sullins Connector Solutions"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6de930d7-53d5-497b-af41-a69e535250df")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part #" "PPPC091LFBN-RC"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cf2741e8-ffbc-4a97-bd44-fa9b0bb08044")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "de747862-6ed9-4a60-8833-d1b55c7b8d6c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Supplier Part #" "PPPC091LFBN-RC"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "20eceeed-8d36-41d8-8eac-ca7a126caf2d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Unit Cost" "0.63"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "795ff9e1-8277-4365-8660-7c5f1c9cae8b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Cost @ Qty" "0.63"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dd8bee16-41a8-4ffb-b177-13a04e6eb2ee")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/ac0b5093-6e20-433c-b604-e10ee3af976c/3093e958-514d-47ce-9352-9da035415083")
+		(sheetname "thermocouples")
+		(sheetfile "tts.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start -12.125 17.085)
+			(end -10.795 17.085)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "8d564291-d8f9-4d91-b67d-8c643357fabb")
+		)
+		(fp_line
+			(start -12.125 18.415)
+			(end -12.125 17.085)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "037266cf-b595-464c-8c92-d68005edf076")
+		)
+		(fp_line
+			(start -9.525 17.085)
+			(end 10.855 17.085)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "720b90e4-1245-4e2a-a458-1d4201398bcb")
+		)
+		(fp_line
+			(start -9.525 19.745)
+			(end -9.525 17.085)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "4ee9bde3-d69f-4585-b8ea-2124f81df0f1")
+		)
+		(fp_line
+			(start -9.525 19.745)
+			(end 10.855 19.745)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "24d203eb-e271-4d58-89bc-df3a3e209f66")
+		)
+		(fp_line
+			(start 10.855 19.745)
+			(end 10.855 17.085)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "58a1fc75-9b8f-4e26-884f-ac6c600455cc")
+		)
+		(fp_rect
+			(start -12.7 0)
+			(end 11.43 20.32)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "5eddf8ba-5980-4255-a7ce-e30f7f38be37")
+		)
+		(fp_line
+			(start -12.065 17.78)
+			(end -11.43 17.145)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "eeea4393-7a34-43b3-84ee-f11a3dde92e2")
+		)
+		(fp_line
+			(start -12.065 19.685)
+			(end -12.065 17.78)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "2636eee0-cd24-4d9c-876a-84742607d072")
+		)
+		(fp_line
+			(start -11.43 17.145)
+			(end 10.795 17.145)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "a06db816-d25e-49ad-86b1-ce9e27581cf8")
+		)
+		(fp_line
+			(start 10.795 17.145)
+			(end 10.795 19.685)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "85643f91-4edb-4001-8b9c-4bed01ba895d")
+		)
+		(fp_line
+			(start 10.795 19.685)
+			(end -12.065 19.685)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "ff8aa4d3-e8ff-4bc1-bf17-e7f0cb217c40")
+		)
+		(fp_text user "${REFERENCE}"
+			(at -0.635 18.415 180)
+			(layer "F.Fab")
+			(uuid "45dde97e-e145-48c2-bfda-e5a8066d47af")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 2.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "7c2c85f4-5702-4c5b-b3f6-64d50f5f015f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole rect
+			(at -10.795 18.415 90)
+			(size 1.7 1.7)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 14 "+5V")
+			(pinfunction "VIN")
+			(pintype "power_in")
+			(uuid "6f460574-4b1f-4842-9649-bfd094190b22")
+		)
+		(pad "2" thru_hole oval
+			(at -8.255 18.415 90)
+			(size 1.7 1.7)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 11 "GND")
+			(pinfunction "GND")
+			(pintype "power_in")
+			(uuid "90429117-b0a2-4b68-af25-8d17cf326db9")
+		)
+		(pad "3" thru_hole oval
+			(at -5.715 18.415 90)
+			(size 1.7 1.7)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 80 "/SCL")
+			(pinfunction "SCL")
+			(pintype "bidirectional")
+			(uuid "2466e5c7-9935-43c3-9e01-d17da0026f19")
+		)
+		(pad "4" thru_hole oval
+			(at -3.175 18.415 90)
+			(size 1.7 1.7)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 82 "/SDA")
+			(pinfunction "SDA")
+			(pintype "bidirectional")
+			(uuid "66af60b5-7357-4a5a-a612-2d9ea8e2de77")
+		)
+		(pad "5" thru_hole oval
+			(at -0.635 18.415 90)
+			(size 1.7 1.7)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 102 "unconnected-(U7-A1-Pad5)")
+			(pinfunction "A1")
+			(pintype "input+no_connect")
+			(uuid "607e11b6-8861-4130-bbce-7c504b5ec217")
+		)
+		(pad "6" thru_hole oval
+			(at 1.905 18.415 90)
+			(size 1.7 1.7)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 100 "unconnected-(U7-A2-Pad6)")
+			(pinfunction "A2")
+			(pintype "input+no_connect")
+			(uuid "997acfc1-279c-4549-a89a-02a6b5bda6f5")
+		)
+		(pad "7" thru_hole oval
+			(at 4.445 18.415 90)
+			(size 1.7 1.7)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 103 "unconnected-(U7-A3-Pad7)")
+			(pinfunction "A3")
+			(pintype "input+no_connect")
+			(uuid "2e71d202-03fb-4ff4-8a4d-3347ec562811")
+		)
+		(pad "8" thru_hole oval
+			(at 6.985 18.415 90)
+			(size 1.7 1.7)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 101 "unconnected-(U7-A4-Pad8)")
+			(pinfunction "A4")
+			(pintype "input+no_connect")
+			(uuid "1687f821-5d46-486d-8e54-ba58aa9e7cd9")
+		)
+		(pad "9" thru_hole oval
+			(at 9.525 18.415 90)
+			(size 1.7 1.7)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(uuid "ac7d5803-e842-4ce9-a838-501b6f0d6375")
+		)
+	)
 	(footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 		(layer "F.Cu")
 		(uuid "7de90205-19a3-4082-959e-9f11cc361aaa")
@@ -16037,6 +16895,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -16049,6 +16908,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -16061,6 +16921,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -16415,6 +17276,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -16427,6 +17289,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -16439,6 +17302,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -17090,6 +17954,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -17102,6 +17967,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -17114,6 +17980,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -17815,6 +18682,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -17827,6 +18695,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -17839,6 +18708,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -18179,6 +19049,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -18191,6 +19062,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -18203,6 +19075,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -18543,6 +19416,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -18555,6 +19429,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -18567,6 +19442,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -18937,12 +19813,90 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "6 Position Header Connector 0.100\" (2.54mm) Through Hole Gold"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "a59320d2-74b7-406b-a280-0758a881dede")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Sullins Connector Solutions"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b64646b7-0fd7-4209-bc5b-ceb6a8b0037e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part #" "PPPC061LFBN-RC"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9797a5fd-c3a0-4774-b75d-950006ca4076")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5cab1942-c956-49d1-b4d9-cf3955d7c0eb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Supplier Part #" "PPPC061LFBN-RC"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5e923f6d-af42-4134-8b33-08de327101d7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Unit Cost" "0.47"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f5a0ddbe-38ec-44cc-847f-24417888f590")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Cost @ Qty" "0.47"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "93dd9c29-9ede-4df9-b958-73e927e1db4d")
 			(effects
 				(font
 					(size 1 1)
@@ -19235,6 +20189,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -19247,6 +20202,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -19259,6 +20215,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -19484,6 +20441,396 @@
 			(rotate
 				(xyz 0 0 0)
 			)
+		)
+	)
+	(footprint "hb_footprint_lib:mcp9600_connector"
+		(layer "F.Cu")
+		(uuid "ab87d16a-522d-45ee-a759-29f227e512e9")
+		(at 12.725 0.25)
+		(property "Reference" "U5"
+			(at 0 -0.5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "0d1b2a7c-ce77-4b16-b7ec-7ffc7fc7385c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "MCP9600_Module"
+			(at 0 1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "afb8de15-aeba-4faa-af24-ae847230bdc0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "hb_footprint_lib:mcp9600_connector"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "014171a4-d3ab-43c3-bd07-1cb31a237b6e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://learn.adafruit.com/adafruit-mcp9600-i2c-thermocouple-amplifier/overview"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cc9a0f52-d7af-4b59-8619-fd73065d11db")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "9 Position Header Connector 0.100\" (2.54mm) Through Hole Gold"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ebdc50dc-d4c0-4d3a-8a4c-a35a5d7e2754")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Sullins Connector Solutions"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e2ae8437-0104-4809-9947-e205d65e3f77")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part #" "PPPC091LFBN-RC"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6fee6b7e-db11-4400-89aa-77065ab83438")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6f0b9c18-4ebd-4239-bcbf-8f65ca128409")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Supplier Part #" "PPPC091LFBN-RC"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "35300071-f9a6-4b71-b912-c1719274280a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Unit Cost" "0.63"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d49f6f77-6606-4756-b607-2883d9113838")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Cost @ Qty" "0.63"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "61d18e2e-fbbd-4d20-9f59-2a0eb41c5f6a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/ac0b5093-6e20-433c-b604-e10ee3af976c/e50e3ca5-90b7-4795-a9cf-d6a2a6b5cfeb")
+		(sheetname "thermocouples")
+		(sheetfile "tts.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start -12.125 17.085)
+			(end -10.795 17.085)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "c15318cb-f522-46ed-9553-32d6a1e43a62")
+		)
+		(fp_line
+			(start -12.125 18.415)
+			(end -12.125 17.085)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "3f9d3369-1de3-4547-979f-767b828e568e")
+		)
+		(fp_line
+			(start -9.525 17.085)
+			(end 10.855 17.085)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "5034d902-207e-4319-8c1d-42b7c8d458ca")
+		)
+		(fp_line
+			(start -9.525 19.745)
+			(end -9.525 17.085)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "65d4b292-a6e9-46b7-b89c-268b9fd9260a")
+		)
+		(fp_line
+			(start -9.525 19.745)
+			(end 10.855 19.745)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "296da3da-ed11-453a-be7e-c0ab3b0f994f")
+		)
+		(fp_line
+			(start 10.855 19.745)
+			(end 10.855 17.085)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "34e7fa94-ac84-49d1-8a63-c357437ffc67")
+		)
+		(fp_rect
+			(start -12.7 0)
+			(end 11.43 20.32)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "97d181f2-5db3-4777-8783-f2fcfb21c9b8")
+		)
+		(fp_line
+			(start -12.065 17.78)
+			(end -11.43 17.145)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "01ab0c99-d01c-4b78-b5bf-a865462a3f6c")
+		)
+		(fp_line
+			(start -12.065 19.685)
+			(end -12.065 17.78)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "7a46803b-61c4-4449-87b2-2eec391758b9")
+		)
+		(fp_line
+			(start -11.43 17.145)
+			(end 10.795 17.145)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "4ca32150-fee8-481f-b38b-738e740a2312")
+		)
+		(fp_line
+			(start 10.795 17.145)
+			(end 10.795 19.685)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "0a3d8fe2-46a7-43dd-ab36-84f6454e25cc")
+		)
+		(fp_line
+			(start 10.795 19.685)
+			(end -12.065 19.685)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "a324fc28-1158-4bfe-b9fe-27aa7515303b")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 2.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "4a356083-c0a6-497c-a5e9-9989f37fba70")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(fp_text user "${REFERENCE}"
+			(at -0.635 18.415 180)
+			(layer "F.Fab")
+			(uuid "4cb76656-88ed-48c3-94a3-f1a0cbd7fb76")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole rect
+			(at -10.795 18.415 90)
+			(size 1.7 1.7)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 14 "+5V")
+			(pinfunction "VIN")
+			(pintype "power_in")
+			(uuid "32100fbe-9907-4cc7-84e5-26e9e9c3456b")
+		)
+		(pad "2" thru_hole oval
+			(at -8.255 18.415 90)
+			(size 1.7 1.7)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 11 "GND")
+			(pinfunction "GND")
+			(pintype "power_in")
+			(uuid "55ee0cd9-ee3b-40ff-bac8-c811f723c75d")
+		)
+		(pad "3" thru_hole oval
+			(at -5.715 18.415 90)
+			(size 1.7 1.7)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 80 "/SCL")
+			(pinfunction "SCL")
+			(pintype "bidirectional")
+			(uuid "6d1d9083-2688-4357-8a3c-45df0800caa1")
+		)
+		(pad "4" thru_hole oval
+			(at -3.175 18.415 90)
+			(size 1.7 1.7)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 82 "/SDA")
+			(pinfunction "SDA")
+			(pintype "bidirectional")
+			(uuid "04ce2ef4-8806-4294-9782-b6f0184fd515")
+		)
+		(pad "5" thru_hole oval
+			(at -0.635 18.415 90)
+			(size 1.7 1.7)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 92 "unconnected-(U5-A1-Pad5)")
+			(pinfunction "A1")
+			(pintype "input+no_connect")
+			(uuid "c9eb8322-07d7-46c0-a915-2f6097d33552")
+		)
+		(pad "6" thru_hole oval
+			(at 1.905 18.415 90)
+			(size 1.7 1.7)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 95 "unconnected-(U5-A2-Pad6)")
+			(pinfunction "A2")
+			(pintype "input+no_connect")
+			(uuid "dd57e38a-aaa1-4598-a285-b1aa5b7b0511")
+		)
+		(pad "7" thru_hole oval
+			(at 4.445 18.415 90)
+			(size 1.7 1.7)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 93 "unconnected-(U5-A3-Pad7)")
+			(pinfunction "A3")
+			(pintype "input+no_connect")
+			(uuid "12f27025-77a3-4f9b-bc60-ab962299090e")
+		)
+		(pad "8" thru_hole oval
+			(at 6.985 18.415 90)
+			(size 1.7 1.7)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 94 "unconnected-(U5-A4-Pad8)")
+			(pinfunction "A4")
+			(pintype "input+no_connect")
+			(uuid "f71ef695-932e-42dc-a7e2-bceab376eaa9")
+		)
+		(pad "9" thru_hole oval
+			(at 9.525 18.415 90)
+			(size 1.7 1.7)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(uuid "14a1c0ca-555d-4863-8454-3da92a6b6012")
 		)
 	)
 	(footprint "hb_footprint_lib:CONN02_1723103102_MOL"
@@ -19884,6 +21231,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -19896,6 +21244,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -19908,6 +21257,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -20172,6 +21522,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -20184,6 +21535,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -20196,12 +21548,13 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
 		(property ki_fp_filters "MountingHole*")
 		(path "/83286fb5-e951-487d-a6b9-ffb0139c40ed")
-		(sheetname "Root")
+		(sheetname "ルート")
 		(sheetfile "master_schematic.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
@@ -20283,6 +21636,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -20295,6 +21649,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -20307,6 +21662,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -20534,6 +21890,399 @@
 			)
 		)
 	)
+	(footprint "hb_footprint_lib:hx711_connector"
+		(layer "F.Cu")
+		(uuid "bfde71e3-d81f-44ec-8938-e047561eed2e")
+		(at 39.905 24.385)
+		(property "Reference" "U11"
+			(at 0 -0.5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "7b205cfe-5da2-445e-807a-672a650f5a3f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "HX711"
+			(at 0 1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "102eece4-db7c-4f84-acc8-8102c55c52ec")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "hb_footprint_lib:hx711_connector"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7cd0923e-2bb2-4e14-85be-dd4fa47abb19")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://learn.adafruit.com/adafruit-hx711-24-bit-adc"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "897a068e-5bae-41c0-a129-90cdfebe8fa8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "6 Position Header Connector 0.100\" (2.54mm) Through Hole Gold"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "db1775ab-2823-45c4-9526-6bec2638fa5b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Sullins Connector Solutions"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "82354346-5db4-4e02-856a-8f5c1bb048a7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part #" "PPPC061LFBN-RC"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "68fdaf05-e0a1-4620-8670-87b507b49d61")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "296873e7-4edd-4e7c-9134-294564c6af5b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Supplier Part #" "PPPC061LFBN-RC"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "04c94b98-0643-41ae-b35b-3a0c6076824b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Unit Cost" "0.47"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dec50d39-d029-4a8f-8d03-bf664d2020dc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Cost @ Qty" "0.47"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1364700e-3064-4a76-9f4e-3224172c22fa")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/0c2b79c8-c5dd-4fa2-8a84-72fd6742794a/c8a44be7-6185-49a4-b716-8c6de8d1eb14")
+		(sheetname "load_cells")
+		(sheetfile "lcs.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start -7.74 19.05)
+			(end -6.41 19.05)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "6659e29e-b756-409d-af40-e62edc116419")
+		)
+		(fp_line
+			(start -7.74 20.38)
+			(end -7.74 19.05)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "cb98c5a7-b05e-45d3-8e5b-0769fb46455a")
+		)
+		(fp_line
+			(start -5.14 19.05)
+			(end 7.62 19.05)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "6fbd391a-8c10-4155-81db-ce8ccc957a04")
+		)
+		(fp_line
+			(start -5.14 21.71)
+			(end -5.14 19.05)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "5d1add10-167a-4aa1-b8fa-d7d7658ee125")
+		)
+		(fp_line
+			(start -5.14 21.71)
+			(end 7.62 21.71)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "923e3192-a3f9-4042-b730-6b74bc4d0a45")
+		)
+		(fp_line
+			(start 7.62 21.71)
+			(end 7.62 19.05)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "f5d72b85-9399-4199-8746-64467c9d85e2")
+		)
+		(fp_rect
+			(start -12.7 0)
+			(end 12.7 22.86)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "e0d59fa0-7774-460f-a699-9e88a6e0ae94")
+		)
+		(fp_line
+			(start -7.68 19.745)
+			(end -7.045 19.11)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "63168f73-d32f-4be6-af83-86fdf4e1e3c3")
+		)
+		(fp_line
+			(start -7.68 21.65)
+			(end -7.68 19.745)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "8cffe620-2046-485e-a6ee-3a779957c2b4")
+		)
+		(fp_line
+			(start -7.045 19.11)
+			(end 7.56 19.11)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "3b935c52-9040-400d-93b0-969fe544f5f3")
+		)
+		(fp_line
+			(start 7.56 19.11)
+			(end 7.56 21.65)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "b4c569b0-3208-4347-8f65-814e3e89e62b")
+		)
+		(fp_line
+			(start 7.56 21.65)
+			(end -7.68 21.65)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "62bc3baf-a354-4bd3-a40b-f7e2d0322600")
+		)
+		(fp_text user "${REFERENCE}"
+			(at -0.06 20.38 180)
+			(layer "F.Fab")
+			(uuid "258ac14e-b393-438c-9bde-2f35992c80e6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 2.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "ed3576c3-ab49-4b1a-8ba2-2d5da68915a4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(dimension
+			(type aligned)
+			(layer "User.1")
+			(uuid "b422adc7-92fc-4fba-90b8-fec550263ef6")
+			(pts
+				(xy 33.555 44.705) (xy 33.555 47.245)
+			)
+			(height 8.89)
+			(gr_text "2.5400 mm"
+				(at 23.515 45.975 90)
+				(layer "User.1")
+				(uuid "b422adc7-92fc-4fba-90b8-fec550263ef6")
+				(effects
+					(font
+						(size 1 1)
+						(thickness 0.15)
+					)
+				)
+			)
+			(format
+				(prefix "")
+				(suffix "")
+				(units 3)
+				(units_format 1)
+				(precision 4)
+			)
+			(style
+				(thickness 0.1)
+				(arrow_length 1.27)
+				(text_position_mode 0)
+				(extension_height 0.58642)
+				(extension_offset 0.5) keep_text_aligned)
+		)
+		(pad "1" thru_hole rect
+			(at -6.41 20.38 90)
+			(size 1.7 1.7)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 14 "+5V")
+			(pinfunction "VIN")
+			(pintype "input")
+			(uuid "eb153180-01c4-4a22-ad56-6148f90e3ab2")
+		)
+		(pad "2" thru_hole oval
+			(at -3.87 20.38 90)
+			(size 1.7 1.7)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 110 "unconnected-(U11-VIO-Pad2)")
+			(pinfunction "VIO")
+			(pintype "output+no_connect")
+			(uuid "2df4809e-0c86-489d-89f5-1c1e94128003")
+		)
+		(pad "3" thru_hole oval
+			(at -1.33 20.38 90)
+			(size 1.7 1.7)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 11 "GND")
+			(pinfunction "GND")
+			(pintype "power_in")
+			(uuid "04af03dc-49f4-4ccd-940d-8d72ae5f3e5b")
+		)
+		(pad "4" thru_hole oval
+			(at 1.21 20.38 90)
+			(size 1.7 1.7)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 85 "/SCK")
+			(pinfunction "SCK")
+			(pintype "input")
+			(uuid "371f811e-608e-467b-8335-8737defb22f0")
+		)
+		(pad "5" thru_hole oval
+			(at 3.75 20.38 90)
+			(size 1.7 1.7)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 62 "/LC3_DATA")
+			(pinfunction "DATA")
+			(pintype "output")
+			(uuid "5832b890-05f0-460b-9786-e0c0a85eed14")
+		)
+		(pad "6" thru_hole oval
+			(at 6.29 20.38 90)
+			(size 1.7 1.7)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 63 "/LC3_RATE")
+			(pinfunction "RATE")
+			(pintype "output")
+			(uuid "aaad6523-5732-4adc-9f5b-6015b0b61e89")
+		)
+	)
 	(footprint "hb_footprint_lib:CONN_SD-43045-001_04_MOL"
 		(layer "F.Cu")
 		(uuid "c52e6248-e8df-42c7-ac92-4e4cdac50b47")
@@ -20572,6 +22321,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -20584,6 +22334,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -20596,6 +22347,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -20936,6 +22688,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -20948,6 +22701,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -20960,6 +22714,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -21677,7 +23432,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "9 Position Header Connector 0.100\" (2.54mm) Through Hole Gold & 5 Position Header Connector 0.100\" (2.54mm) Through Hole Gold"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -21690,8 +23445,164 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Sullins Connector Solutions"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d05b7002-010c-4717-af3b-21a698d9a9fa")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part #" "PPPC091LFBN-RC"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "033b0f84-f764-493b-9c80-1b15c91485b2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b86d88ca-07c1-405c-82bb-a6bc1fc9da78")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Supplier Part #" "PPPC091LFBN-RC"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2b8b9672-542c-43ef-81e3-f793e8091440")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Unit Cost" "0.63"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bf118f71-f490-4524-aa69-e512a18fec0a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Cost @ Qty" "0.63"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "35975332-4574-4e45-bf23-3ddab03eb1cf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer 2" "Sullins Connector Solutions"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "da7f01e0-5b0c-4096-b61a-e5fe4ee78a4d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part # 2" "PPPC051LFBN-RC"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b76fa76a-4332-4475-b493-a536b6f88742")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Supplier 2" "Digikey"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "edd01142-709e-4562-9397-1179f831a61e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Supplier Part # 2" "PPPC051LFBN-RC"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1958a64e-970a-42a6-89c7-bd45af3f7655")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Unit Cost 2" "0.43"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a85dc723-8955-4c73-be5d-391dd8f75103")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Cost @ Qty 2" "0.43"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a9eb1f06-77fb-4c39-b79f-5c172a026824")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/7f87dcc1-31fb-4ee6-a241-d2a49c902af1")
-		(sheetname "Root")
+		(sheetname "ルート")
 		(sheetfile "master_schematic.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -21926,7 +23837,7 @@
 			(uuid "dd56421e-68fe-4a1e-8da3-f231ccc75c92")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 5.02 30.48 270)
+			(at 5.02 30.48 -90)
 			(layer "F.Fab")
 			(uuid "4b7b9ffa-22a4-4229-b7c1-1b8924a5fe3a")
 			(effects
@@ -21937,7 +23848,7 @@
 			)
 		)
 		(fp_text user "${REFERENCE}"
-			(at -0.06 5.08 270)
+			(at -0.06 5.08 -90)
 			(layer "F.Fab")
 			(uuid "787783d8-9dc2-4f43-b8cd-a23d5b859665")
 			(effects
@@ -22184,6 +24095,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -22196,6 +24108,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -22208,12 +24121,13 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
 		(property ki_fp_filters "MountingHole*")
 		(path "/2fd4a1f8-49e1-4b5b-b366-da0ab17068a0")
-		(sheetname "Root")
+		(sheetname "ルート")
 		(sheetfile "master_schematic.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
@@ -22296,6 +24210,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -22308,6 +24223,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -22320,6 +24236,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -22636,6 +24553,789 @@
 			)
 		)
 	)
+	(footprint "hb_footprint_lib:mcp9600_connector"
+		(layer "F.Cu")
+		(uuid "dde86341-da9e-4a7d-8170-881f2a311ff1")
+		(at 12.725 65.035)
+		(property "Reference" "U8"
+			(at 0 -0.5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "677adc7a-5181-4626-a850-7cf8d5da373b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "MCP9600_Module"
+			(at 0 1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "274b7386-b9aa-455a-bb56-1a4902339c93")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "hb_footprint_lib:mcp9600_connector"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0ee59b79-5426-4a8e-96d2-6117fdbeca13")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://learn.adafruit.com/adafruit-mcp9600-i2c-thermocouple-amplifier/overview"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "31409bcb-b23d-4068-aec0-1b263d5d878f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "9 Position Header Connector 0.100\" (2.54mm) Through Hole Gold"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1f8e3286-d1bb-4074-bda7-40bbd095014b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Sullins Connector Solutions"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b7c7cdf9-3aa9-41c2-b411-a849580adc5b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part #" "PPPC091LFBN-RC"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7de3e1a4-e683-4c0f-9a4b-868e84a97577")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1d7d4f83-619f-4d98-a891-f13dd47a0414")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Supplier Part #" "PPPC091LFBN-RC"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dc3254df-2dc1-47cd-b428-16c749cd3b4a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Unit Cost" "0.63"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ebcb4791-6ee8-4cde-aae9-a8e70755d5cc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Cost @ Qty" "0.63"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cb52c039-359c-45a2-88f3-d5aea8069fa1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/ac0b5093-6e20-433c-b604-e10ee3af976c/a62e19e1-824e-4130-9254-4364bb9fcd01")
+		(sheetname "thermocouples")
+		(sheetfile "tts.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start -12.125 17.085)
+			(end -10.795 17.085)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "1072b622-eb8b-40ef-b919-007fe66c8320")
+		)
+		(fp_line
+			(start -12.125 18.415)
+			(end -12.125 17.085)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "d1bca4c0-ef9e-4ae5-bd92-3b62d4479834")
+		)
+		(fp_line
+			(start -9.525 17.085)
+			(end 10.855 17.085)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "f435e5d6-583a-474f-ba3f-5a9f06cc202d")
+		)
+		(fp_line
+			(start -9.525 19.745)
+			(end -9.525 17.085)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "fbcecaf7-f7a4-4042-ae7b-35d024fae325")
+		)
+		(fp_line
+			(start -9.525 19.745)
+			(end 10.855 19.745)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "99d20074-1467-4cc2-8ab1-2b28db829391")
+		)
+		(fp_line
+			(start 10.855 19.745)
+			(end 10.855 17.085)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "d97b3c8b-0e1e-46cd-b691-6b5380cee0ca")
+		)
+		(fp_rect
+			(start -12.7 0)
+			(end 11.43 20.32)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "81db5437-3bcc-400a-81e6-bd3a7e9842f4")
+		)
+		(fp_line
+			(start -12.065 17.78)
+			(end -11.43 17.145)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "26350f83-e27e-4bd4-91ec-6ddbc5b02916")
+		)
+		(fp_line
+			(start -12.065 19.685)
+			(end -12.065 17.78)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "70a3e464-fde2-4c0b-a5c8-7aa3812c7264")
+		)
+		(fp_line
+			(start -11.43 17.145)
+			(end 10.795 17.145)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "fab1db1f-eb0d-43a1-a32e-39514e780407")
+		)
+		(fp_line
+			(start 10.795 17.145)
+			(end 10.795 19.685)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "f92055c4-a875-47f1-b368-9e150c72279d")
+		)
+		(fp_line
+			(start 10.795 19.685)
+			(end -12.065 19.685)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "765b1e81-95b7-4333-8800-709713577c8c")
+		)
+		(fp_text user "${REFERENCE}"
+			(at -0.635 18.415 180)
+			(layer "F.Fab")
+			(uuid "07df8e30-3e53-44e7-88d2-662ddadf088b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 2.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "ff43645e-3dc6-404a-827e-e2d7e2b1e521")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole rect
+			(at -10.795 18.415 90)
+			(size 1.7 1.7)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 14 "+5V")
+			(pinfunction "VIN")
+			(pintype "power_in")
+			(uuid "e6bd8ef1-711e-463e-9e2c-0a09eb459946")
+		)
+		(pad "2" thru_hole oval
+			(at -8.255 18.415 90)
+			(size 1.7 1.7)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 11 "GND")
+			(pinfunction "GND")
+			(pintype "power_in")
+			(uuid "ae1e36f3-3740-4384-bcdd-f73ce094abbc")
+		)
+		(pad "3" thru_hole oval
+			(at -5.715 18.415 90)
+			(size 1.7 1.7)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 80 "/SCL")
+			(pinfunction "SCL")
+			(pintype "bidirectional")
+			(uuid "f5f630ec-641b-42cc-bf92-67b6e1b572be")
+		)
+		(pad "4" thru_hole oval
+			(at -3.175 18.415 90)
+			(size 1.7 1.7)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 82 "/SDA")
+			(pinfunction "SDA")
+			(pintype "bidirectional")
+			(uuid "74f0596b-3e21-4f90-9ea8-3a107f38b60a")
+		)
+		(pad "5" thru_hole oval
+			(at -0.635 18.415 90)
+			(size 1.7 1.7)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 104 "unconnected-(U8-A1-Pad5)")
+			(pinfunction "A1")
+			(pintype "input+no_connect")
+			(uuid "90da6d87-622e-4cea-aa62-08f04f0e334c")
+		)
+		(pad "6" thru_hole oval
+			(at 1.905 18.415 90)
+			(size 1.7 1.7)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 106 "unconnected-(U8-A2-Pad6)")
+			(pinfunction "A2")
+			(pintype "input+no_connect")
+			(uuid "557cf5af-9e02-45bb-ba77-9b2425ba0a96")
+		)
+		(pad "7" thru_hole oval
+			(at 4.445 18.415 90)
+			(size 1.7 1.7)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 107 "unconnected-(U8-A3-Pad7)")
+			(pinfunction "A3")
+			(pintype "input+no_connect")
+			(uuid "c143027d-bece-4d89-acce-b7c931a8a277")
+		)
+		(pad "8" thru_hole oval
+			(at 6.985 18.415 90)
+			(size 1.7 1.7)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 105 "unconnected-(U8-A4-Pad8)")
+			(pinfunction "A4")
+			(pintype "input+no_connect")
+			(uuid "492e8456-de79-4cbb-b17e-553bd9c79653")
+		)
+		(pad "9" thru_hole oval
+			(at 9.525 18.415 90)
+			(size 1.7 1.7)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(uuid "6036c220-7249-4e7c-a1f6-7a9acf3c722c")
+		)
+	)
+	(footprint "hb_footprint_lib:hx711_connector"
+		(layer "F.Cu")
+		(uuid "dec19e2a-2747-4179-9530-c320a5a782a2")
+		(at 39.905 0.25)
+		(property "Reference" "U10"
+			(at 0 -0.5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "607b8e76-fc77-4d9c-8ed3-61b5511d82a4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "HX711"
+			(at 0 1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "b015ca75-da9d-4439-80dd-a22d7a5983c2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "hb_footprint_lib:hx711_connector"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e633991b-e134-4d01-91e1-8366322f863a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://learn.adafruit.com/adafruit-hx711-24-bit-adc"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0956099f-6d3f-4c5f-9d78-00e12271d434")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "6 Position Header Connector 0.100\" (2.54mm) Through Hole Gold"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e86a3bce-d88d-4bff-9a03-45b4f48441fd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Sullins Connector Solutions"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "44fdb51e-4e77-42a1-a056-73868439fdf8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part #" "PPPC061LFBN-RC"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c2a4cab2-d437-466d-b74e-bfe16a4bbe95")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "227f62d7-c4c5-4e1a-88fe-490e1fd7ad14")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Supplier Part #" "PPPC061LFBN-RC"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "96db0781-548b-4462-9f44-14caacb5a452")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Unit Cost" "0.47"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0616d88b-8295-4f14-976b-014cec9077ce")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Cost @ Qty" "0.47"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "92a3ff90-8e9e-40ca-8823-9d1defb32392")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/0c2b79c8-c5dd-4fa2-8a84-72fd6742794a/6a269aaa-b2c8-4935-b9d0-5707d79a1817")
+		(sheetname "load_cells")
+		(sheetfile "lcs.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start -7.74 19.05)
+			(end -6.41 19.05)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "86914b89-bbc1-4309-adda-e3c4055690eb")
+		)
+		(fp_line
+			(start -7.74 20.38)
+			(end -7.74 19.05)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "25bd5d3e-6fcb-4a77-91ab-719373f45624")
+		)
+		(fp_line
+			(start -5.14 19.05)
+			(end 7.62 19.05)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "e7b701a8-a645-4980-a4ce-361a7854f18f")
+		)
+		(fp_line
+			(start -5.14 21.71)
+			(end -5.14 19.05)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "77727fc5-2f16-436b-bbf9-e20274e8c93a")
+		)
+		(fp_line
+			(start -5.14 21.71)
+			(end 7.62 21.71)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "3f0d2f4c-c5ba-41d9-acc6-d4a92a4bfee8")
+		)
+		(fp_line
+			(start 7.62 21.71)
+			(end 7.62 19.05)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "f0c957af-cc7d-42d5-adbe-87ea6d7c2977")
+		)
+		(fp_rect
+			(start -12.7 0)
+			(end 12.7 22.86)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "65cd544e-59b7-468b-a86c-e458d0cf879c")
+		)
+		(fp_line
+			(start -7.68 19.745)
+			(end -7.045 19.11)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "9bd97d36-0a37-4dc3-972f-ebd3e618e45b")
+		)
+		(fp_line
+			(start -7.68 21.65)
+			(end -7.68 19.745)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "73f1ccf7-bf02-4b90-813b-5e1832aa8164")
+		)
+		(fp_line
+			(start -7.045 19.11)
+			(end 7.56 19.11)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "0f803cb9-1f1f-41e5-9677-ff04c50acae5")
+		)
+		(fp_line
+			(start 7.56 19.11)
+			(end 7.56 21.65)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "c51415da-68eb-45dd-b020-127c6292bdbd")
+		)
+		(fp_line
+			(start 7.56 21.65)
+			(end -7.68 21.65)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "f0d9d761-f16f-4b9c-ba6c-394648d83317")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 2.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "1293eabb-56f6-4b7a-bee8-db94a8d586ee")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(fp_text user "${REFERENCE}"
+			(at -0.06 20.38 180)
+			(layer "F.Fab")
+			(uuid "80c65706-6ca1-4585-826f-5a348377cc03")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(dimension
+			(type aligned)
+			(layer "User.1")
+			(uuid "90a9f52c-d9d4-4345-b0de-55f5e5ffe268")
+			(pts
+				(xy 33.555 20.57) (xy 33.555 23.11)
+			)
+			(height 8.89)
+			(gr_text "2.5400 mm"
+				(at 23.515 21.84 90)
+				(layer "User.1")
+				(uuid "90a9f52c-d9d4-4345-b0de-55f5e5ffe268")
+				(effects
+					(font
+						(size 1 1)
+						(thickness 0.15)
+					)
+				)
+			)
+			(format
+				(prefix "")
+				(suffix "")
+				(units 3)
+				(units_format 1)
+				(precision 4)
+			)
+			(style
+				(thickness 0.1)
+				(arrow_length 1.27)
+				(text_position_mode 0)
+				(extension_height 0.58642)
+				(extension_offset 0.5) keep_text_aligned)
+		)
+		(pad "1" thru_hole rect
+			(at -6.41 20.38 90)
+			(size 1.7 1.7)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 14 "+5V")
+			(pinfunction "VIN")
+			(pintype "input")
+			(uuid "715b3398-cf56-41c2-96c5-e4d2e04ce906")
+		)
+		(pad "2" thru_hole oval
+			(at -3.87 20.38 90)
+			(size 1.7 1.7)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 109 "unconnected-(U10-VIO-Pad2)")
+			(pinfunction "VIO")
+			(pintype "output+no_connect")
+			(uuid "61117e21-c5c9-4edc-b4f6-e1b8ced6e9a1")
+		)
+		(pad "3" thru_hole oval
+			(at -1.33 20.38 90)
+			(size 1.7 1.7)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 11 "GND")
+			(pinfunction "GND")
+			(pintype "power_in")
+			(uuid "221d5f91-5e1d-4ba4-8aa2-abd31a29b097")
+		)
+		(pad "4" thru_hole oval
+			(at 1.21 20.38 90)
+			(size 1.7 1.7)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 85 "/SCK")
+			(pinfunction "SCK")
+			(pintype "input")
+			(uuid "4d0b3e6f-3ae9-4eb6-83b3-32144ad7e1fc")
+		)
+		(pad "5" thru_hole oval
+			(at 3.75 20.38 90)
+			(size 1.7 1.7)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 77 "/LC2_DATA")
+			(pinfunction "DATA")
+			(pintype "output")
+			(uuid "087eacb5-8ae9-4e7c-8165-58d694ec56c6")
+		)
+		(pad "6" thru_hole oval
+			(at 6.29 20.38 90)
+			(size 1.7 1.7)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 69 "/LC2_RATE")
+			(pinfunction "RATE")
+			(pintype "output")
+			(uuid "75e3c59b-6aff-43c4-9d24-6c4806b8edc1")
+		)
+	)
 	(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "ded8e20c-c8c7-43f9-b42d-a4b344690973")
@@ -22673,6 +25373,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -22685,6 +25386,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -22697,6 +25399,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -22962,6 +25665,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -22974,6 +25678,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -22986,6 +25691,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -23636,6 +26342,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -23648,6 +26355,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -23660,6 +26368,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -23925,6 +26634,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -23937,6 +26647,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -23949,6 +26660,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -24599,6 +27311,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -24611,6 +27324,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -24623,6 +27337,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -24888,6 +27603,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -24900,6 +27616,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -24912,6 +27629,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -25562,6 +28280,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -25574,6 +28293,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -25586,12 +28306,13 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
 		(property ki_fp_filters "MountingHole*")
 		(path "/673bb9e9-54bc-4fce-9986-98702ab0aa7e")
-		(sheetname "Root")
+		(sheetname "ルート")
 		(sheetfile "master_schematic.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
@@ -25674,6 +28395,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -25686,6 +28408,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -25698,6 +28421,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -26348,6 +29072,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -26360,6 +29085,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -26372,6 +29098,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)

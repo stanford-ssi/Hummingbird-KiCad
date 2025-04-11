@@ -1160,17 +1160,18 @@
 		(uuid "b4cdb0d3-d975-43fe-8862-934d1e15327e")
 	)
 	(symbol
+		(lib_name "hb_symbol_lib:MCP9600_Module")
 		(lib_id "hb_symbol_lib:MCP9600_Module")
-		(at 59.69 77.47 0)
+		(at 101.6 48.26 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "4f274d54-0642-4fc5-9723-2979ea406827")
-		(property "Reference" "U5"
-			(at 59.055 73.66 0)
+		(uuid "3093e958-514d-47ce-9352-9da035415083")
+		(property "Reference" "U7"
+			(at 100.965 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1178,7 +1179,7 @@
 			)
 		)
 		(property "Value" "MCP9600_Module"
-			(at 59.055 76.2 0)
+			(at 100.965 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1186,7 +1187,7 @@
 			)
 		)
 		(property "Footprint" "hb_footprint_lib:mcp9600_connector"
-			(at 59.69 77.47 0)
+			(at 101.6 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1195,7 +1196,7 @@
 			)
 		)
 		(property "Datasheet" "https://learn.adafruit.com/adafruit-mcp9600-i2c-thermocouple-amplifier/overview"
-			(at 59.69 77.47 0)
+			(at 101.6 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1203,8 +1204,62 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 59.69 77.47 0)
+		(property "Description" "9 Position Header Connector 0.100\" (2.54mm) Through Hole Gold"
+			(at 101.6 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Sullins Connector Solutions"
+			(at 101.6 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part #" "PPPC091LFBN-RC"
+			(at 101.6 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 101.6 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part #" "PPPC091LFBN-RC"
+			(at 101.6 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Unit Cost" "0.63"
+			(at 101.6 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost @ Qty" "0.63"
+			(at 101.6 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1213,36 +1268,180 @@
 			)
 		)
 		(pin "1"
-			(uuid "aa6d2a19-a492-4447-a402-2db6f1b2afad")
+			(uuid "c674744b-fe39-4ce2-8816-218a315e9b64")
 		)
 		(pin "7"
-			(uuid "e7752aa3-9d54-4949-9bed-9c4aaddad548")
+			(uuid "d2d709d4-9216-4f26-8c77-a266e6a362a0")
 		)
 		(pin "5"
-			(uuid "203078e8-0408-49cb-8c18-7db16c80e74b")
+			(uuid "c0b58b03-ab61-46b1-b5cc-e8ae2832d205")
 		)
 		(pin "4"
-			(uuid "61a62f8b-a965-41fd-93c4-fcbc7a72016c")
+			(uuid "dd5c00e1-6e58-45a1-9aba-95b125d15b3c")
 		)
 		(pin "6"
-			(uuid "9f2790f1-0495-4b59-ab93-add19ddd1604")
+			(uuid "73289572-3f3d-4c6f-8048-747fc8f5caf5")
 		)
 		(pin "3"
-			(uuid "4d0f9a17-1fed-42e9-b1c3-8ad7ce5fbf51")
+			(uuid "7fce925b-7600-4ef9-8d7b-b30a1af6c694")
 		)
 		(pin "2"
-			(uuid "3799cf14-91cf-4fed-9471-35fb8f6de3fd")
+			(uuid "344d217f-f38c-41d7-b782-15299cadc18d")
 		)
 		(pin "8"
-			(uuid "6d756a3f-8f6e-4ded-be7d-79b0558e0163")
+			(uuid "d5a2ee6d-15e3-4801-bfd5-a10f7375de64")
 		)
 		(pin "8"
-			(uuid "cc669d17-8a4b-44be-a194-7a12e08181a4")
+			(uuid "8e792097-0821-4ceb-90f2-6b75ad978ca7")
 		)
 		(instances
 			(project "master_schematic"
 				(path "/c4f7e98c-e88d-49cc-9841-b70710a90a72/ac0b5093-6e20-433c-b604-e10ee3af976c"
-					(reference "U5")
+					(reference "U7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "hb_symbol_lib:MCP9600_Module")
+		(lib_id "hb_symbol_lib:MCP9600_Module")
+		(at 101.6 77.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a62e19e1-824e-4130-9254-4364bb9fcd01")
+		(property "Reference" "U8"
+			(at 100.965 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MCP9600_Module"
+			(at 100.965 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "hb_footprint_lib:mcp9600_connector"
+			(at 101.6 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://learn.adafruit.com/adafruit-mcp9600-i2c-thermocouple-amplifier/overview"
+			(at 101.6 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "9 Position Header Connector 0.100\" (2.54mm) Through Hole Gold"
+			(at 101.6 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Sullins Connector Solutions"
+			(at 101.6 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part #" "PPPC091LFBN-RC"
+			(at 101.6 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 101.6 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part #" "PPPC091LFBN-RC"
+			(at 101.6 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Unit Cost" "0.63"
+			(at 101.6 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost @ Qty" "0.63"
+			(at 101.6 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c852eb2e-3558-4a9e-bb29-c1a3fb4e30d1")
+		)
+		(pin "7"
+			(uuid "5af3b6d6-8f5b-419b-b6ac-b2b0074892fc")
+		)
+		(pin "5"
+			(uuid "e2d848a1-f472-49d9-b684-e5ffffc5b7b0")
+		)
+		(pin "4"
+			(uuid "63979c57-54ff-4f61-bfa5-a3a0273278f4")
+		)
+		(pin "6"
+			(uuid "dbf312b5-8ac7-46fa-96ce-d88dd2719d1e")
+		)
+		(pin "3"
+			(uuid "79614142-0962-48e5-b067-39fe906b31ae")
+		)
+		(pin "2"
+			(uuid "dbeeb65c-f383-49c9-9b4e-60659dda6694")
+		)
+		(pin "8"
+			(uuid "a9cc734e-14dd-4d2f-b713-68fb829cb7e5")
+		)
+		(pin "8"
+			(uuid "c65543f3-1553-408a-b4b5-301eeb341e57")
+		)
+		(instances
+			(project "master_schematic"
+				(path "/c4f7e98c-e88d-49cc-9841-b70710a90a72/ac0b5093-6e20-433c-b604-e10ee3af976c"
+					(reference "U8")
 					(unit 1)
 				)
 			)
@@ -1315,184 +1514,6 @@
 		)
 	)
 	(symbol
-		(lib_id "hb_symbol_lib:MCP9600_Module")
-		(at 101.6 77.47 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ba55cd45-da42-4ac9-9753-c35d3c55c7b3")
-		(property "Reference" "U8"
-			(at 100.965 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MCP9600_Module"
-			(at 100.965 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "hb_footprint_lib:mcp9600_connector"
-			(at 101.6 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://learn.adafruit.com/adafruit-mcp9600-i2c-thermocouple-amplifier/overview"
-			(at 101.6 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 101.6 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6cec3b7a-86b9-4acc-946e-c1e4b5fa20ad")
-		)
-		(pin "7"
-			(uuid "0aeed3b7-7209-49f3-b9c6-e0a60d882f6e")
-		)
-		(pin "5"
-			(uuid "2bec3e4d-0ed6-4520-aedd-9dd6cc842258")
-		)
-		(pin "4"
-			(uuid "86f115f6-8215-44e7-9066-a361b4fa6f94")
-		)
-		(pin "6"
-			(uuid "baff0139-6c7f-4873-8363-3aa44b09c5a5")
-		)
-		(pin "3"
-			(uuid "9e96746a-8d7d-4037-9d04-e86cb9357029")
-		)
-		(pin "2"
-			(uuid "48c75c06-ccaf-4bd5-9989-6a35b02835b9")
-		)
-		(pin "8"
-			(uuid "1e6a9cef-ddc2-42b5-93d3-c50417e2620c")
-		)
-		(pin "8"
-			(uuid "d2953f96-8e62-4efe-b973-9d438f75474d")
-		)
-		(instances
-			(project "master_schematic"
-				(path "/c4f7e98c-e88d-49cc-9841-b70710a90a72/ac0b5093-6e20-433c-b604-e10ee3af976c"
-					(reference "U8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "hb_symbol_lib:MCP9600_Module")
-		(at 101.6 48.26 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d0f74f77-535e-47d7-916e-aa728968ca8b")
-		(property "Reference" "U7"
-			(at 100.965 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MCP9600_Module"
-			(at 100.965 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "hb_footprint_lib:mcp9600_connector"
-			(at 101.6 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://learn.adafruit.com/adafruit-mcp9600-i2c-thermocouple-amplifier/overview"
-			(at 101.6 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 101.6 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f4109c2e-fe6a-4f4d-b629-1985260c6154")
-		)
-		(pin "7"
-			(uuid "a509d652-e509-4b35-851b-7c2044507a98")
-		)
-		(pin "5"
-			(uuid "290eda8e-9310-4b8c-8f22-2389f37d05e6")
-		)
-		(pin "4"
-			(uuid "476e1105-0b95-4be1-ae17-283c7200ee44")
-		)
-		(pin "6"
-			(uuid "8a5abe94-8040-46bf-9d10-93af43a13d81")
-		)
-		(pin "3"
-			(uuid "ca429436-c6ce-4d60-a9a3-f38a8a5a12c9")
-		)
-		(pin "2"
-			(uuid "7e6231ae-0899-4b5b-bc23-9f895c8a0360")
-		)
-		(pin "8"
-			(uuid "b2da8f35-c544-4a8d-a605-3470b3bd5c4b")
-		)
-		(pin "8"
-			(uuid "ea7eb4c4-8fb3-45b8-ae3e-90d5201ad498")
-		)
-		(instances
-			(project "master_schematic"
-				(path "/c4f7e98c-e88d-49cc-9841-b70710a90a72/ac0b5093-6e20-433c-b604-e10ee3af976c"
-					(reference "U7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5V")
 		(at 36.83 29.21 0)
 		(unit 1)
@@ -1559,6 +1580,295 @@
 		)
 	)
 	(symbol
+		(lib_name "hb_symbol_lib:MCP9600_Module")
+		(lib_id "hb_symbol_lib:MCP9600_Module")
+		(at 59.69 77.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e50e3ca5-90b7-4795-a9cf-d6a2a6b5cfeb")
+		(property "Reference" "U5"
+			(at 59.055 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MCP9600_Module"
+			(at 59.055 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "hb_footprint_lib:mcp9600_connector"
+			(at 59.69 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://learn.adafruit.com/adafruit-mcp9600-i2c-thermocouple-amplifier/overview"
+			(at 59.69 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "9 Position Header Connector 0.100\" (2.54mm) Through Hole Gold"
+			(at 59.69 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Sullins Connector Solutions"
+			(at 59.69 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part #" "PPPC091LFBN-RC"
+			(at 59.69 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 59.69 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part #" "PPPC091LFBN-RC"
+			(at 59.69 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Unit Cost" "0.63"
+			(at 59.69 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost @ Qty" "0.63"
+			(at 59.69 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b6120d14-e8b0-4209-8dbc-f9556178b8e9")
+		)
+		(pin "7"
+			(uuid "3c3e94cd-e216-4426-ab35-ae1927d9d179")
+		)
+		(pin "5"
+			(uuid "de08a98c-494b-465f-b80a-237baec87ee5")
+		)
+		(pin "4"
+			(uuid "d334bcb7-af96-4d32-8b91-cd97dc19b02f")
+		)
+		(pin "6"
+			(uuid "66866e44-5ae3-470f-8b43-2265defccbcd")
+		)
+		(pin "3"
+			(uuid "3c485734-8d98-44f0-a6e8-f24c44cf8617")
+		)
+		(pin "2"
+			(uuid "9d78bbbf-ee4c-45fb-bed6-e95555879660")
+		)
+		(pin "8"
+			(uuid "1629e5f1-1e91-4a42-b99f-c53eb3e28222")
+		)
+		(pin "8"
+			(uuid "17634a45-ddd5-4c8b-8a31-cda9e96a0158")
+		)
+		(instances
+			(project "master_schematic"
+				(path "/c4f7e98c-e88d-49cc-9841-b70710a90a72/ac0b5093-6e20-433c-b604-e10ee3af976c"
+					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "hb_symbol_lib:MCP9600_Module")
+		(lib_id "hb_symbol_lib:MCP9600_Module")
+		(at 59.69 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e62f9799-3497-4b92-a527-06ffb9762c8d")
+		(property "Reference" "U6"
+			(at 59.055 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MCP9600_Module"
+			(at 59.055 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "hb_footprint_lib:mcp9600_connector"
+			(at 59.69 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://learn.adafruit.com/adafruit-mcp9600-i2c-thermocouple-amplifier/overview"
+			(at 59.69 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "9 Position Header Connector 0.100\" (2.54mm) Through Hole Gold"
+			(at 59.69 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Sullins Connector Solutions"
+			(at 59.69 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part #" "PPPC091LFBN-RC"
+			(at 59.69 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 59.69 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part #" "PPPC091LFBN-RC"
+			(at 59.69 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Unit Cost" "0.63"
+			(at 59.69 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost @ Qty" "0.63"
+			(at 59.69 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c854c80c-3541-4244-a3e9-df9643ef36ee")
+		)
+		(pin "7"
+			(uuid "6e49bd2e-a702-4216-bc45-7eecd93288dc")
+		)
+		(pin "5"
+			(uuid "0f7f4b26-733b-4f3c-8149-61cba987b96b")
+		)
+		(pin "4"
+			(uuid "83b2e19f-f3eb-46b9-990d-b5a52cac66e6")
+		)
+		(pin "6"
+			(uuid "d08d1459-e6d3-4815-a30e-d01fc21d1bf8")
+		)
+		(pin "3"
+			(uuid "912cb510-27e5-4b85-a8dd-c2cca1e27a87")
+		)
+		(pin "2"
+			(uuid "28843678-69f3-4ca2-8419-0af9d1a726be")
+		)
+		(pin "8"
+			(uuid "31139206-2839-496a-a428-f643dd835544")
+		)
+		(pin "8"
+			(uuid "bb9c06ed-5478-4a2a-9a7a-743831226782")
+		)
+		(instances
+			(project "master_schematic"
+				(path "/c4f7e98c-e88d-49cc-9841-b70710a90a72/ac0b5093-6e20-433c-b604-e10ee3af976c"
+					(reference "U6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "hb_symbol_lib:MCP9600_Module")
 		(lib_id "hb_symbol_lib:MCP9600_Module")
 		(at 59.69 48.26 0)
 		(unit 1)
@@ -1602,7 +1912,61 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "9 Position Header Connector 0.100\" (2.54mm) Through Hole Gold"
+			(at 59.69 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Sullins Connector Solutions"
+			(at 59.69 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part #" "PPPC091LFBN-RC"
+			(at 59.69 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 59.69 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part #" "PPPC091LFBN-RC"
+			(at 59.69 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Unit Cost" "0.63"
+			(at 59.69 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost @ Qty" "0.63"
 			(at 59.69 48.26 0)
 			(effects
 				(font
@@ -1642,95 +2006,6 @@
 			(project "master_schematic"
 				(path "/c4f7e98c-e88d-49cc-9841-b70710a90a72/ac0b5093-6e20-433c-b604-e10ee3af976c"
 					(reference "U4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "hb_symbol_lib:MCP9600_Module")
-		(at 59.69 105.41 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fd182b77-b915-4857-b4d3-5b758efd9c51")
-		(property "Reference" "U6"
-			(at 59.055 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MCP9600_Module"
-			(at 59.055 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "hb_footprint_lib:mcp9600_connector"
-			(at 59.69 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://learn.adafruit.com/adafruit-mcp9600-i2c-thermocouple-amplifier/overview"
-			(at 59.69 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 59.69 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d0119829-7782-4575-8e86-5556eea68e48")
-		)
-		(pin "7"
-			(uuid "9866032d-5c12-4e4e-8416-f6566287eb0b")
-		)
-		(pin "5"
-			(uuid "3a2f7ef4-367f-40bb-9bff-61c63e02c354")
-		)
-		(pin "4"
-			(uuid "ee6ed473-33ee-4cf2-b141-4893e613a6dd")
-		)
-		(pin "6"
-			(uuid "4965b325-030d-4d30-91fd-e340771a2290")
-		)
-		(pin "3"
-			(uuid "87a6076c-ac11-4e9b-886c-8dd9cc5743dc")
-		)
-		(pin "2"
-			(uuid "8befa4d8-9fa5-4281-9ed3-2bb855416fc7")
-		)
-		(pin "8"
-			(uuid "eb06c57f-c9cb-4ece-ab74-4785eae0d34d")
-		)
-		(pin "8"
-			(uuid "7ab2514f-44c2-4392-8333-44c74e2334db")
-		)
-		(instances
-			(project "master_schematic"
-				(path "/c4f7e98c-e88d-49cc-9841-b70710a90a72/ac0b5093-6e20-433c-b604-e10ee3af976c"
-					(reference "U6")
 					(unit 1)
 				)
 			)
