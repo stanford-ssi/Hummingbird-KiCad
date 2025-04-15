@@ -1321,7 +1321,7 @@
 		)
 		(uuid "531ad664-ee59-4c02-af2b-6d6ecc177c96")
 	)
-	(label "+5V"
+	(label "+3V3"
 		(at 86.36 119.38 180)
 		(fields_autoplaced yes)
 		(effects
@@ -1365,7 +1365,7 @@
 		)
 		(uuid "77564066-09b4-48e6-9cab-4eac963acdb9")
 	)
-	(label "+5V"
+	(label "+3V3"
 		(at 86.36 85.09 180)
 		(fields_autoplaced yes)
 		(effects
@@ -1409,7 +1409,7 @@
 		)
 		(uuid "af78c36c-d129-4829-b61c-41c34df18757")
 	)
-	(label "+5V"
+	(label "+3V3"
 		(at 195.58 54.61 90)
 		(fields_autoplaced yes)
 		(effects
@@ -1464,7 +1464,7 @@
 		)
 		(uuid "d2fe1a27-a11c-4907-9ea7-33df4fca6ab9")
 	)
-	(label "+5V"
+	(label "+3V3"
 		(at 86.36 50.8 180)
 		(fields_autoplaced yes)
 		(effects
@@ -1563,7 +1563,7 @@
 			)
 		)
 	)
-	(global_label "+5V"
+	(global_label "+3V3"
 		(shape bidirectional)
 		(at 195.58 58.42 270)
 		(fields_autoplaced yes)
@@ -1607,7 +1607,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "13de91a9-37a8-4a7d-9034-747b6107e598")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR065"
 			(at 201.93 63.5 0)
 			(effects
 				(font
@@ -1657,7 +1657,7 @@
 		(instances
 			(project "master_schematic"
 				(path "/c4f7e98c-e88d-49cc-9841-b70710a90a72/0c2b79c8-c5dd-4fa2-8a84-72fd6742794a"
-					(reference "#PWR050")
+					(reference "#PWR065")
 					(unit 1)
 				)
 			)
@@ -1750,7 +1750,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5a2c6eeb-d46f-40f4-923f-a1344407211b")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR063"
 			(at 187.96 68.58 0)
 			(effects
 				(font
@@ -1800,7 +1800,7 @@
 		(instances
 			(project "master_schematic"
 				(path "/c4f7e98c-e88d-49cc-9841-b70710a90a72/0c2b79c8-c5dd-4fa2-8a84-72fd6742794a"
-					(reference "#PWR048")
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
@@ -2086,7 +2086,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a24a5753-bffc-422a-9080-47b3cf037534")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR064"
 			(at 195.58 53.34 0)
 			(effects
 				(font
@@ -2095,7 +2095,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "+3V3"
 			(at 195.58 44.45 0)
 			(effects
 				(font
@@ -2136,7 +2136,7 @@
 		(instances
 			(project "master_schematic"
 				(path "/c4f7e98c-e88d-49cc-9841-b70710a90a72/0c2b79c8-c5dd-4fa2-8a84-72fd6742794a"
-					(reference "#PWR049")
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)
