@@ -496,7 +496,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
-    "bom_export_filename": "master_schematic_bom.csv",
+    "bom_export_filename": "master_schematic_bom_04202025.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -711,7 +711,7 @@
   "sheets": [
     [
       "c4f7e98c-e88d-49cc-9841-b70710a90a72",
-      "Root"
+      "ルート"
     ],
     [
       "666fb9f9-c631-4136-ad00-30a1b375897d",
