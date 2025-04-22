@@ -3475,16 +3475,16 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 223.52 73.66 0)
+		(at 223.52 104.14 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "14b13282-dbe7-475d-a3ad-3ece5fc9da77")
-		(property "Reference" "J57"
-			(at 226.06 73.6599 0)
+		(uuid "132c7538-c3bd-4b5b-a42c-8beb80299cce")
+		(property "Reference" "J61"
+			(at 226.06 104.1399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3493,7 +3493,7 @@
 			)
 		)
 		(property "Value" "1723103102"
-			(at 226.06 76.1999 0)
+			(at 226.06 106.6799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3502,7 +3502,7 @@
 			)
 		)
 		(property "Footprint" "hb_footprint_lib:CONN02_1723103102_MOL"
-			(at 223.52 73.66 0)
+			(at 223.52 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3511,7 +3511,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/1723103102?display=pdf"
-			(at 223.52 73.66 0)
+			(at 223.52 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3520,7 +3520,7 @@
 			)
 		)
 		(property "Description" "Connector Header Through Hole, Right Angle 2 position 0.138\" (3.50mm)"
-			(at 223.52 73.66 0)
+			(at 223.52 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3529,7 +3529,7 @@
 			)
 		)
 		(property "Manufacturer" "Molex"
-			(at 223.52 73.66 0)
+			(at 223.52 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3538,7 +3538,7 @@
 			)
 		)
 		(property "Manufacturer Part #" "1723103102"
-			(at 223.52 73.66 0)
+			(at 223.52 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3547,7 +3547,7 @@
 			)
 		)
 		(property "Supplier" "Digikey"
-			(at 223.52 73.66 0)
+			(at 223.52 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3556,7 +3556,7 @@
 			)
 		)
 		(property "Supplier Part #" "900-1723103102-ND"
-			(at 223.52 73.66 0)
+			(at 223.52 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3565,7 +3565,7 @@
 			)
 		)
 		(property "Unit Cost" "0.85"
-			(at 223.52 73.66 0)
+			(at 223.52 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3574,7 +3574,7 @@
 			)
 		)
 		(property "Cost @ Qty" "0.725"
-			(at 223.52 73.66 0)
+			(at 223.52 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3583,15 +3583,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "dd5c943f-16a3-4b87-8e41-d558039cc228")
+			(uuid "7f93237c-6874-45b7-8fce-2a9a43922248")
 		)
 		(pin "1"
-			(uuid "9964de9f-e126-47a8-b742-c478a1926896")
+			(uuid "529e32d5-01bc-45a9-b264-24a939f31d55")
 		)
 		(instances
 			(project "master_schematic"
 				(path "/c4f7e98c-e88d-49cc-9841-b70710a90a72/80ba4cbf-b15c-4feb-9ba0-eb5398786ffa"
-					(reference "J57")
+					(reference "J61")
 					(unit 1)
 				)
 			)
@@ -4312,130 +4312,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 223.5013 81.3016 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "26e35e17-18a3-47e0-9490-b6789c793e9d")
-		(property "Reference" "J58"
-			(at 226.0413 81.3015 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1723103102"
-			(at 226.0413 83.8415 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "hb_footprint_lib:CONN02_1723103102_MOL"
-			(at 223.5013 81.3016 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/1723103102?display=pdf"
-			(at 223.5013 81.3016 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Connector Header Through Hole, Right Angle 2 position 0.138\" (3.50mm)"
-			(at 223.5013 81.3016 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Molex"
-			(at 223.5013 81.3016 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part #" "1723103102"
-			(at 223.5013 81.3016 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Digikey"
-			(at 223.5013 81.3016 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part #" "900-1723103102-ND"
-			(at 223.5013 81.3016 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Unit Cost" "0.85"
-			(at 223.5013 81.3016 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost @ Qty" "0.725"
-			(at 223.5013 81.3016 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "26c901b9-8fb9-453f-8443-d155b1e5fd50")
-		)
-		(pin "1"
-			(uuid "8aba043f-456f-46c0-b148-2841fcac1227")
-		)
-		(instances
-			(project "master_schematic"
-				(path "/c4f7e98c-e88d-49cc-9841-b70710a90a72/80ba4cbf-b15c-4feb-9ba0-eb5398786ffa"
-					(reference "J58")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 167.64 148.59 0)
 		(unit 1)
@@ -4554,6 +4430,130 @@
 			(project "master_schematic"
 				(path "/c4f7e98c-e88d-49cc-9841-b70710a90a72/80ba4cbf-b15c-4feb-9ba0-eb5398786ffa"
 					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 223.52 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "28a01aeb-ed61-443c-a92c-d96b964b7b38")
+		(property "Reference" "J59"
+			(at 226.06 88.8999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1723103102"
+			(at 226.06 91.4399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "hb_footprint_lib:CONN02_1723103102_MOL"
+			(at 223.52 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/1723103102?display=pdf"
+			(at 223.52 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Connector Header Through Hole, Right Angle 2 position 0.138\" (3.50mm)"
+			(at 223.52 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Molex"
+			(at 223.52 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part #" "1723103102"
+			(at 223.52 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 223.52 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part #" "900-1723103102-ND"
+			(at 223.52 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Unit Cost" "0.85"
+			(at 223.52 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost @ Qty" "0.725"
+			(at 223.52 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e3860b48-b095-4b6e-9aaf-a34fc2d64858")
+		)
+		(pin "1"
+			(uuid "12c8748b-86db-4c0e-81c8-9d6cc01f40ff")
+		)
+		(instances
+			(project "master_schematic"
+				(path "/c4f7e98c-e88d-49cc-9841-b70710a90a72/80ba4cbf-b15c-4feb-9ba0-eb5398786ffa"
+					(reference "J59")
 					(unit 1)
 				)
 			)
@@ -4802,130 +4802,6 @@
 			(project "master_schematic"
 				(path "/c4f7e98c-e88d-49cc-9841-b70710a90a72/80ba4cbf-b15c-4feb-9ba0-eb5398786ffa"
 					(reference "J12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 223.52 88.9 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "32532cbd-1a8a-4d52-9cae-49ceeec76455")
-		(property "Reference" "J59"
-			(at 226.06 88.8999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1723103102"
-			(at 226.06 91.4399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "hb_footprint_lib:CONN02_1723103102_MOL"
-			(at 223.52 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/1723103102?display=pdf"
-			(at 223.52 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Connector Header Through Hole, Right Angle 2 position 0.138\" (3.50mm)"
-			(at 223.52 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Molex"
-			(at 223.52 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part #" "1723103102"
-			(at 223.52 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Digikey"
-			(at 223.52 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part #" "900-1723103102-ND"
-			(at 223.52 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Unit Cost" "0.85"
-			(at 223.52 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost @ Qty" "0.725"
-			(at 223.52 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "5b0197a2-66d9-4716-bd28-e545af2624f8")
-		)
-		(pin "1"
-			(uuid "9f2dcce5-5c26-4236-aea5-4f5b55ea6c8c")
-		)
-		(instances
-			(project "master_schematic"
-				(path "/c4f7e98c-e88d-49cc-9841-b70710a90a72/80ba4cbf-b15c-4feb-9ba0-eb5398786ffa"
-					(reference "J59")
 					(unit 1)
 				)
 			)
@@ -5500,6 +5376,130 @@
 			(project "master_schematic"
 				(path "/c4f7e98c-e88d-49cc-9841-b70710a90a72/80ba4cbf-b15c-4feb-9ba0-eb5398786ffa"
 					(reference "Q4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 223.52 119.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "40a286cf-a596-4568-85d1-d8fa17743488")
+		(property "Reference" "J63"
+			(at 226.06 119.3799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1723103102"
+			(at 226.06 121.9199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "hb_footprint_lib:CONN02_1723103102_MOL"
+			(at 223.52 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/1723103102?display=pdf"
+			(at 223.52 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Connector Header Through Hole, Right Angle 2 position 0.138\" (3.50mm)"
+			(at 223.52 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Molex"
+			(at 223.52 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part #" "1723103102"
+			(at 223.52 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 223.52 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part #" "900-1723103102-ND"
+			(at 223.52 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Unit Cost" "0.85"
+			(at 223.52 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost @ Qty" "0.725"
+			(at 223.52 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "913e117c-440e-4681-a144-d6dd911f813e")
+		)
+		(pin "1"
+			(uuid "e04492b5-5fe0-4390-bf32-1971eeaa1d7f")
+		)
+		(instances
+			(project "master_schematic"
+				(path "/c4f7e98c-e88d-49cc-9841-b70710a90a72/80ba4cbf-b15c-4feb-9ba0-eb5398786ffa"
+					(reference "J63")
 					(unit 1)
 				)
 			)
@@ -6255,6 +6255,130 @@
 			(project "master_schematic"
 				(path "/c4f7e98c-e88d-49cc-9841-b70710a90a72/80ba4cbf-b15c-4feb-9ba0-eb5398786ffa"
 					(reference "J66")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 223.52 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "537dc98b-d962-4cd3-ba24-99843a519d62")
+		(property "Reference" "J60"
+			(at 226.06 96.5199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1723103102"
+			(at 226.06 99.0599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "hb_footprint_lib:CONN02_1723103102_MOL"
+			(at 223.52 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/1723103102?display=pdf"
+			(at 223.52 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Connector Header Through Hole, Right Angle 2 position 0.138\" (3.50mm)"
+			(at 223.52 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Molex"
+			(at 223.52 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part #" "1723103102"
+			(at 223.52 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 223.52 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part #" "900-1723103102-ND"
+			(at 223.52 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Unit Cost" "0.85"
+			(at 223.52 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost @ Qty" "0.725"
+			(at 223.52 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c09240cb-44f4-4655-8ca4-e174b7fad1d0")
+		)
+		(pin "1"
+			(uuid "3d40a115-7a20-42fd-8e7f-2a3c14bb160b")
+		)
+		(instances
+			(project "master_schematic"
+				(path "/c4f7e98c-e88d-49cc-9841-b70710a90a72/80ba4cbf-b15c-4feb-9ba0-eb5398786ffa"
+					(reference "J60")
 					(unit 1)
 				)
 			)
@@ -7462,130 +7586,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 223.52 58.42 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7055a07f-1177-4803-a949-9f21a69623df")
-		(property "Reference" "J55"
-			(at 226.06 58.4199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1723103102"
-			(at 226.06 60.9599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "hb_footprint_lib:CONN02_1723103102_MOL"
-			(at 223.52 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/1723103102?display=pdf"
-			(at 223.52 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Connector Header Through Hole, Right Angle 2 position 0.138\" (3.50mm)"
-			(at 223.52 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Molex"
-			(at 223.52 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part #" "1723103102"
-			(at 223.52 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Digikey"
-			(at 223.52 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part #" "900-1723103102-ND"
-			(at 223.52 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Unit Cost" "0.85"
-			(at 223.52 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost @ Qty" "0.725"
-			(at 223.52 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "9724ef69-549c-4542-bf7b-8b435eefc984")
-		)
-		(pin "1"
-			(uuid "9006fb82-8547-4de7-b4ec-04b5b7741609")
-		)
-		(instances
-			(project "master_schematic"
-				(path "/c4f7e98c-e88d-49cc-9841-b70710a90a72/80ba4cbf-b15c-4feb-9ba0-eb5398786ffa"
-					(reference "J55")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 43.18 55.88 0)
 		(unit 1)
@@ -7966,130 +7966,6 @@
 			(project "master_schematic"
 				(path "/c4f7e98c-e88d-49cc-9841-b70710a90a72/80ba4cbf-b15c-4feb-9ba0-eb5398786ffa"
 					(reference "Q5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 223.52 104.14 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "78164baa-a7b5-4f4d-955e-6c60ecf86e8e")
-		(property "Reference" "J61"
-			(at 226.06 104.1399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1723103102"
-			(at 226.06 106.6799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "hb_footprint_lib:CONN02_1723103102_MOL"
-			(at 223.52 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/1723103102?display=pdf"
-			(at 223.52 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Connector Header Through Hole, Right Angle 2 position 0.138\" (3.50mm)"
-			(at 223.52 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Molex"
-			(at 223.52 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part #" "1723103102"
-			(at 223.52 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Digikey"
-			(at 223.52 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part #" "900-1723103102-ND"
-			(at 223.52 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Unit Cost" "0.85"
-			(at 223.52 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost @ Qty" "0.725"
-			(at 223.52 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "e4484c62-754b-4516-8426-41af425416c5")
-		)
-		(pin "1"
-			(uuid "5e383283-468e-441e-a11f-6467f14eb295")
-		)
-		(instances
-			(project "master_schematic"
-				(path "/c4f7e98c-e88d-49cc-9841-b70710a90a72/80ba4cbf-b15c-4feb-9ba0-eb5398786ffa"
-					(reference "J61")
 					(unit 1)
 				)
 			)
@@ -8535,130 +8411,6 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 223.52 66.04 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "884a6793-f13a-4458-967d-b832d0f0827e")
-		(property "Reference" "J56"
-			(at 226.06 66.0399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1723103102"
-			(at 226.06 68.5799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "hb_footprint_lib:CONN02_1723103102_MOL"
-			(at 223.52 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/1723103102?display=pdf"
-			(at 223.52 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Connector Header Through Hole, Right Angle 2 position 0.138\" (3.50mm)"
-			(at 223.52 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Molex"
-			(at 223.52 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part #" "1723103102"
-			(at 223.52 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Digikey"
-			(at 223.52 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part #" "900-1723103102-ND"
-			(at 223.52 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Unit Cost" "0.85"
-			(at 223.52 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost @ Qty" "0.725"
-			(at 223.52 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "61634a48-de29-477d-93ef-ba2c1c68e367")
-		)
-		(pin "1"
-			(uuid "421901c5-cd9f-4349-a3ce-4b51bf7ae602")
-		)
-		(instances
-			(project "master_schematic"
-				(path "/c4f7e98c-e88d-49cc-9841-b70710a90a72/80ba4cbf-b15c-4feb-9ba0-eb5398786ffa"
-					(reference "J56")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
 		(at 186.69 82.55 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8849,16 +8601,16 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 223.52 96.52 0)
+		(at 223.52 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "8f0aefba-773f-4536-b222-c618399d8a35")
-		(property "Reference" "J60"
-			(at 226.06 96.5199 0)
+		(uuid "904329fb-e7bf-4b02-b5b9-9350c6d95fab")
+		(property "Reference" "J55"
+			(at 226.06 58.4199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8867,7 +8619,7 @@
 			)
 		)
 		(property "Value" "1723103102"
-			(at 226.06 99.0599 0)
+			(at 226.06 60.9599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8876,7 +8628,7 @@
 			)
 		)
 		(property "Footprint" "hb_footprint_lib:CONN02_1723103102_MOL"
-			(at 223.52 96.52 0)
+			(at 223.52 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8885,7 +8637,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/1723103102?display=pdf"
-			(at 223.52 96.52 0)
+			(at 223.52 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8894,7 +8646,7 @@
 			)
 		)
 		(property "Description" "Connector Header Through Hole, Right Angle 2 position 0.138\" (3.50mm)"
-			(at 223.52 96.52 0)
+			(at 223.52 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8903,7 +8655,7 @@
 			)
 		)
 		(property "Manufacturer" "Molex"
-			(at 223.52 96.52 0)
+			(at 223.52 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8912,7 +8664,7 @@
 			)
 		)
 		(property "Manufacturer Part #" "1723103102"
-			(at 223.52 96.52 0)
+			(at 223.52 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8921,7 +8673,7 @@
 			)
 		)
 		(property "Supplier" "Digikey"
-			(at 223.52 96.52 0)
+			(at 223.52 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8930,7 +8682,7 @@
 			)
 		)
 		(property "Supplier Part #" "900-1723103102-ND"
-			(at 223.52 96.52 0)
+			(at 223.52 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8939,7 +8691,7 @@
 			)
 		)
 		(property "Unit Cost" "0.85"
-			(at 223.52 96.52 0)
+			(at 223.52 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8948,7 +8700,7 @@
 			)
 		)
 		(property "Cost @ Qty" "0.725"
-			(at 223.52 96.52 0)
+			(at 223.52 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8957,15 +8709,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "01695e78-c56a-4499-9108-5ee887766786")
+			(uuid "9eca0414-3f47-47e0-b137-6a63cf913148")
 		)
 		(pin "1"
-			(uuid "c8b49682-8b89-4064-81e4-db7b63531fa8")
+			(uuid "1212d925-9f9f-473d-9cb6-32005f182f1e")
 		)
 		(instances
 			(project "master_schematic"
 				(path "/c4f7e98c-e88d-49cc-9841-b70710a90a72/80ba4cbf-b15c-4feb-9ba0-eb5398786ffa"
-					(reference "J60")
+					(reference "J55")
 					(unit 1)
 				)
 			)
@@ -9913,16 +9665,16 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 223.52 119.38 0)
+		(at 223.52 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "a4e3a842-6077-42b1-ae61-22b71ba62061")
-		(property "Reference" "J63"
-			(at 226.06 119.3799 0)
+		(uuid "a5d82ef1-adaa-4bbd-81ac-e6744404ea35")
+		(property "Reference" "J62"
+			(at 226.06 111.7599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9931,7 +9683,7 @@
 			)
 		)
 		(property "Value" "1723103102"
-			(at 226.06 121.9199 0)
+			(at 226.06 114.2999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9940,7 +9692,7 @@
 			)
 		)
 		(property "Footprint" "hb_footprint_lib:CONN02_1723103102_MOL"
-			(at 223.52 119.38 0)
+			(at 223.52 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9949,7 +9701,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/1723103102?display=pdf"
-			(at 223.52 119.38 0)
+			(at 223.52 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9958,7 +9710,7 @@
 			)
 		)
 		(property "Description" "Connector Header Through Hole, Right Angle 2 position 0.138\" (3.50mm)"
-			(at 223.52 119.38 0)
+			(at 223.52 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9967,7 +9719,7 @@
 			)
 		)
 		(property "Manufacturer" "Molex"
-			(at 223.52 119.38 0)
+			(at 223.52 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9976,7 +9728,7 @@
 			)
 		)
 		(property "Manufacturer Part #" "1723103102"
-			(at 223.52 119.38 0)
+			(at 223.52 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9985,7 +9737,7 @@
 			)
 		)
 		(property "Supplier" "Digikey"
-			(at 223.52 119.38 0)
+			(at 223.52 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9994,7 +9746,7 @@
 			)
 		)
 		(property "Supplier Part #" "900-1723103102-ND"
-			(at 223.52 119.38 0)
+			(at 223.52 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10003,7 +9755,7 @@
 			)
 		)
 		(property "Unit Cost" "0.85"
-			(at 223.52 119.38 0)
+			(at 223.52 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10012,7 +9764,7 @@
 			)
 		)
 		(property "Cost @ Qty" "0.725"
-			(at 223.52 119.38 0)
+			(at 223.52 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10021,15 +9773,139 @@
 			)
 		)
 		(pin "2"
-			(uuid "cd9be343-4ce9-4a51-a659-6119641b7f2b")
+			(uuid "7d5ad44c-9873-4bb4-9f4d-069fce795b5e")
 		)
 		(pin "1"
-			(uuid "5e292019-5402-4ba0-a074-8017b42b7541")
+			(uuid "70ba6181-a9da-4e61-b9ea-18934b87976b")
 		)
 		(instances
 			(project "master_schematic"
 				(path "/c4f7e98c-e88d-49cc-9841-b70710a90a72/80ba4cbf-b15c-4feb-9ba0-eb5398786ffa"
-					(reference "J63")
+					(reference "J62")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 223.52 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ab74c64b-ff1a-4ab7-9afe-e11cc633c919")
+		(property "Reference" "J57"
+			(at 226.06 73.6599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1723103102"
+			(at 226.06 76.1999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "hb_footprint_lib:CONN02_1723103102_MOL"
+			(at 223.52 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/1723103102?display=pdf"
+			(at 223.52 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Connector Header Through Hole, Right Angle 2 position 0.138\" (3.50mm)"
+			(at 223.52 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Molex"
+			(at 223.52 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part #" "1723103102"
+			(at 223.52 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 223.52 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part #" "900-1723103102-ND"
+			(at 223.52 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Unit Cost" "0.85"
+			(at 223.52 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost @ Qty" "0.725"
+			(at 223.52 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9f478c4f-5157-4ff7-b9a7-04adb9f2ae33")
+		)
+		(pin "1"
+			(uuid "5207a748-b516-4ef7-b977-a03a6d4e624c")
+		)
+		(instances
+			(project "master_schematic"
+				(path "/c4f7e98c-e88d-49cc-9841-b70710a90a72/80ba4cbf-b15c-4feb-9ba0-eb5398786ffa"
+					(reference "J57")
 					(unit 1)
 				)
 			)
@@ -11735,130 +11611,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 223.52 111.76 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ce788012-fcbf-40d1-a301-57a8a71d1f2f")
-		(property "Reference" "J62"
-			(at 226.06 111.7599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1723103102"
-			(at 226.06 114.2999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "hb_footprint_lib:CONN02_1723103102_MOL"
-			(at 223.52 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/1723103102?display=pdf"
-			(at 223.52 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Connector Header Through Hole, Right Angle 2 position 0.138\" (3.50mm)"
-			(at 223.52 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Molex"
-			(at 223.52 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part #" "1723103102"
-			(at 223.52 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Digikey"
-			(at 223.52 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part #" "900-1723103102-ND"
-			(at 223.52 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Unit Cost" "0.85"
-			(at 223.52 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost @ Qty" "0.725"
-			(at 223.52 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "be18e5a3-303e-4bf2-bf2a-e0c39973f63e")
-		)
-		(pin "1"
-			(uuid "3b2f4918-c01a-4c1f-bfab-4e9f90a68022")
-		)
-		(instances
-			(project "master_schematic"
-				(path "/c4f7e98c-e88d-49cc-9841-b70710a90a72/80ba4cbf-b15c-4feb-9ba0-eb5398786ffa"
-					(reference "J62")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:D")
 		(at 53.34 34.29 270)
 		(unit 1)
@@ -12988,6 +12740,254 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 223.52 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eeb85058-8565-44e7-9590-653afd44dab2")
+		(property "Reference" "J58"
+			(at 226.06 81.2799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1723103102"
+			(at 226.06 83.8199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "hb_footprint_lib:CONN02_1723103102_MOL"
+			(at 223.52 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/1723103102?display=pdf"
+			(at 223.52 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Connector Header Through Hole, Right Angle 2 position 0.138\" (3.50mm)"
+			(at 223.52 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Molex"
+			(at 223.52 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part #" "1723103102"
+			(at 223.52 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 223.52 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part #" "900-1723103102-ND"
+			(at 223.52 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Unit Cost" "0.85"
+			(at 223.52 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost @ Qty" "0.725"
+			(at 223.52 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e7e81553-414b-41a3-988c-d169586ba891")
+		)
+		(pin "1"
+			(uuid "b1e9145a-6a16-44b5-b448-42dff18b81bb")
+		)
+		(instances
+			(project "master_schematic"
+				(path "/c4f7e98c-e88d-49cc-9841-b70710a90a72/80ba4cbf-b15c-4feb-9ba0-eb5398786ffa"
+					(reference "J58")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 223.52 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f06cadf7-5cc6-4e5a-92ab-ec5c8c757904")
+		(property "Reference" "J56"
+			(at 226.06 66.0399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1723103102"
+			(at 226.06 68.5799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "hb_footprint_lib:CONN02_1723103102_MOL"
+			(at 223.52 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/1723103102?display=pdf"
+			(at 223.52 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Connector Header Through Hole, Right Angle 2 position 0.138\" (3.50mm)"
+			(at 223.52 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Molex"
+			(at 223.52 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part #" "1723103102"
+			(at 223.52 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 223.52 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part #" "900-1723103102-ND"
+			(at 223.52 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Unit Cost" "0.85"
+			(at 223.52 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost @ Qty" "0.725"
+			(at 223.52 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9f89ca89-27a4-4fd8-9a93-9def705b9111")
+		)
+		(pin "1"
+			(uuid "b2f364fb-7c13-4f3b-a2de-297b44c450e5")
+		)
+		(instances
+			(project "master_schematic"
+				(path "/c4f7e98c-e88d-49cc-9841-b70710a90a72/80ba4cbf-b15c-4feb-9ba0-eb5398786ffa"
+					(reference "J56")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 57.15 186.69 0)
 		(unit 1)
@@ -13381,7 +13381,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f86c6bf5-201f-4cd3-8190-d5b685b4004f")
