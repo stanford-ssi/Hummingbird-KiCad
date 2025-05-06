@@ -5536,7 +5536,7 @@
 			(uuid "d355e54b-d70b-4e3e-9c17-9f6c78783b33")
 		)
 		(instances
-			(project ""
+			(project "master_schematic"
 				(path "/c4f7e98c-e88d-49cc-9841-b70710a90a72/666fb9f9-c631-4136-ad00-30a1b375897d"
 					(reference "J24")
 					(unit 1)

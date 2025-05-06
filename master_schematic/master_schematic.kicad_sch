@@ -4932,7 +4932,7 @@
 		)
 		(uuid "67557dd5-7de2-4cda-b7f9-d2e2c0caf9ad")
 	)
-	(label "+5V"
+	(label "+3V3"
 		(at 54.61 39.37 180)
 		(fields_autoplaced yes)
 		(effects
@@ -7743,7 +7743,7 @@
 			(uuid "32a78282-fdc2-4256-b358-c478cfab6860")
 		)
 		(instances
-			(project ""
+			(project "master_schematic"
 				(path "/c4f7e98c-e88d-49cc-9841-b70710a90a72"
 					(reference "J22")
 					(unit 1)
