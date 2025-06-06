@@ -1,4 +1,4 @@
-23380694958818613
+23384185530572051
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -95361,6 +95361,13 @@ CONN_SD-43045-001_04_MOL
 4
 4
 hb_footprint_lib
+JST_S2B-PH-SM4-TB
+
+
+0
+4
+4
+hb_footprint_lib
 POWERDI5_DIO
 
 SBRT20U60SP5-7 
@@ -95388,6 +95395,13 @@ Radio_Module
 0
 14
 14
+hb_footprint_lib
+SW_1201M2S3AQE2
+
+
+0
+8
+8
 hb_footprint_lib
 Solenoid_Valve_Footprint
 
